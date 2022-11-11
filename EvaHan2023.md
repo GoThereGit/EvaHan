@@ -21,6 +21,10 @@ Sun Wenlong, School of Foreign Languages, Nanjing Tech University
 The cross-lingual machine translation of Chinese classic texts consists of two parts: the Classical-Chinese-to-Modern-Chinese machine translation and the Classical-Chinese-to-English machine translation. The overall parallel texts for machine translation are presented as follows.
 In this test, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced. The Chinese classic texts in the corpus feature both diachronicity, i.e. spanning thousands of years, as well as diversity, i.e. covering the four traditional types of Chinese canonical texts: jing (经, Confucian classics), shi (史, historical works), zi (子, philosophical works belonging to schools of thought other than the Confucian but also including works on agriculture, medicine, mathematics, astronomy, divination, art criticism, and other miscellaneous writings) and ji (集, collection of literary works). Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
 
+| Source | Selecting criteria | Total data |
+| --- | --- | --- |
+| Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories | Sentences of Chinese classic texts of seven characters or more in length | 322,473 sentence pairs in total; 9,583,749 characters for the original Chinese Classic texts and 12,763,534 characters for the Modern Chinese translations |
+| Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and Zizhi Tongjian (资治通鉴, “Comprehensive Mirror in Aid of Governance”) | Sentences of Chinese classic texts of seven characters or more in length and the corresponding English translations | 22,277 sentence pairs in total, including 618,083 characters in the original Classical Chinese texts and 838,321 words in the English translations |
 ## Source
 Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories
 ## Selecting criteria
