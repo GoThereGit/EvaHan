@@ -1,10 +1,7 @@
 ![image](https://user-images.githubusercontent.com/54113513/201254029-e63dd695-22aa-4419-ac01-7fc34326625a.png)
 # EvaHan2023
 * Evaluation of Natural Language Processing (NLP) tools for the Ancient Chinese language
-* Shared task: Machine Translation from Ancient Chinese to Mandarin Chinese/English
-* Co-operated with ALP2023
-* Past Events: Evahan2022(https://circse.github.io/LT4HALA/2022/EvaHan)
-
+* Machine Translation from Ancient Chinese to Mandarin Chinese/English
 # Task
 * Chinese classic texts have played a vital role in shaping the unique character and sense of national identity of the Chinese people. They “represent an integral part of world civilization and a treasure that should be shared by all peoples of the world” (Wang Rongpei). Introducing effectively the thoughts, culture, knowledge and wisdom contained in Chinese classic texts to the world is an important way to deepen the world’s understanding of China and to achieve better cultural exchange between China and the world. With the rapid advancement of foreign cultural exchanges, there has arisen an intense demand for knowledge of Chinese classic texts in the international community. Nevertheless, the existing cross-lingual corpora of Chinese classic texts have a relatively small amount of data because they usually include a particular canonical text, thus lacking systematicity and diachronicity. Consequently, there are relatively inadequate researches on cross-lingual machine translation of Chinese classic texts. Against such backdrop, utilizing the platform which can facilitate the alignment of chapters, paragraphs and sentences, we obtained the distribution characteristics of the cross-lingual Chinese classic texts in terms of parallel chapters, paragraphs and sentences by analyzing the selected cross-lingual Chinese classic texts. We also achieved the automatic alignment of chapters, paragraphs and sentences for the cross-lingual Chinese classic texts based on the corresponding rules, statistics as well as traditional machine learning and deep learning strategies. As an ancient written language, the Classical Chinese with its conciseness differs from English and modern Chinese in respect to vocabulary, word order and syntax. Hence, certain background knowledge is required to understand Classical Chinese accurately. On the basis of the constructed cross-lingual parallel corpus of Chinese classic texts, we propose in this test the task of cross-lingual machine translation of Chinese classic texts.
 
@@ -26,8 +23,15 @@
 * Bin Li, School of Chinese Language and Literature, Nanjing Normal University, China
 
 # Student Members
-* 补充研究生姓名
-*
+* Bolin Chang, School of Chinese Language and Literature, Nanjing Normal University, China
+* Chun Yu, College of Information Management, Nanjing Agricultural University, China
+* Feng Xie, School of Chinese Language and Literature, Nanjing Normal University, China
+* Hai Zhang, College of Information Management, Nanjing Agricultural University, China
+* Kaixin Yin, School of Chinese Language and Literature, Nanjing Normal University, China
+* Li Yang, College of Information Management, Nanjing Agricultural University, China
+* Yuan Liang, College of Information Management, Nanjing Agricultural University, China
+* Zhixiao Zhao, College of Information Management, Nanjing Agricultural University, China
+* Zhixing Xu, School of Chinese Language and Literature, Nanjing Normal University, China
 
 # Data
 The cross-lingual machine translation of Chinese classic texts consists of two parts: the Classical-Chinese-to-Modern-Chinese machine translation and the Classical-Chinese-to-English machine translation. The overall parallel texts for machine translation are presented as follows.
