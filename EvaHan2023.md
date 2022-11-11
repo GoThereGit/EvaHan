@@ -9,13 +9,13 @@ Chinese classic texts have played a vital role in shaping the unique character a
 Researchers who are interested in machine translation and assisted machine translation of Chinese classic texts.
 
 # Organizers
-Li Bin, School of Chinese Language and Literature, Nanjing Normal University;
-Wang Dongbo, College of Information Management, Nanjing Agricultural University; 
-Shen Si, School of Economics and Management, Nanjing University of Science and Technology;
-Feng Minxuan, School of Chinese Language and Literature, Nanjing Normal University;
-Xu Chao, School of Chinese Language and Literature, Nanjing Normal University;
-Zhao Lianzhen, School of Foreign Languages, Nanjing University of Chinese Medicine;
-Sun Wenlong, School of Foreign Languages, Nanjing Tech University
+* Wang Dongbo, College of Information Management, Nanjing Agricultural University
+* Shen Si, School of Economics and Management, Nanjing University of Science and Technology
+* Feng Minxuan, School of Chinese Language and Literature, Nanjing Normal University
+* Xu Chao, School of Chinese Language and Literature, Nanjing Normal University
+* Zhao Lianzhen, School of Foreign Languages, Nanjing University of Chinese Medicine
+* Sun Wenlong, School of Foreign Languages, Nanjing Tech University
+* Li Bin, School of Chinese Language and Literature, Nanjing Normal University
 
 # Data
 The cross-lingual machine translation of Chinese classic texts consists of two parts: the Classical-Chinese-to-Modern-Chinese machine translation and the Classical-Chinese-to-English machine translation. The overall parallel texts for machine translation are presented as follows.
