@@ -18,6 +18,10 @@
 * Wenlong Sun, School of Foreign Languages, Nanjing Tech University, China
 * Bin Li, School of Chinese Language and Literature, Nanjing Normal University, China
 
+# Student Members
+* 补充研究生姓名
+*
+
 # Data
 The cross-lingual machine translation of Chinese classic texts consists of two parts: the Classical-Chinese-to-Modern-Chinese machine translation and the Classical-Chinese-to-English machine translation. The overall parallel texts for machine translation are presented as follows.
 In this test, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced. The Chinese classic texts in the corpus feature both diachronicity, i.e. spanning thousands of years, as well as diversity, i.e. covering the four traditional types of Chinese canonical texts: jing (经, Confucian classics), shi (史, historical works), zi (子, philosophical works belonging to schools of thought other than the Confucian but also including works on agriculture, medicine, mathematics, astronomy, divination, art criticism, and other miscellaneous writings) and ji (集, collection of literary works). Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
