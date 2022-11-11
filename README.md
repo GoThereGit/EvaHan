@@ -6,6 +6,14 @@
 * Evaluation of Natural Language Processing (NLP) tools for the Ancient Chinese language
 * Machine Translation from Ancient Chinese to Mandarin Chinese/English
 
+# Important Dates
+* CFP in Dec.2022 (depends on ALP's schedule)
+* Reg for the shared task: Juan 1, 2023 ~ March 1, 2023
+* Training data release: April 1, 2023
+* Test data release: TBD
+* Data submission : TBD
+* Tech report submission: TBD
+
 # Task
 Chinese classic texts have played a vital role in shaping the unique character and sense of national identity of the Chinese people. 
 They “represent an integral part of world civilization and a treasure that should be shared by all peoples of the world” (Wang Rongpei). 
