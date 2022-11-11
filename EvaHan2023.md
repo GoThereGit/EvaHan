@@ -25,19 +25,6 @@ In this test, the cross-lingual parallel corpus of Chinese classic texts is larg
 | --- | --- | --- |
 | Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories | Sentences of Chinese classic texts of seven characters or more in length | 322,473 sentence pairs in total; 9,583,749 characters for the original Chinese Classic texts and 12,763,534 characters for the Modern Chinese translations |
 | Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and Zizhi Tongjian (资治通鉴, “Comprehensive Mirror in Aid of Governance”) | Sentences of Chinese classic texts of seven characters or more in length and the corresponding English translations | 22,277 sentence pairs in total, including 618,083 characters in the original Classical Chinese texts and 838,321 words in the English translations |
-## Source
-Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories
-## Selecting criteria
-Sentences of Chinese classic texts of seven characters or more in length
-## Total data
-322,473 sentence pairs in total; 9,583,749 characters for the original Chinese Classic texts and 12,763,534 characters for the Modern Chinese translations
-
-## Source
-Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and Zizhi Tongjian (资治通鉴, “Comprehensive Mirror in Aid of Governance”)
-## Selecting criteria
-Sentences of Chinese classic texts of seven characters or more in length and the corresponding English translations
-## Total data
-22,277 sentence pairs in total, including 618,083 characters in the original Classical Chinese texts and 838,321 words in the English translations
 
 # Test Objective
 Test the performance of the Classical-Chinese-to-English machine translation model and Classical-Chinese-to-Modern-Chinese machine translation model provided by the participants, based on BLEU (Bilingual Evaluation Understudy) and TER (Translation Error Rate).
