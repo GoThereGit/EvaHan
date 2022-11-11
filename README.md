@@ -89,6 +89,11 @@ medicine, mathematics, astronomy, divination, art criticism, and other miscellan
 
 Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
 
-# Test Objective
-Test the performance of the Classical-Chinese-to-English machine translation model and Classical-Chinese-to-Modern-Chinese machine translation model 
+# Evaluation
+* Evaluate the performance of the Classical-Chinese-to-English machine translation model and Classical-Chinese-to-Modern-Chinese machine translation model 
 provided by the participants, based on BLEU (Bilingual Evaluation Understudy) and TER (Translation Error Rate).
+* BLEU
+* TER
+
+# Guidelines
+* TBD
