@@ -6,7 +6,7 @@
 * Evaluation of Natural Language Processing (NLP) tools for the Ancient Chinese language
 * Machine Translation from Ancient Chinese to Mandarin Chinese/English
 * Co-operated with ALP2023
-* Past Events: Evahan2022(https://circse.github.io/LT4HALA/2022/EvaHan)
+* Past Events: <a href='https://circse.github.io/LT4HALA/2022/EvaHan'>Evahan2022</a>
 
 # Important Dates
 * CFP in Dec.2022 (depends on ALP's schedule)
