@@ -56,6 +56,8 @@ we propose in this test the task of cross-lingual machine translation of Chinese
 * **Lianzhen Zhao**, School of Foreign Languages, China Pharmaceutical University, China
 * **Wenlong Sun**, School of Foreign Languages, Nanjing Tech University, China
 * **Bin Li**, School of Chinese Language and Literature, Nanjing Normal University, China
+* **Liu Liu**, College of Information Management, Nanjing Agricultural University, China
+* **Wenhao Ye**, College of Information Management, Nanjing Agricultural University, China
 
 # Student Members
 * **Bolin Chang**, School of Chinese Language and Literature, Nanjing Normal University, China
