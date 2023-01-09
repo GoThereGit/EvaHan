@@ -5,11 +5,11 @@
 # EvaHan2023
 * Evaluation of Natural Language Processing (NLP) tools for the Ancient Chinese language
 * Machine Translation from Ancient Chinese to Mandarin Chinese/English
-* Co-operated with ALP2023
+* Co-operated with ALT2023
 * Past Events: <a href='https://circse.github.io/LT4HALA/2022/EvaHan'>Evahan2022</a>
 
 # Important Dates
-* CFP in Dec.2022 (depends on ALP's schedule)
+* CFP in Dec.2022 (depends on ALT's schedule)
 * Reg for the shared task: Juan 1, 2023 ~ March 1, 2023
 * Training data release: April 1, 2023
 * Test data release: TBD
