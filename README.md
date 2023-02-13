@@ -62,11 +62,17 @@ we propose in this test the task of cross-lingual machine translation of Chinese
 # Student Members
 * **Bolin Chang**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Chun Yu**, College of Information Management, Nanjing Agricultural University, China
+* **Die Hu**, College of Information Management, Nanjing Agricultural University, China
 * **Feng Xie**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Hai Zhang**, College of Information Management, Nanjing Agricultural University, China
+* **Haotian Hu**, School of Information Management, Nanjing University, China
+* **Huan Liu**, College of Information Management, Nanjing Agricultural University, China
 * **Kaixin Yin**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Li Yang**, College of Information Management, Nanjing Agricultural University, China
+* **Litao Lin**, College of Information Management, Nanjing Agricultural University, China
+* **Na Wu**, College of Information Management, Nanjing Agricultural University, China
 * **Yuan Liang**, College of Information Management, Nanjing Agricultural University, China
+* **Yue Qi**, College of Information Management, Nanjing Agricultural University, China
 * **Zhixiao Zhao**, College of Information Management, Nanjing Agricultural University, China
 * **Zhixing Xu**, School of Chinese Language and Literature, Nanjing Normal University, China
 
