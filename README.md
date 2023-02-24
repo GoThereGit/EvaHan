@@ -110,7 +110,9 @@ The released data is not tokenized and includes sentences of any length (includi
 |元初，因其國俗，不娶庶姓，非此族也，不居嫡選。|元朝初年，因襲蒙古的習俗，不娶異姓，不是后族的，不處在可以選爲正妻的地位。|
 |當時使臣為舅甥之貴，蓋有周姬、齊姜之遺意，歷世守之，因可嘉也。|當時的史臣以爲皇族后族的尊貴，原有周姬、齊姜的遺意，歷代都遵守它，本來是可以表彰的。|
 |||
+
 表名：Table 1. Data format of the aligned sentences
+
 On the left side is the ancient Chinese text, and on the right side is the modern Chinese text corresponding to the sentence-based unit. For the ancient Chinese-English parallel texts, the same format is followed.
 ## Train Data
 The source of the training data is the parallel corpus of Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories and Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and “Zizhi Tongjian”. 
