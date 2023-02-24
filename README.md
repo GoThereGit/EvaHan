@@ -95,7 +95,16 @@ we propose in this test the task of cross-lingual machine translation of Chinese
 * **Zhixing Xu**, School of Chinese Language and Literature, Nanjing Normal University, China
 
 # Data
+The data comes from China Twenty-four Histories , Pre-Qin canonical texts and “ZiZhi TongJian (资治通鉴, Comprehensive Mirror in Aid of Governance)”. The PDF text is converted into word format through OCR recognition, and the team members manually proofread the corpus by using the convenient platform for chapter, paragraph, and sentence alignment , and finally get the parallel corpus. Among them, China Twenty-four Histories is the general name of the twenty-four official histories written by various dynasties in ancient China, all of which are compiled in the biography style; the Pre-Qin canonical texts are the historical materials of the pre-Qin period, which have an important position in ancient books, including history books and sub-books; “ZiZhi TongJian” is a chronological history book compiled by historians of the Northern Song Dynasty, covering 1362 years of history of sixteen dynasties.
+
+The Chinese classic texts in the corpus feature both diachronicity, i.e. spanning thousands of years, as well as diversity, i.e. covering the four traditional types of Chinese canonical texts: Jing (经, Confucian classics), shi (史, historical works), zi (子, philosophical works belonging to schools of thought other than the Confucian but also including works on agriculture, medicine, mathematics, astronomy, divination, art criticism, and other miscellaneous writings) and ji (集, collection of literary works).
+
+Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
 The cross-lingual machine translation of Chinese classic texts consists of two parts: 
+## Data Format
+The released data is not tokenized and includes sentences of any length (including empty sentences). All data is in Unicode (UTF-8) format. The Figure1. below gives an example of the parallel corpus data format:
+![image](https://user-images.githubusercontent.com/117963461/221182984-390eec5b-c757-4669-a79c-025034289d7b.png)
+
 **the Classical-Chinese-to-Modern-Chinese machine translation** and **the Classical-Chinese-to-English machine translation**. 
 
 The overall parallel texts for machine translation are presented as follows.
