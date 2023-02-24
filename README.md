@@ -2,13 +2,13 @@
 <img src = 'https://user-images.githubusercontent.com/54113513/201254029-e63dd695-22aa-4419-ac01-7fc34326625a.png'>
 </div>
 
-# EvaHan2023
+## EvaHan2023
 * Evaluation of Natural Language Processing (NLP) tools for the Ancient Chinese language
 * Machine Translation from Ancient Chinese to Mandarin Chinese/English
 * Co-operated with ALT2023
 * Past Events: <a href='https://circse.github.io/LT4HALA/2022/EvaHan'>Evahan2022</a>
 
-# Important Dates
+## Important Dates
 * CFP in Dec.2022 (depends on ALT's schedule)
 * Reg for the shared task: Juan 1, 2023 ~ March 1, 2023
 * Training data release: April 1, 2023
@@ -16,7 +16,16 @@
 * Data submission : TBD
 * Tech report submission: TBD
 
-# Task
+## Task
+The cross-lingual machine translation of Chinese classic texts consists of two parts: the Ancient-Chinese-to-Modern-Chinese machine translation and the Ancient-Chinese-to-English machine translation. Chinese ancient classics are the important part of traditional Chinese culture. In the field of ancient literature research, the translation of classical Chinese texts plays a very important role. Classical Chinese differs greatly from modern Chinese in grammar, syntax, vocabulary, and other aspects. Improving the machine translation performance from Classical Chinese to Modern Chinese can better promote the study of ancient literature. Improving the machine translation technology from Classical Chinese to English can also accelerate the promotion of Chinese traditional culture worldwide.
+
+# Task Objective
+The goals of the translation task are:
+●To investigate the applicability of current MT techniques when translating classical Chinese into English or modern Chinese
+●To examine special challenges in translating between classical Chinese and English or modern Chinese, including word order and syntax
+●To create publicly available corpora for machine translation and evaluation of classical Chinese
+●To provide practical experience of the most advanced machine translation methods for beginners in the field of machine translation
+●To prompt the development of machine translation research for classical Chinese and advance the forefront of machine translation technology exploration
 Chinese classic texts have played a vital role in shaping the unique character and sense of national identity of the Chinese people. 
 They “represent an integral part of world civilization and a treasure that should be shared by all peoples of the world” (Wang Rongpei). 
 Introducing effectively the thoughts, culture, 
