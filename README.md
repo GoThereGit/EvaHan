@@ -38,7 +38,7 @@ While the main purpose of this evaluation is to select the most superior machine
 ~~Chinese classic texts have played a vital role in shaping the unique character and sense of national identity of the Chinese people. 
 They “represent an integral part of world civilization and a treasure that should be shared by all peoples of the world” (Wang Rongpei). 
 Introducing effectively the thoughts, culture, 
-knowledge and wisdom contained in Chinese classic texts to the world is an important way to deepen the world’s understanding of China and to achieve better cultural exchange between China and the world. ~~
+knowledge and wisdom contained in Chinese classic texts to the world is an important way to deepen the world’s understanding of China and to achieve better cultural exchange between China and the world. 
 
 ~~With the rapid advancement of foreign cultural exchanges, there has arisen an intense demand for knowledge of Chinese classic texts in the international community. 
 Nevertheless, the existing cross-lingual corpora of Chinese classic texts have a relatively small amount of data because they usually include a particular canonical text, 
