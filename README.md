@@ -102,7 +102,7 @@ The Chinese classic texts in the corpus feature both diachronicity, i.e. spannin
 Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
 The cross-lingual machine translation of Chinese classic texts consists of two parts: 
 ## Data Format
-The released data is not tokenized and includes sentences of any length (including empty sentences). All data is in Unicode (UTF-8) format. The Table below gives an example of the parallel corpus data format:
+The released data is not tokenized and includes sentences of any length (including empty sentences). All data is in Unicode (UTF-8) format. The Table1. below gives an example of the parallel corpus data format:
 |Classical-Chinese|Modern-Chinese|
 |:---:|:---:|
 |后妃表|后妃表|
@@ -110,7 +110,7 @@ The released data is not tokenized and includes sentences of any length (includi
 |元初，因其國俗，不娶庶姓，非此族也，不居嫡選。|元朝初年，因襲蒙古的習俗，不娶異姓，不是后族的，不處在可以選爲正妻的地位。|
 |當時使臣為舅甥之貴，蓋有周姬、齊姜之遺意，歷世守之，因可嘉也。|當時的史臣以爲皇族后族的尊貴，原有周姬、齊姜的遺意，歷代都遵守它，本來是可以表彰的。|
 |||
-
+表名：Table 1. Data format of the aligned sentences
 On the left side is the ancient Chinese text, and on the right side is the modern Chinese text corresponding to the sentence-based unit. For the ancient Chinese-English parallel texts, the same format is followed.
 ## Train Data
 The source of the training data is the parallel corpus of Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories and Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and “Zizhi Tongjian”. 
@@ -121,16 +121,30 @@ The overall parallel texts for machine translation are presented as follows.
 | Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories | Sentences of Chinese classic texts of seven characters or more in length | 322,473 sentence pairs in total; 9,583,749 characters for the original Chinese Classic texts and 12,763,534 characters for the Modern Chinese translations |
 | Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and Zizhi Tongjian (资治通鉴, “Comprehensive Mirror in Aid of Governance”) | Sentences of Chinese classic texts of seven characters or more in length and the corresponding English translations | 22,277 sentence pairs in total, including 618,083 characters in the original Classical Chinese texts and 838,321 words in the English translations |
 
-In this test, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced. 
+In this task, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced.
 
-The Chinese classic texts in the corpus feature both diachronicity, i.e. spanning thousands of years, 
+~~In this test, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced. 
+
+~~The Chinese classic texts in the corpus feature both diachronicity, i.e. spanning thousands of years, 
 as well as diversity, i.e. covering the four traditional types of Chinese canonical texts: jing (经, Confucian classics), shi (史, historical works), 
 zi (子, philosophical works belonging to schools of thought other than the Confucian but also including works on agriculture, 
 medicine, mathematics, astronomy, divination, art criticism, and other miscellaneous writings) and ji (集, collection of literary works). 
 
-Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
+~~Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
+
+## Test Data
 
 # Evaluation
+## Metrics
+We will evaluate the performance of the Ancient-Chinese-to-English machine translation model and Ancient-Chinese-to-Modern-Chinese machine translation model provided by the participants. The scorers employed for EvaHan 2023 are based on BLEU[4] (Bilingual Evaluation Understudy) and TER (Translation Error Rate).
+
+Each participating team will initially have access only to the training data. Later, test data containing only ancient Chinese texts will also be released. After the assessment, the modern Chinese or English texts corresponding to the ancient Chinese in the test data will also be released.
+
+The BLEU metrics is a modified version of the sacreBLEU, which provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. The TER metrics is commonly used to determine the amount of post-editing required for machine translation outputs. The evaluation will automatically calculate the scores based on the generated outputs and the corresponding reference translations. The final ranking will be based on BLEU score.
+## Two Modalities
+Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the Training data (Training data name, TBD待定), and the following pre-trained models listed in Table. Other resources are not allowed in the closed modality.
+
+
 * Evaluate the performance of the Classical-Chinese-to-English machine translation model and Classical-Chinese-to-Modern-Chinese machine translation model 
 provided by the participants, based on BLEU (Bilingual Evaluation Understudy) and TER (Translation Error Rate).
 * BLEU
