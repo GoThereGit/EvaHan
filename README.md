@@ -35,33 +35,6 @@ You can choose to participate in one or both of the tasks, and we will use the s
 Each participant should include a brief introduction of their translation system when submitting, including basic information such as the models (if any), techniques, methods used, etc. Each participant should submit a technical reports emphasizing improvements made to the model, techniques used, and methods applied.
 While the main purpose of this evaluation is to select the most superior machine translation system, if you think your approach is very interesting, even if its performance is not very superior, you are welcome to participate in the evaluation, and you can further improve your system through this evaluation.
 
-~~Chinese classic texts have played a vital role in shaping the unique character and sense of national identity of the Chinese people. 
-They “represent an integral part of world civilization and a treasure that should be shared by all peoples of the world” (Wang Rongpei). 
-Introducing effectively the thoughts, culture, 
-knowledge and wisdom contained in Chinese classic texts to the world is an important way to deepen the world’s understanding of China and to achieve better cultural exchange between China and the world. 
-
-~~With the rapid advancement of foreign cultural exchanges, there has arisen an intense demand for knowledge of Chinese classic texts in the international community. 
-Nevertheless, the existing cross-lingual corpora of Chinese classic texts have a relatively small amount of data because they usually include a particular canonical text, 
-thus lacking systematicity and diachronicity. 
-
-~~Consequently, there are relatively inadequate researches on cross-lingual machine translation of Chinese classic texts. Against such backdrop, 
-utilizing the platform which can facilitate the alignment of chapters, paragraphs and sentences, 
-we obtained the distribution characteristics of the cross-lingual Chinese classic texts in terms of parallel chapters, 
-paragraphs and sentences by analyzing the selected cross-lingual Chinese classic texts. We also achieved the automatic alignment of chapters, 
-paragraphs and sentences for the cross-lingual Chinese classic texts based on the corresponding rules, 
-statistics as well as traditional machine learning and deep learning strategies. 
-
-~~As an ancient written language, 
-the Classical Chinese with its conciseness differs from English and modern Chinese in respect to vocabulary, 
-word order and syntax. Hence, certain background knowledge is required to understand Classical Chinese accurately. 
-
-~~On the basis of the constructed cross-lingual parallel corpus of Chinese classic texts, 
-we propose in this test the task of cross-lingual machine translation of Chinese classic texts.
-
-~~# Tracks
-~1. Translation from ***Ancient Chinese*** to ***Mandarin Chinese***
-~2. Translation from ***Ancient Chinese*** to ***English***
-
 # Participants
 * Researchers who are interested in machine translation and assisted machine translation of Chinese classic texts.
 * Estimated number of participants: 8-20 teams
@@ -127,16 +100,8 @@ The overall parallel texts for machine translation are presented as follows.
 
 In this task, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced.
 
-~~In this test, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced. 
-
-~~The Chinese classic texts in the corpus feature both diachronicity, i.e. spanning thousands of years, 
-as well as diversity, i.e. covering the four traditional types of Chinese canonical texts: jing (经, Confucian classics), shi (史, historical works), 
-zi (子, philosophical works belonging to schools of thought other than the Confucian but also including works on agriculture, 
-medicine, mathematics, astronomy, divination, art criticism, and other miscellaneous writings) and ji (集, collection of literary works). 
-
-~~Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
-
 ## Test Data
+Overview and usage of the test data. （TBD待定）
 
 # Evaluation
 ## Metrics
@@ -148,7 +113,7 @@ The BLEU metrics is a modified version of the sacreBLEU, which provides hassle-f
 <p align="center">Table 3. Example of scorers’ output</p>
 
 |Metric|Score|
-|:...:|:...:|
+|:---:|:---:|
 |BLEU|0.47|
 |TER|25.3%|
 ## Two Modalities
@@ -156,7 +121,7 @@ Each participant can submit runs following two modalities. In the closed modalit
 <p align="center">Table 4. Pre-trained models for closed modality</p>
 
 |Pre-Trained Model|Language|Description|
-|:...:|:...:|:...:|
+|:---:|:---:|:---:|
 |Siku-RoBERTa|Ancient Chinese|Ancient Chinese RoBERTa pre-trained  on high-quality “Siku Quanshu (四库全书)” full-text corpus.|
 |Chinese-RoBERTa-wwm-ext|Modern Chinese|Modern Chinese pre-trained RoBERTa with Whole Word Masking strategy.|
 |RoBERTa|English|Pre-trained model on English with MLM objective.|
@@ -164,12 +129,13 @@ In the open modality, however, there is no limit on the resources, data and mode
 <p align="center">Table 5. Limitations on the two modalities.</p>
 
 |Limits|Closed Modality|Open Modality|
-|:...:|:...:|:...:|
+|:---:|:---:|:---:|
 |Machine learning algorithm|No limit|No limit|
 |Pre-trained model|Only models mentioned in Table 4|No limit|
 |Training data|Only (Training data name, TBD待定)|No limit|
 |Features used|Only from (Training data name, TBD待定)|No limit|
 |Manual correction|Not allowed|Not allowed|
-
+## Baselines
+* TBD
 # Guidelines
 * TBD
