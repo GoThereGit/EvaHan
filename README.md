@@ -133,5 +133,10 @@ In the open modality, however, there is no limit on the resources, data and mode
   
 ## Baselines
 * TBD
+# How to Praticipate
+## Submitting Runs
+* TBD
+## Writing the Technical Report
+* TBD
 # Guidelines
 * TBD
