@@ -35,32 +35,32 @@ You can choose to participate in one or both of the tasks, and we will use the s
 Each participant should include a brief introduction of their translation system when submitting, including basic information such as the models (if any), techniques, methods used, etc. Each participant should submit a technical reports emphasizing improvements made to the model, techniques used, and methods applied.
 While the main purpose of this evaluation is to select the most superior machine translation system, if you think your approach is very interesting, even if its performance is not very superior, you are welcome to participate in the evaluation, and you can further improve your system through this evaluation.
 
-Chinese classic texts have played a vital role in shaping the unique character and sense of national identity of the Chinese people. 
+~~Chinese classic texts have played a vital role in shaping the unique character and sense of national identity of the Chinese people. 
 They “represent an integral part of world civilization and a treasure that should be shared by all peoples of the world” (Wang Rongpei). 
 Introducing effectively the thoughts, culture, 
-knowledge and wisdom contained in Chinese classic texts to the world is an important way to deepen the world’s understanding of China and to achieve better cultural exchange between China and the world. 
+knowledge and wisdom contained in Chinese classic texts to the world is an important way to deepen the world’s understanding of China and to achieve better cultural exchange between China and the world. ~~
 
-With the rapid advancement of foreign cultural exchanges, there has arisen an intense demand for knowledge of Chinese classic texts in the international community. 
+~~With the rapid advancement of foreign cultural exchanges, there has arisen an intense demand for knowledge of Chinese classic texts in the international community. 
 Nevertheless, the existing cross-lingual corpora of Chinese classic texts have a relatively small amount of data because they usually include a particular canonical text, 
 thus lacking systematicity and diachronicity. 
 
-Consequently, there are relatively inadequate researches on cross-lingual machine translation of Chinese classic texts. Against such backdrop, 
+~~Consequently, there are relatively inadequate researches on cross-lingual machine translation of Chinese classic texts. Against such backdrop, 
 utilizing the platform which can facilitate the alignment of chapters, paragraphs and sentences, 
 we obtained the distribution characteristics of the cross-lingual Chinese classic texts in terms of parallel chapters, 
 paragraphs and sentences by analyzing the selected cross-lingual Chinese classic texts. We also achieved the automatic alignment of chapters, 
 paragraphs and sentences for the cross-lingual Chinese classic texts based on the corresponding rules, 
 statistics as well as traditional machine learning and deep learning strategies. 
 
-As an ancient written language, 
+~~As an ancient written language, 
 the Classical Chinese with its conciseness differs from English and modern Chinese in respect to vocabulary, 
 word order and syntax. Hence, certain background knowledge is required to understand Classical Chinese accurately. 
 
-On the basis of the constructed cross-lingual parallel corpus of Chinese classic texts, 
+~~On the basis of the constructed cross-lingual parallel corpus of Chinese classic texts, 
 we propose in this test the task of cross-lingual machine translation of Chinese classic texts.
 
-# Tracks
-1. Translation from ***Ancient Chinese*** to ***Mandarin Chinese***
-2. Translation from ***Ancient Chinese*** to ***English***
+~~# Tracks
+~1. Translation from ***Ancient Chinese*** to ***Mandarin Chinese***
+~2. Translation from ***Ancient Chinese*** to ***English***
 
 # Participants
 * Researchers who are interested in machine translation and assisted machine translation of Chinese classic texts.
