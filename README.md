@@ -118,6 +118,8 @@ On the left side is the ancient Chinese text, and on the right side is the moder
 The source of the training data is the parallel corpus of Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories and Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and “Zizhi Tongjian”. 
 
 The overall parallel texts for machine translation are presented as follows.
+<p align="center">Table 2. Detail of training data in EvaHan 2023</p>
+
 | Data Source | Selecting criteria | Total data |
 |:---:|:---:|:---:|
 | Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories | Sentences of Chinese classic texts of seven characters or more in length | 322,473 sentence pairs in total; 9,583,749 characters for the original Chinese Classic texts and 12,763,534 characters for the Modern Chinese translations |
@@ -142,15 +144,32 @@ We will evaluate the performance of the Ancient-Chinese-to-English machine trans
 
 Each participating team will initially have access only to the training data. Later, test data containing only ancient Chinese texts will also be released. After the assessment, the modern Chinese or English texts corresponding to the ancient Chinese in the test data will also be released.
 
-The BLEU metrics is a modified version of the sacreBLEU, which provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. The TER metrics is commonly used to determine the amount of post-editing required for machine translation outputs. The evaluation will automatically calculate the scores based on the generated outputs and the corresponding reference translations. The final ranking will be based on BLEU score.
+The BLEU metrics is a modified version of the sacreBLEU, which provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. The TER metrics is commonly used to determine the amount of post-editing required for machine translation outputs.An example of the output of the scorers is given in Table 3. The evaluation will automatically calculate the scores based on the generated outputs and the corresponding reference translations. The final ranking will be based on BLEU score.
+<p align="center">Table 3. Example of scorers’ output</p>
+
+|Metric|Score|
+|:...:|:...:|
+|BLEU|0.47|
+|TER|25.3%|
 ## Two Modalities
-Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the Training data (Training data name, TBD待定), and the following pre-trained models listed in Table. Other resources are not allowed in the closed modality.
+Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the Training data (Training data name, TBD待定), and the following pre-trained models listed in Table 4. Other resources are not allowed in the closed modality.
+<p align="center">Table 4. Pre-trained models for closed modality</p>
 
+|Pre-Trained Model|Language|Description|
+|:...:|:...:|:...:|
+|Siku-RoBERTa|Ancient Chinese|Ancient Chinese RoBERTa pre-trained  on high-quality “Siku Quanshu (四库全书)” full-text corpus.|
+|Chinese-RoBERTa-wwm-ext|Modern Chinese|Modern Chinese pre-trained RoBERTa with Whole Word Masking strategy.|
+|RoBERTa|English|Pre-trained model on English with MLM objective.|
+In the open modality, however, there is no limit on the resources, data and models. Annotated external data, such as the components, Pinyin of the Chinese characters, word embeddings, dictionaries, KGs, etc. can be employed. But each team has to state all the resources, data and models they use in each system in the final report.
+<p align="center">Table 5. Limitations on the two modalities.</p>
 
-* Evaluate the performance of the Classical-Chinese-to-English machine translation model and Classical-Chinese-to-Modern-Chinese machine translation model 
-provided by the participants, based on BLEU (Bilingual Evaluation Understudy) and TER (Translation Error Rate).
-* BLEU
-* TER
+|Limits|Closed Modality|Open Modality|
+|:...:|:...:|:...:|
+|Machine learning algorithm|No limit|No limit|
+|Pre-trained model|Only models mentioned in Table 4|No limit|
+|Training data|Only (Training data name, TBD待定)|No limit|
+|Features used|Only from (Training data name, TBD待定)|No limit|
+|Manual correction|Not allowed|Not allowed|
 
 # Guidelines
 * TBD
