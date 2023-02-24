@@ -19,7 +19,7 @@
 # Task
 The cross-lingual machine translation of Chinese classic texts consists of two parts: **the Ancient-Chinese-to-Modern-Chinese machine translation** and **the Ancient-Chinese-to-English machine translation**. Chinese ancient classics are the important part of traditional Chinese culture. In the field of ancient literature research, the translation of classical Chinese texts plays a very important role. Classical Chinese differs greatly from modern Chinese in grammar, syntax, vocabulary, and other aspects. Improving the machine translation performance from Classical Chinese to Modern Chinese can better promote the study of ancient literature. Improving the machine translation technology from Classical Chinese to English can also accelerate the promotion of Chinese traditional culture worldwide.
 
-## Task Objective
+### Task Objective
 The goals of the translation task are:
 * To investigate the applicability of current MT techniques when translating classical Chinese into English or modern Chinese
 * To examine special challenges in translating between classical Chinese and English or modern Chinese, including word order and syntax
@@ -27,7 +27,7 @@ The goals of the translation task are:
 * To provide practical experience of the most advanced machine translation methods for beginners in the field of machine translation
 * To prompt the development of machine translation research for classical Chinese and advance the forefront of machine translation technology exploration
 
-## Task Requirements
+### Task Requirements
 We will provide parallel corpora of Classical Chinese-Modern Chinese based on the Twenty-Four Histories and Classical Chinese-English based on pre-Qin texts, respectively, as training and testing data for Classical Chinese-Modern Chinese and Classical Chinese-English machine translation. We will also provide several unified models, using Chinese-RoBERTa-wwm-ext for Modern Chinese , Siku-RoBERTa for Classical Chinese and RoBERTa for English. The goal is to improve the model and enhance machine translation performance.
 
 You can choose to participate in one or both of the tasks, and we will use the same metrics for evaluation. For each task, we provide subtasks of two tracks, i.e., closed track and open track. To ensure the fairness of the competition, in the closed track, please use the data we provide as the training data only. However, you can use other models and resources to build the translation system in open track, or just build your own model. If additional data is used, participants should clearly indicate which data is from the provided dataset and which is from external sources. This will allow us to evaluate the performance of the models on our provided dataset separately from their performance on external data.
@@ -74,7 +74,7 @@ The Chinese classic texts in the corpus feature both diachronicity, i.e. spannin
 
 Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
 The cross-lingual machine translation of Chinese classic texts consists of two parts: 
-## Data Format
+### Data Format
 The released data is not tokenized and includes sentences of any length (including empty sentences). All data is in Unicode (UTF-8) format. The Table1. below gives an example of the parallel corpus data format:
 <p align="center">Table 1. Data format of the aligned sentences</p>
 
@@ -86,7 +86,7 @@ The released data is not tokenized and includes sentences of any length (includi
 |當時使臣為舅甥之貴，蓋有周姬、齊姜之遺意，歷世守之，因可嘉也。|當時的史臣以爲皇族后族的尊貴，原有周姬、齊姜的遺意，歷代都遵守它，本來是可以表彰的。|
 
 On the left side is the ancient Chinese text, and on the right side is the modern Chinese text corresponding to the sentence-based unit. For the ancient Chinese-English parallel texts, the same format is followed.
-## Train Data
+### Train Data
 The source of the training data is the parallel corpus of Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories and Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and “Zizhi Tongjian”. 
 
 The overall parallel texts for machine translation are presented as follows.
@@ -99,18 +99,18 @@ The overall parallel texts for machine translation are presented as follows.
 
 In this task, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced.
 
-## Test Data
+### Test Data
 * TBD
 
 # Evaluation
-## Metrics
+### Metrics
 We will evaluate the performance of the Ancient-Chinese-to-English machine translation model and Ancient-Chinese-to-Modern-Chinese machine translation model provided by the participants. The scorers employed for EvaHan 2023 are based on BLEU[4] (Bilingual Evaluation Understudy) and TER (Translation Error Rate).
 
 Each participating team will initially have access only to the training data. Later, test data containing only ancient Chinese texts will also be released. After the assessment, the modern Chinese or English texts corresponding to the ancient Chinese in the test data will also be released.
 
 The BLEU metrics is a modified version of the sacreBLEU, which provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. The TER metrics is commonly used to determine the amount of post-editing required for machine translation outputs. The evaluation will automatically calculate the scores based on the generated outputs and the corresponding reference translations. The final ranking will be based on BLEU score.
 
-## Two Modalities
+### Two Modalities
 Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the Training data (Training data name, TBD待定), and the following pre-trained models listed in Table 3. Other resources are not allowed in the closed modality.
 <p align="center">Table 3. Pre-trained models for closed modality</p>
 
@@ -131,12 +131,12 @@ In the open modality, however, there is no limit on the resources, data and mode
 |Features used|Only from (Training data name, TBD待定)|No limit|
 |Manual correction|Not allowed|Not allowed|
   
-## Baselines
+### Baselines
 * TBD
 # How to Praticipate
-## Submitting Runs
+### Submitting Runs
 * TBD
-## Writing the Technical Report
+### Writing the Technical Report
 * TBD
 # Guidelines
 * TBD
