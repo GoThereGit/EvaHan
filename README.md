@@ -100,7 +100,7 @@ The overall parallel texts for machine translation are presented as follows.
 In this task, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced.
 
 ## Test Data
-Overview and usage of the test data. （TBD待定）
+* TBD
 
 # Evaluation
 ## Metrics
