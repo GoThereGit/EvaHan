@@ -133,6 +133,7 @@ In the open modality, however, there is no limit on the resources, data and mode
 |Manual correction|Not allowed|Not allowed|
   
   </div>
+  
 ## Baselines
 * TBD
 # Guidelines
