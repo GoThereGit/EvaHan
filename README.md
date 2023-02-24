@@ -17,7 +17,7 @@
 * Tech report submission: TBD
 
 # Task
-The cross-lingual machine translation of Chinese classic texts consists of two parts: the Ancient-Chinese-to-Modern-Chinese machine translation and the Ancient-Chinese-to-English machine translation. Chinese ancient classics are the important part of traditional Chinese culture. In the field of ancient literature research, the translation of classical Chinese texts plays a very important role. Classical Chinese differs greatly from modern Chinese in grammar, syntax, vocabulary, and other aspects. Improving the machine translation performance from Classical Chinese to Modern Chinese can better promote the study of ancient literature. Improving the machine translation technology from Classical Chinese to English can also accelerate the promotion of Chinese traditional culture worldwide.
+The cross-lingual machine translation of Chinese classic texts consists of two parts: **the Ancient-Chinese-to-Modern-Chinese machine translation** and **the Ancient-Chinese-to-English machine translation**. Chinese ancient classics are the important part of traditional Chinese culture. In the field of ancient literature research, the translation of classical Chinese texts plays a very important role. Classical Chinese differs greatly from modern Chinese in grammar, syntax, vocabulary, and other aspects. Improving the machine translation performance from Classical Chinese to Modern Chinese can better promote the study of ancient literature. Improving the machine translation technology from Classical Chinese to English can also accelerate the promotion of Chinese traditional culture worldwide.
 
 ## Task Objective
 The goals of the translation task are:
