@@ -109,21 +109,11 @@ We will evaluate the performance of the Ancient-Chinese-to-English machine trans
 
 Each participating team will initially have access only to the training data. Later, test data containing only ancient Chinese texts will also be released. After the assessment, the modern Chinese or English texts corresponding to the ancient Chinese in the test data will also be released.
 
-The BLEU metrics is a modified version of the sacreBLEU, which provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. The TER metrics is commonly used to determine the amount of post-editing required for machine translation outputs.An example of the output of the scorers is given in Table 3. The evaluation will automatically calculate the scores based on the generated outputs and the corresponding reference translations. The final ranking will be based on BLEU score.
-<p align="center">Table 3. Example of scorers’ output</p>
-
-<div style="text-align:center">
-  
-|Metric|Score|
-|:---:|:---:|
-|BLEU|0.47|
-|TER|25.3%|
-
-</div>
+The BLEU metrics is a modified version of the sacreBLEU, which provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. The TER metrics is commonly used to determine the amount of post-editing required for machine translation outputs. The evaluation will automatically calculate the scores based on the generated outputs and the corresponding reference translations. The final ranking will be based on BLEU score.
 
 ## Two Modalities
-Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the Training data (Training data name, TBD待定), and the following pre-trained models listed in Table 4. Other resources are not allowed in the closed modality.
-<p align="center">Table 4. Pre-trained models for closed modality</p>
+Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the Training data (Training data name, TBD待定), and the following pre-trained models listed in Table 3. Other resources are not allowed in the closed modality.
+<p align="center">Table 3. Pre-trained models for closed modality</p>
 
 |Pre-Trained Model|Language|Description|
 |:---:|:---:|:---:|
@@ -132,7 +122,7 @@ Each participant can submit runs following two modalities. In the closed modalit
 |RoBERTa|English|Pre-trained model on English with MLM objective.|
 
 In the open modality, however, there is no limit on the resources, data and models. Annotated external data, such as the components, Pinyin of the Chinese characters, word embeddings, dictionaries, KGs, etc. can be employed. But each team has to state all the resources, data and models they use in each system in the final report.
-<p align="center">Table 5. Limitations on the two modalities.</p>
+<p align="center">Table 4. Limitations on the two modalities.</p>
 
 |Limits|Closed Modality|Open Modality|
 |:---:|:---:|:---:|
