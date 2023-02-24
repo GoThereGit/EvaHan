@@ -102,7 +102,14 @@ The Chinese classic texts in the corpus feature both diachronicity, i.e. spannin
 Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
 The cross-lingual machine translation of Chinese classic texts consists of two parts: 
 ## Data Format
-The released data is not tokenized and includes sentences of any length (including empty sentences). All data is in Unicode (UTF-8) format. The Figure1. below gives an example of the parallel corpus data format:
+The released data is not tokenized and includes sentences of any length (including empty sentences). All data is in Unicode (UTF-8) format. The Table below gives an example of the parallel corpus data format:
+|Classical-Chinese|Modern-Chinese|
+|:---:|:---:|
+|后妃表|后妃表|
+|后妃之制，厥有等威，其来尚矣。|后妃的制度，有它的等级威儀，它的由來很久遠。|
+|元初，因其國俗，不娶庶姓，非此族也，不居嫡選。|元朝初年，因襲蒙古的習俗，不娶異姓，不是后族的，不處在可以選爲正妻的地位。|
+|當時使臣為舅甥之貴，蓋有周姬、齊姜之遺意，歷世守之，因可嘉也。|當時的史臣以爲皇族后族的尊貴，原有周姬、齊姜的遺意，歷代都遵守它，本來是可以表彰的。|
+|||
 ![image](https://user-images.githubusercontent.com/117963461/221182984-390eec5b-c757-4669-a79c-025034289d7b.png)
 
 On the left side is the ancient Chinese text, and on the right side is the modern Chinese text corresponding to the sentence-based unit. For the ancient Chinese-English parallel texts, the same format is followed.
