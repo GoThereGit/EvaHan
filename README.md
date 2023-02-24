@@ -111,6 +111,7 @@ Each participating team will initially have access only to the training data. La
 
 The BLEU metrics is a modified version of the sacreBLEU, which provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. The TER metrics is commonly used to determine the amount of post-editing required for machine translation outputs.An example of the output of the scorers is given in Table 3. The evaluation will automatically calculate the scores based on the generated outputs and the corresponding reference translations. The final ranking will be based on BLEU score.
 <p align="center">Table 3. Example of scorers’ output</p>
+
 <div style="text-align:center">
   
 |Metric|Score|
