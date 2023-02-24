@@ -27,6 +27,12 @@ The goals of the translation task are:
 * To provide practical experience of the most advanced machine translation methods for beginners in the field of machine translation
 * To prompt the development of machine translation research for classical Chinese and advance the forefront of machine translation technology exploration
 
+## Task Requirements
+We will provide parallel corpora of Classical Chinese-Modern Chinese based on the Twenty-Four Histories and Classical Chinese-English based on pre-Qin texts, respectively, as training and testing data for Classical Chinese-Modern Chinese and Classical Chinese-English machine translation. We will also provide several unified models, using Chinese-RoBERTa-wwm-ext for Modern Chinese , Siku-RoBERTa for Classical Chinese and RoBERTa for English. The goal is to improve the model and enhance machine translation performance.
+You can choose to participate in one or both of the tasks, and we will use the same metrics for evaluation. For each task, we provide subtasks of two tracks, i.e., closed track and open track. To ensure the fairness of the competition, in the closed track, please use the data we provide as the training data only. However, you can use other models and resources to build the translation system in open track, or just build your own model. If additional data is used, participants should clearly indicate which data is from the provided dataset and which is from external sources. This will allow us to evaluate the performance of the models on our provided dataset separately from their performance on external data.
+Each participant should include a brief introduction of their translation system when submitting, including basic information such as the models (if any), techniques, methods used, etc. Each participant should submit a technical reports emphasizing improvements made to the model, techniques used, and methods applied.
+While the main purpose of this evaluation is to select the most superior machine translation system, if you think your approach is very interesting, even if its performance is not very superior, you are welcome to participate in the evaluation, and you can further improve your system through this evaluation.
+
 Chinese classic texts have played a vital role in shaping the unique character and sense of national identity of the Chinese people. 
 They “represent an integral part of world civilization and a treasure that should be shared by all peoples of the world” (Wang Rongpei). 
 Introducing effectively the thoughts, culture, 
