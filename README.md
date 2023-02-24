@@ -104,6 +104,12 @@ The cross-lingual machine translation of Chinese classic texts consists of two p
 ## Data Format
 The released data is not tokenized and includes sentences of any length (including empty sentences). All data is in Unicode (UTF-8) format. The Figure1. below gives an example of the parallel corpus data format:
 ![image](https://user-images.githubusercontent.com/117963461/221182984-390eec5b-c757-4669-a79c-025034289d7b.png)
+On the left side is the ancient Chinese text, and on the right side is the modern Chinese text corresponding to the sentence-based unit. For the ancient Chinese-English parallel texts, the same format is followed.
+## Train Data
+The source of the training data is the parallel corpus of Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories and Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and “Zizhi Tongjian”. 
+
+The overall parallel texts for machine translation are presented as follows.
+
 
 **the Classical-Chinese-to-Modern-Chinese machine translation** and **the Classical-Chinese-to-English machine translation**. 
 
