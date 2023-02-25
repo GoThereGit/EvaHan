@@ -122,18 +122,15 @@ Each participant can submit runs following two modalities. In the closed modalit
 
 In the open modality, however, there is no limit on the resources, data and models. Annotated external data, such as the components, Pinyin of the Chinese characters, word embeddings, dictionaries, KGs, etc. can be employed. But each team has to state all the resources, data and models they use in each system in the final report.
 <p align="center">Table 4. Limitations on the two modalities.</p>
-<center>
 
-|Limits|Closed Modality|Open Modality|
-|---|---|---|
-|Machine learning algorithm|No limit|No limit|
-|        Pre-trained model        |        Only models mentioned in Table 3        |        No limit        |
-|Training data|Only (Training data name, TBD待定)|No limit|
-|Features used|Only from (Training data name, TBD待定)|No limit|
-|Manual correction|Not allowed|Not allowed|
-  
-</center>
-  
+                                  |Limits|Closed Modality|Open Modality|
+                                  |---|---|---|
+                                  |Machine learning algorithm|No limit|No limit|
+                                  |Pre-trained model|Only models mentioned in Table 3|No limit|
+                                  |Training data|Only (Training data name, TBD待定)|No limit|
+                                  |Features used|Only from (Training data name, TBD待定)|No limit|
+                                  |Manual correction|Not allowed|Not allowed|
+
 ### Baselines
 * TBD
 # How to Praticipate
