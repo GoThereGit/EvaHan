@@ -105,7 +105,7 @@ In this task, the cross-lingual parallel corpus of Chinese classic texts is larg
 
 # Evaluation
 ### Metrics
-We will evaluate the performance of the Ancient-Chinese-to-English machine translation model and Ancient-Chinese-to-Modern-Chinese machine translation model provided by the participants. The scorers employed for EvaHan 2023 are based on BLEU[4] (Bilingual Evaluation Understudy) and TER (Translation Error Rate).
+We will evaluate the performance of the Ancient-Chinese-to-English machine translation model and Ancient-Chinese-to-Modern-Chinese machine translation model provided by the participants. The scorers employed for EvaHan 2023 are based on **BLEU (Bilingual Evaluation Understudy)** and **TER (Translation Error Rate)**.
 
 Each participating team will initially have access only to the training data. Later, test data containing only ancient Chinese texts will also be released. After the assessment, the modern Chinese or English texts corresponding to the ancient Chinese in the test data will also be released.
 
@@ -135,7 +135,11 @@ In the open modality, however, there is no limit on the resources, data and mode
 * TBD
 # How to Praticipate
 ### Submitting Runs
-* TBD
+If you would like to participate in this shared task, please fill out the [registration form]() and ensure that your information is correct and your email is able to receive messages. Once we receive your registration information, we will send the training data to your email address. Please check your email regularly.
+
+If you have any questions about this shared task, please feel free to send an email to our official email address: <u>evahan2023@gmail.com</u>. 
+
+If you do not receive a reply for a long time, please check if your email was sent successfully.
 ### Writing the Technical Report
 * TBD
 # Guidelines
