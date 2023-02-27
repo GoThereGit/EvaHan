@@ -135,7 +135,7 @@ In the open modality, however, there is no limit on the resources, data and mode
 * TBD
 # How to Praticipate
 ### Submitting Runs
-If you would like to participate in this shared task, please fill out the [registration form](https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAExHmLlUMURNSUNHQTQ5SUhQMzFIR05GSEo2QUFONi4u&lang=en) and ensure that your information is correct and your email is able to receive messages. Once we receive your registration information, we will send the training data to your email address. Please check your email regularly.
+If you would like to participate in this shared task, please fill out the [registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAExHmLlUMURNSUNHQTQ5SUhQMzFIR05GSEo2QUFONi4u&lang=en) and ensure that your information is correct and your email is able to receive messages. Once we receive your registration information, we will send the training data to your email address. Please check your email regularly.
 
 If you have any questions about this shared task, please feel free to send an email to our official email address: <u>evahan2023@gmail.com</u>. 
 
