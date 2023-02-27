@@ -96,7 +96,7 @@ The overall parallel texts for machine translation are presented as follows.
 | Data Source | Selecting Criteria | Source Data |Target Data|
 |:---:|:---:|:---:|:---:|
 | Classical-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories | Sentences of Chinese classic texts of seven characters or more in length | 9,583,749 characters for the original Chinese Classic texts | 12,763,534 characters for the Mandarin Chinese translations |
-| Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and Zizhi Tongjian (资治通鉴, “Comprehensive Mirror in Aid of Governance”) | Sentences of Chinese classic texts of seven characters or more in length and the corresponding English translations |618,083 characters in the original Classical Chinese texts | 838,321 words in the English translations |
+| Classical-Chinese-to-English parallel texts of Pre-Qin canonical texts and Zizhi Tongjian (资治通鉴, “Comprehensive Mirror in Aid of Governance”) | Sentences of Chinese classic texts of seven characters or more in length and the corresponding English translations | 618,083 characters for the original Classical Chinese texts | 838,321 for the English translations |
 
 In this task, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced.
 
