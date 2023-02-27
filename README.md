@@ -127,8 +127,8 @@ In the open modality, however, there is no limit on the resources, data and mode
 |---|---|---|
 |Machine learning algorithm|No limit|No limit|
 |Pre-trained model|Only models mentioned in Table 3|No limit|
-|Training data|Only (Training data name, TBD待定)|No limit|
-|Features used|Only from (Training data name, TBD待定)|No limit|
+|Training data|Only (Training data name, TBD)|No limit|
+|Features used|Only from (Training data name, TBD)|No limit|
 |Manual correction|Not allowed|Not allowed|
 ### Baselines
 * TBD
