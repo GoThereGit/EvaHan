@@ -5,7 +5,7 @@
 # EvaHan2023
 * Evaluation of Natural Language Processing (NLP) tools for the Ancient Chinese language
 * Machine Translation from Ancient Chinese to Mandarin Chinese/English
-* Co-operated with ALT2023
+* Co-operated with ALT2023<>， Macau SAR, China on Sep 4, 2023, @MT-SUMMIT2023
 * Past Events: <a href='https://circse.github.io/LT4HALA/2022/EvaHan'>Evahan2022</a>
 
 # Important Dates
