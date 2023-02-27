@@ -5,7 +5,7 @@
 # EvaHan2023
 * Evaluation of Natural Language Processing (NLP) tools for the Ancient Chinese language
 * Machine Translation from Ancient Chinese to Mandarin Chinese/English
-* Co-operated with ALT2023， Macau SAR, China on Sep 4, 2023, [MT-SUMMIT2023](https://mtsummit2023.scimeeting.cn/en/web/index/)
+* Co-operated with [ALT2023](https://github.com/GoThereGit/ALT)， Macau SAR, China on Sep 4, 2023, [MT-SUMMIT2023](https://mtsummit2023.scimeeting.cn/en/web/index/)
 * Past Events: <a href='https://circse.github.io/LT4HALA/2022/EvaHan'>Evahan2022</a>
 
 # Important Dates
@@ -34,7 +34,7 @@ We will provide parallel corpora of Classical Chinese-Modern Chinese based on th
 You can choose to participate in one or both of the tasks, and we will use the same metrics for evaluation. For each task, we provide subtasks of two tracks, i.e., closed track and open track. To ensure the fairness of the competition, in the closed track, please use the data we provide as the training data only. However, you can use other models and resources to build the translation system in open track, or just build your own model. If additional data is used, participants should clearly indicate which data is from the provided dataset and which is from external sources. This will allow us to evaluate the performance of the models on our provided dataset separately from their performance on external data.
 
 Each participant should include a brief introduction of their translation system when submitting, including basic information such as the models (if any), techniques, methods used, etc. Each participant should submit a technical reports emphasizing improvements made to the model, techniques used, and methods applied.
-While the main purpose of this evaluation is to select the most superior machine translation system, if you think your approach is very interesting, even if its performance is not very superior, you are welcome to participate in the evaluation, and you can further improve your system through this evaluation.
+Although the primary objective of this evaluation is to identify the most exceptional machine translation system, we encourage participation even if your approach does not achieve the highest performance. If you have developed an interesting approach, this evaluation provides an opportunity to further refine and enhance your system.
 
 # Participants
 * Researchers who are interested in machine translation and assisted machine translation of Chinese classic texts.
