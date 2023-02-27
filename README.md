@@ -9,12 +9,13 @@
 * Past Events: <a href='https://circse.github.io/LT4HALA/2022/EvaHan'>Evahan2022</a>
 
 # Important Dates
-* CFP in Dec.2022 (depends on ALT's schedule)
-* Reg for the shared task: Juan 1, 2023 ~ March 1, 2023
+* Registration for the shared task: 15 Feb, 2023 ~ 25 March, 2023
 * Training data release: April 1, 2023
-* Test data release: TBD
-* Data submission : TBD
-* Tech report submission: TBD
+* Test data release: June 1, 2023
+* Data submission : June 7, 2023
+* Tech report submission: June 15, 2023
+* Notification of acceptance: June 25, 2023
+* Camera Ready submission: 10 July 2023
 
 # Task
 The cross-lingual machine translation of Chinese classic texts consists of two parts: **the Ancient-Chinese-to-Modern-Chinese machine translation** and **the Ancient-Chinese-to-English machine translation**. Chinese ancient classics are the important part of traditional Chinese culture. In the field of ancient literature research, the translation of classical Chinese texts plays a very important role. Classical Chinese differs greatly from modern Chinese in grammar, syntax, vocabulary, and other aspects. Improving the machine translation performance from Classical Chinese to Modern Chinese can better promote the study of ancient literature. Improving the machine translation technology from Classical Chinese to English can also accelerate the promotion of Chinese traditional culture worldwide.
