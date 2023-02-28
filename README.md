@@ -4,7 +4,7 @@
 
 # EvaHan2023
 * Evaluation of Natural Language Processing (NLP) tools for the Ancient Chinese language
-* Machine Translation from Ancient Chinese to Mandarin Chinese/English
+* Machine Translation from Ancient Chinese to Modern Chinese/English
 * Co-operated with [ALT2023](https://github.com/GoThereGit/ALT)， Macau SAR, China on Sep 4, 2023, [MT-SUMMIT2023](https://mtsummit2023.scimeeting.cn/en/web/index/)
 * Past Events: <a href='https://circse.github.io/LT4HALA/2022/EvaHan'>Evahan2022</a>
 
@@ -18,7 +18,7 @@
 * Camera Ready submission: 10 July 2023
 
 # Task
-The cross-lingual machine translation of Chinese classic texts consists of two parts: **the Ancient-Chinese-to-Modern-Chinese machine translation** and **the Ancient-Chinese-to-English machine translation**. Chinese ancient classics are the important part of traditional Chinese culture. In the field of ancient literature research, the translation of Ancient Chinese texts plays a very important role. Ancient Chinese differs greatly from modern Chinese in grammar, syntax, vocabulary, and other aspects. Improving the machine translation performance from Ancient Chinese to Modern Chinese can better promote the study of ancient literature. Improving the machine translation technology from Ancient Chinese to English can also accelerate the promotion of Chinese traditional culture worldwide.
+The cross-lingual machine translation of Chinese classic texts consists of two parts: **the Ancient-Chinese-to-Modern-Chinese machine translation** and **the Ancient-Chinese-to-English machine translation**. Chinese ancient classics are the important part of traditional Chinese culture. In the field of ancient literature research, the translation of Ancient Chinese texts plays a very important role. Ancient Chinese differs greatly from Modern Chinese in grammar, syntax, vocabulary, and other aspects. Improving the machine translation performance from Ancient Chinese to Modern Chinese can better promote the study of ancient literature. Improving the machine translation technology from Ancient Chinese to English can also accelerate the promotion of Chinese traditional culture worldwide.
 
 ### Task Objective
 The goals of the translation task are:
