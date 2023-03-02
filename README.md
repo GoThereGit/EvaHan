@@ -226,7 +226,7 @@ Papers must be submitted to the [website](https://softconf.com/mtsummit2023/rese
 * TBD
 
 # Appendix: Selection of Resources
-*	[Ancient Chinese SikuRoBERTa(model)](https://huggingface.co/SIKU-BERT/sikuroberta); [Ancient Chinese SikuRoBERTa(description)]https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing)
+*	[Ancient Chinese SikuRoBERTa(model)](https://huggingface.co/SIKU-BERT/sikuroberta); [Ancient Chinese SikuRoBERTa(description)](https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing)
 *	[Modern Chinese RoBERTa(model)](https://huggingface.co/hfl/chinese-roberta-wwm-ext); [Modern Chinese RoBERTa(description)](https://github.com/ymcui/Chinese-BERT-wwm)
 *	[English RoBERTa(model)](https://huggingface.co/roberta-large); [English RoBERTa(description)](https://github.com/facebookresearch/fairseq/tree/main/examples/roberta)
 *	[Multilingual version of RoBERTa(model)](https://huggingface.co/xlm-roberta-large); [Multilingual version of RoBERTa(description)](https://github.com/facebookresearch/fairseq/tree/main/examples/xlmr)
