@@ -175,8 +175,8 @@ Where:
 
 **< translation >** is the machine translation result of your system, the second machine translation result is optional.
 
-Below is an example:
-
+<p align="center">Table 5. Example of submission format</p>
+  
 | id | source | translation |
 |:---:|:---:|:---:|
 | 1	| 植，琰之兄女婿也。 |	Cao Zhi had married a daughter of Cui Yan's elder brother. |
