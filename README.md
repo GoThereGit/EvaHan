@@ -54,6 +54,8 @@ Although the primary objective of this evaluation is to identify the most except
 # Student Members
 * **Bolin Chang**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Chun Yu**, College of Information Management, Nanjing Agricultural University, China
+* **Dayu Yan**, School of Economics & Management, Nanjing University of Science and Technology, China
+* **Chang Liu**, College of Information Management, Nanjing Agricultural University, China
 * **Die Hu**, College of Information Management, Nanjing Agricultural University, China
 * **Feng Xie**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Hai Zhang**, College of Information Management, Nanjing Agricultural University, China
@@ -63,6 +65,7 @@ Although the primary objective of this evaluation is to identify the most except
 * **Li Yang**, College of Information Management, Nanjing Agricultural University, China
 * **Litao Lin**, College of Information Management, Nanjing Agricultural University, China
 * **Na Wu**, College of Information Management, Nanjing Agricultural University, China
+* **Yizhou Yin**, School of Economics & Management, Nanjing University of Science and Technology, China
 * **Yuan Liang**, College of Information Management, Nanjing Agricultural University, China
 * **Yue Qi**, College of Information Management, Nanjing Agricultural University, China
 * **Zhixiao Zhao**, College of Information Management, Nanjing Agricultural University, China
