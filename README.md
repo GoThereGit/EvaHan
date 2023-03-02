@@ -224,3 +224,18 @@ Papers must be submitted to the [website](https://softconf.com/mtsummit2023/rese
 # Guidelines
   
 * TBD
+
+# Appendix: Selection of Resources
+*	[Ancient Chinese SikuRoBERTa(model)](https://huggingface.co/SIKU-BERT/sikuroberta); [Ancient Chinese SikuRoBERTa(description)]https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing)
+*	[Modern Chinese RoBERTa(model)](https://huggingface.co/hfl/chinese-roberta-wwm-ext); [Modern Chinese RoBERTa(description)](https://github.com/ymcui/Chinese-BERT-wwm)
+*	[English RoBERTa(model)](https://huggingface.co/roberta-large); [English RoBERTa(description)](https://github.com/facebookresearch/fairseq/tree/main/examples/roberta)
+*	[Multilingual version of RoBERTa(model)](https://huggingface.co/xlm-roberta-large); [Multilingual version of RoBERTa(description)](https://github.com/facebookresearch/fairseq/tree/main/examples/xlmr)
+*	[Ancient Chinese GPT-2(model)](https://huggingface.co/uer/gpt2-chinese-ancient); [Ancient Chinese GPT-2(description)](https://github.com/Morizeyao/GPT2-Chinese)
+*	[Ancient Chinese SikuGPT(model)](https://huggingface.co/JeffreyLau/SikuGPT2); [Ancient Chinese SikuGPT(description)](https://github.com/SIKU-BERT/sikuGPT)
+*	[GuwenBERT(model)](https://huggingface.co/ethanyt/guwenbert-base); [GuwenBERT(description)](https://github.com/Ethan-yt/guwenbert)
+*	[Ancient Chinese syntactic corpus](http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/kyodokenkyu/2019-03-08/)
+*	[Ancient Chinese Sentence Segmentation](https://seg.shenshen.wiki) 
+*	[Tagged Corpus of Old Chinese](http://lingcorpus.iis.sinica.edu.tw/ancient/) 
+*	[A very Large Online Ancient Chinese Corpus Retrieval System](http://dh.ersjk.com/) 
+*	[A GPI Ancient Chinese raw corpus](https://github.com/garychowcmu/daizhigev20)
+
