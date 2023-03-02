@@ -128,15 +128,15 @@ testb_unicatt_2_open.tsv would be the second run of a team called unicatt using 
 ### Submission format
 The output files for system-level rankings should be formatted as a tab-separated values (TSV) in the following way:
 
-<id>\t<source>\t<translation>[\t<translation>]
+"<id>\t<source>\t<translation>[\t<translation>]"
 
 Each field should be delimited by a single tab character.
 
 Where:
 
-**<id>** is the ID of source data (original ancient Chinese text).
+**'<id>'** is the ID of source data (original ancient Chinese text).
 
-**<source>** is the original ancient Chinese text.
+**'<source>'** is the original ancient Chinese text.
 
 **< translation >** is the machine translation result of your system, the second machine translation result is optional.
 
