@@ -223,7 +223,7 @@ Papers must be submitted to the [website](https://softconf.com/mtsummit2023/rese
 
 # Guidelines
   
-* [TBD](./EvaHan2023_Guidelines.docx)
+* [EvaHan2023_Guidelines](./EvaHan2023_Guidelines.docx)
 
 # Appendix: Selection of Resources
 *	[Ancient Chinese SikuRoBERTa(model)](https://huggingface.co/SIKU-BERT/sikuroberta); [Ancient Chinese SikuRoBERTa(description)](https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing)
