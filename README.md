@@ -21,15 +21,16 @@
 
 # Data
 
-The data comes from China Twenty-four Histories , Pre-Qin canonical texts and “ZiZhi TongJian (资治通鉴, Comprehensive Mirror in Aid of Governance)”. The PDF text is converted into word format through OCR recognition, and the team members manually proofread the corpus by using the convenient platform for chapter, paragraph, and sentence alignment , and finally get the parallel corpus. Among them, China Twenty-four Histories is the general name of the twenty-four official histories written by various dynasties in ancient China, all of which are compiled in the biography style; the Pre-Qin canonical texts are the historical materials of the pre-Qin period, which have an important position in ancient books, including history books and sub-books; “ZiZhi TongJian” is a chronological history book compiled by historians of the Northern Song Dynasty, covering 1362 years of history of sixteen dynasties.
+The data is excerpted from the Twenty-Four Histories(dynastic histories from remote antiquity till the Ming Dynasty), the Pre-Qin classics and “ZiZhi TongJian (资治通鉴, Comprehensive Mirror in Aid of Governance)”. Among them, the Twenty-Four Histories is the general name of the twenty-four official histories written by various dynasties in ancient China, all of which are compiled in the biography style; the Pre-Qin canonical texts are the historical materials of the Pre-Qin period(Paleolithic Period ~ 221 B.C.), which have an important position in ancient books, including history books and sub-books; “ZiZhi TongJian” is a chronological history book compiled by historians of the Northern Song Dynasty, covering sixteen dynasties over a span of 1362 years. The PDF version were converted into word format through OCR recognition before the team members could manually proofread the texts and build a parallel corpus by using the convenient platform for chapter, paragraph and sentence alignment.
 
-The ancient Chinese classic texts in the corpus feature both diachronicity, i.e. spanning thousands of years, as well as diversity, i.e. covering the four traditional types of Chinese canonical texts: Jing (经, Confucian classics), shi (史, historical works), zi (子, philosophical works belonging to schools of thought other than the Confucian but also including works on agriculture, medicine, mathematics, astronomy, divination, art criticism, and other miscellaneous writings) and ji (集, collection of literary works).
+The Chinese ancient classic texts in the corpus feature both diachronicity(i.e. spanning thousands of years)(i.e. covering the four traditional types of Chinese canonical texts). The four are Jing (经, Confucian classics), shi (史, historical works), zi (子, philosophical works belonging to schools of thought other than the Confucian but also including works on agriculture, medicine, mathematics, astronomy, divination, art criticism, and other miscellaneous writings) and ji (集, collection of literary works).
 
-Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows. 
+Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
+
 
 ## Data Format
 
-The released data is not tokenized and includes sentences of any length (including empty sentences). All data is in Unicode (UTF-8) format. The Table1. below gives an example of the parallel corpus data format:
+As to released data, no sentence of any length is tokenized (including empty sentences). All data is in Unicode (UTF-8) format within the parallel corpus. Table 1 gives an example as fllows:
 <p align="center">Table 1. Data format of the aligned sentences</p>
 
 |Ancient-Chinese|Modern-Chinese|
@@ -39,13 +40,14 @@ The released data is not tokenized and includes sentences of any length (includi
 |元初，因其國俗，不娶庶姓，非此族也，不居嫡選。|元朝初年，因襲蒙古的習俗，不娶異姓，不是后族的，不處在可以選爲正妻的地位。|
 |當時使臣為舅甥之貴，蓋有周姬、齊姜之遺意，歷世守之，因可嘉也。|當時的史臣以爲皇族后族的尊貴，原有周姬、齊姜的遺意，歷代都遵守它，本來是可以表彰的。|
 
-On the left side is the ancient Chinese text, and on the right side is the modern Chinese text corresponding to the sentence-based unit. For the ancient Chinese-English parallel texts, the same format is followed.
+On the left side is the ancient Chinese text, and on the right side is the modern Chinese text aligned on the sentence-level unit. For the Ancient Chinese-to-English parallel texts, the same format is followed.
 
 ## Train Data
 
-The source of the training data is the parallel corpus of Ancient-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories and Ancient-Chinese-to-English parallel texts of Pre-Qin canonical texts and “Zizhi Tongjian” (资治通鉴, Comprehensive Mirror in Aid of Governance)”. 
+The source of the training data includes the Ancient-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories, the Ancient-Chinese-to-English parallel texts of Pre-Qin classcis and “Zizhi Tongjian”.
 
-The overall parallel texts for machine translation are presented as follows.
+Descriptions about the overall parallel texts for machine translation are presented in Table 2.
+
 <p align="center">Table 2. Detail of training data in EvaHan 2023</p>
 
 | Data Source | Source Data |Target Data|
@@ -53,38 +55,39 @@ The overall parallel texts for machine translation are presented as follows.
 | Ancient-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories | 9,583,749 characters for the original Chinese Classic texts | 12,763,534 characters |
 | Ancient-Chinese-to-English parallel texts of Pre-Qin canonical texts and Zizhi Tongjian | 618,083 characters for the original Ancient Chinese texts | 838,321 words |
 
-In this task, the cross-lingual parallel corpus of Chinese classic texts is large-scale, diachronic, and well-balanced.
-
+Briefly, the training data employed in this task embodies many new features, such as the large-scale and well-balanced data as well as its comprehensiveness from the diachronic perspective.
 ## Test Data
 
-Test data will be provided in txt format, including Ancient-Chinese characters, Modern-Chinese characters, English characters and punctuations. The gold standard test data, that is the annotation used for the evaluation, will be provided to the participants after the evaluation.
+Test data will be provided in txt format, including Ancient-Chinese characters, Modern-Chinese characters, English words and punctuations. The test data, i.e. the annotation used for the evaluation, will be evaluated before it is supplied to the participants.
 
-There are two test data sets, they are designed for Ancient Chinese-Modern Chinese machine translation (testa.txt, TBD) and Ancient Chinese-English machine translation (testb.txt, TBD). 
+Two test data sets are built for Ancient Chinese-Modern Chinese machine translation (testa.txt, TBD) and Ancient Chinese-English machine translation (testb.txt, TBD). 
 
-The details of the test data will be provided to the participants after the evaluation.
+More details will be provided to the participants after the evaluation.
+
 
 # Task
 
-The cross-lingual machine translation of Chinese classic texts consists of two parts: **the Ancient-Chinese-to-Modern-Chinese machine translation** and **the Ancient-Chinese-to-English machine translation**. Chinese ancient classics are the important part of traditional Chinese culture. In the field of ancient literature research, the translation of Ancient Chinese texts plays a very important role. Ancient Chinese differs greatly from Modern Chinese in grammar, syntax, vocabulary, and other aspects. Improving the machine translation performance from Ancient Chinese to Modern Chinese can better promote the study of ancient literature. Improving the machine translation technology from Ancient Chinese to English can also accelerate the promotion of Chinese traditional culture worldwide.
+The cross-lingual machine translation of Chinese classic texts consists of two parts: the Ancient-Chinese-to-Modern-Chinese machine translation and the Ancient-Chinese-to-English machine translation. Chinese ancient classics serve as an indispensable part of Chinese traditional culture. In the field of ancient literature research, the translation of ancient Chinese texts is of great significance. Ancient Chinese differs greatly from modern Chinese in grammar, syntax, vocabulary, and other aspects. To improving the performance of machine translation from Ancient Chinese to Modern Chinese can better deepen studies on ancient literature. Meanwhile, it can also accelerate the promotion of Chinese traditional culture worldwide.
 
 ## Task Objective
 
 The goals of the translation task are:
-* To investigate the applicability of current MT techniques when translating Ancient Chinese into English or modern Chinese
-* To examine special challenges in translating between Ancient Chinese and English or modern Chinese, including word order and syntax
-* To create publicly available corpora for machine translation and evaluation of Ancient Chinese
-* To provide practical experience of the most advanced machine translation methods for beginners in the field of machine translation
-* To prompt the development of machine translation research for Ancient Chinese and advance the forefront of machine translation technology exploration
+* To investigate the applicability of current MT techniques in ancient Chinese translation.
+* To examine the significant challenges in ancient Chinese translation (e.g. word order and syntax problems).
+* To built free corpora for machine translation and evaluation of ancient Chinese.
+* To afford novice researchers the chance to gain experience in the field of machine translation.
+* To further machine translation research for ancient Chinese and the exploration of  forefront machine translation technology.
 
 ## Task Requirements
 
-We will provide parallel corpora of Ancient Chinese-Modern Chinese based on the Twenty-Four Histories and Ancient Chinese-English based on pre-Qin texts, respectively, as training and testing data for Ancient Chinese-Modern Chinese and Ancient Chinese-English machine translation. We will also provide several unified models, using Chinese-RoBERTa-wwm-ext for Modern Chinese , Siku-RoBERTa for Ancient Chinese and RoBERTa for English. The goal is to improve the model and enhance machine translation performance.
+Parallel corpora of Ancient Chinese-Modern Chinese based on the Twenty-Four Histories and Ancient Chinese-English based on Pre-Qin texts are provided as training and testing data for Ancient Chinese-Modern Chinese and Ancient Chinese-English machine translation. Participants are also supplied with unified models. Specifically, Chinese-RoBERTa-wwm-ext[3] for Modern Chinese , Siku-RoBERTa[1] for ancient Chinese and RoBERTa[4] for English. The participants’ task is to improve the models in terms of machine translation performance.
 
-You can choose to participate in one or both of the tasks, and we will use the same metrics for evaluation. For each task, we provide subtasks of two tracks, i.e., closed track and open track. To ensure the fairness of the competition, in the closed track, please use the data we provide as the training data only. However, you can use other models and resources to build the translation system in open track, or just build your own model. If additional data is used, participants should clearly indicate which data is from the provided dataset and which is from external sources. This will allow us to evaluate the performance of the models on our provided dataset separately from their performance on external data.
+You can choose either or both of them to participate in, with the same metrics for evaluation is employed. Each task, contains two tracks, i.e., closed track and open track. To ensure the fairness of the competition, only the given training data and model are allowed to use in the closed track. However, when building the translation system in open track other models, resources and self-built modes are permitted. In this case, if any additional data or model is employed, participants should make it clear to us so that we can evaluate the performance of the models on our provided dataset separately from their performance on external data.
 
-Each participant should include a brief introduction of their translation system when submitting, including basic information such as the models (if any), techniques, methods used, etc. Each participant should submit a technical reports emphasizing improvements made to the model, techniques used, and methods applied.
+The results submitted by each team should include a brief introduction to the translation system (i.e. basic information, such as the models (if any), techniques, methods used, etc.). Besides, teams are required to submit a technical report detailing the improvements to the model and the methods used.
 
-Although the primary objective of this evaluation is to identify the most exceptional machine translation system, we encourage participation even if your approach does not achieve the highest performance. If you have developed an interesting approach, this evaluation provides an opportunity to further refine and enhance your system.
+Although the main goal of this evaluation is to identify the best performing machine translation project, we encourage creative projects to enter the competition even if their performance is not optimal. Participants can also use this evaluation to further improve their project.
+
 
 # Evaluation
 
@@ -94,7 +97,7 @@ We will evaluate the performance of the Ancient-Chinese-to-English machine trans
 
 Each participating team will initially have access only to the training data. Later, test data containing only ancient Chinese texts will also be released. After the assessment, the modern Chinese or English texts corresponding to the ancient Chinese in the test data will also be released.
 
-The **BLEU** metrics measures machine translation quality by word-level n-grams. It is a modified version of the **sacreBLEU** , which provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. The **ChrF** metrics evaluates the character-level translation quality and adds a recall metric, thus improving the correlation with human judgment. The **COMET-QE** is a state-of-the-art metric based on pre-trained models designed to predict human language experts’ judgments of machine translation quality, often with the highest accuracy. 
+The BLEU metrics measures machine translation quality by word-level n-grams. It is a modified version of the sacreBLEU , which provides hassle-free computation of shareable, comparable, and reproducible BLEU scores. The ChrF metrics evaluates the character-level translation quality and adds a recall metric, thus improving the correlation with human judgment. The COMET-QE is a state-of-the-art metric based on pre-trained models designed to predict human language experts’ judgments of machine translation quality, often with the highest accuracy.
 
 ## Two Modalities
 
@@ -179,7 +182,7 @@ Submissions should be sent to evahan2023@gmail.com with the subject “EvaHan Su
 You can make up to 2 submissions per language pair, per team.
 
 ## Writing the Technical Report
-Papers should not be longer than 4 pages of content (for references, unlimited number of pages is allowed). The papers must follow the MT Summit 2023 style guides (PDF version, LaTeX version, MS Word version, and [Overleaf template](https://www.overleaf.com/latex/templates/mt-summit-2023-template/knrrcnxhkqxd) and be submitted in PDF format. To allow for blind reviewing, please do not include author names and affiliations within the paper and avoid obvious self-references.
+Papers should not be longer than 4 pages for content (for references, unlimited number of pages is allowed). The papers must follow the MT Summit 2023 style guides (PDF version, LaTeX version, MS Word version, and [Overleaf template](https://www.overleaf.com/latex/templates/mt-summit-2023-template/knrrcnxhkqxd) and be submitted in PDF format. To allow for blind reviewing, please do not include author names and affiliations within the paper and avoid obvious self-references.
 
 Papers must be submitted to the [website](https://softconf.com/mtsummit2023/research) by the conference submission deadline.
 
