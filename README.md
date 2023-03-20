@@ -22,15 +22,12 @@
 # Data
 
 Training data for evaluation is excerpted from the Twenty-Four Histories(dynastic histories from remote antiquity till the Ming Dynasty), the Pre-Qin classics and “ZiZhi TongJian (资治通鉴, Comprehensive Mirror in Aid of Governance)”,which was finished by the research group of the National Social Science Foundation of China major project “Research on the Construction and Application of Cross-language Knowledge Base of Ancient Chinese Classics” (project No. :21&ZD331) . Among them, the Twenty-Four Histories is the general name of the twenty-four official histories written by various dynasties in ancient China; the Pre-Qin  classics are the historical materials of the Pre-Qin period(Paleolithic Period ~ 221 B.C.), which have an important position in ancient books, including history books and sub-books; “ZiZhi TongJian” is a chronological history book compiled by historians of the Northern Song Dynasty, covering sixteen dynasties from 403 B.C. to 959 A.D. over a span of 1362 years.
-The Chinese ancient classic texts in the corpus feature both diachronicity(i.e. spanning thousands of years)(i.e. covering the four traditional types of Chinese canonical texts). The four are _Jing_ (经), *shi* (史), zi (子) and ji (集).
-
-Both English and modern Chinese translations are selected for these texts in the parallel corpus. The specific parallel texts provided for this test are as follows.
-
+The Chinese ancient classic texts in the corpus feature both diachronicity(i.e. spanning thousands of years)(i.e. covering the four traditional types of Chinese canonical texts). The four are _Jing_ (经), *shi* (史), *zi* (子) and *ji* (集).
 
 ## Data Format
 
-As to released data, no sentence of any length is tokenized (including empty sentences). All data is in Unicode (UTF-8) format within the parallel corpus. Table 1 gives an example as fllows:
-<p align="center">Table 1. Data format of the aligned sentences</p>
+All evaluation data are txt files in Unicode (UTF-8) format , arranged by two fields of source language and  target language to form a sentence level parallel corpus,as shown in Table 1 and Table 2.
+<p align="center">Table 1. Example of the  Ancient Chinese to Modern Chinese corpus</p>
 
 |Ancient-Chinese|Modern-Chinese|
 |:---:|:---:|
@@ -39,15 +36,28 @@ As to released data, no sentence of any length is tokenized (including empty sen
 |元初，因其國俗，不娶庶姓，非此族也，不居嫡選。|元朝初年，因襲蒙古的習俗，不娶異姓，不是后族的，不處在可以選爲正妻的地位。|
 |當時使臣為舅甥之貴，蓋有周姬、齊姜之遺意，歷世守之，因可嘉也。|當時的史臣以爲皇族后族的尊貴，原有周姬、齊姜的遺意，歷代都遵守它，本來是可以表彰的。|
 
-On the left side is the ancient Chinese text, and on the right side is the modern Chinese text aligned on the sentence-level unit. For the Ancient Chinese-to-English parallel texts, the same format is followed.
+Table 1 shows an example of the Ancient Chinese to Modern Chinese parallel corpus. On the left side is the Ancient Chinese text, and on the right side is the Modern Chinese (traditional Chinese) text corresponding to the sentence unit.
 
-## Train Data
+<p align="center">Table 2. Example of the  Ancient Chinese to English corpus</p>
 
-The source of the training data includes the Ancient-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories, the Ancient-Chinese-to-English parallel texts of Pre-Qin classcis and “Zizhi Tongjian”.
+|Ancient-Chinese|English|
+|:---:|:---:|
+|杜密素與李膺名行相次，|Du Mi had shared in reputation with Li Ying,|
+|起，對之揖，勸令從學。|He stood up and bowed to him, then urged him to study.|
+|濟陰黃允，以俊才知名。|Huang Yun of Jiyin was known for his outstanding talents.|
+|兵士喜悅，大小皆出。|Officers and men were delighted, and they all went out to take part.|
+|獵者來還，莫不潤涕。|When the men came back from the hunt, every one of them wept for sorrow.|
+|榮恐不免，詣闕自論。|Kou Rong was afraid he would not escape [this combination of hostility] and he [sought to] go back to the palace to plead his case.|
 
-Descriptions about the overall parallel texts for machine translation are presented in Table 2.
+Table 2 shows an example of the Ancient Chinese to English parallel corpus. On the left side is the Ancient Chinese text, and on the right side is the English text corresponding to the sentence unit.
 
-<p align="center">Table 2. Detail of training data in EvaHan 2023</p>
+## Training Data
+
+The source of the training data includes the Ancient-Chinese-to-Modern-Chinese parallel texts of China Twenty-four Histories, the Ancient-Chinese-to-English parallel texts of Pre-Qin classcis and “Zizhi Tongjian”. 
+
+Descriptions about the overall parallel texts for machine translation are presented in Table 3.
+
+<p align="center">Table 3. Detail of training data in EvaHan 2023</p>
 
 | Data Source | Source Data |Target Data|
 |:---:|:---:|:---:|
@@ -55,38 +65,33 @@ Descriptions about the overall parallel texts for machine translation are presen
 | Ancient-Chinese-to-English parallel texts of Pre-Qin canonical texts and Zizhi Tongjian | 618,083 characters for the original Ancient Chinese texts | 838,321 words |
 
 Briefly, the training data employed in this task embodies many new features, such as the large-scale and well-balanced data as well as its comprehensiveness from the diachronic perspective.
+
 ## Test Data
 
-Test data will be provided in txt format, including Ancient-Chinese characters, Modern-Chinese characters, English words and punctuations. The test data, i.e. the annotation used for the evaluation, will be evaluated before it is supplied to the participants.
-
-Two test data sets are built for Ancient Chinese-Modern Chinese machine translation (testa.txt, TBD) and Ancient Chinese-English machine translation (testb.txt, TBD). 
+The test data only provides Ancient Chinese texts(the source language),and one test data set is provided for Ancient Chinese to Modern Chinese machine translation  and Ancient Chinese to English machine translation , about 2000 sentences each.
 
 More details will be provided to the participants after the evaluation.
 
-
 # Task
 
-The cross-lingual machine translation of Chinese classic texts consists of two parts: the Ancient-Chinese-to-Modern-Chinese machine translation and the Ancient-Chinese-to-English machine translation. Chinese ancient classics serve as an indispensable part of Chinese traditional culture. In the field of ancient literature research, the translation of ancient Chinese texts is of great significance. Ancient Chinese differs greatly from modern Chinese in grammar, syntax, vocabulary, and other aspects. To improving the performance of machine translation from Ancient Chinese to Modern Chinese can better deepen studies on ancient literature. Meanwhile, it can also accelerate the promotion of Chinese traditional culture worldwide.
+The cross-lingual machine translation of Chinese classic texts consists of two parts: **the Ancient-Chinese-to-Modern-Chinese machine translation** and **the Ancient-Chinese-to-English machine translation**.
 
 ## Task Objective
 
 The goals of the translation task are:
-* To investigate the applicability of current MT techniques in ancient Chinese translation.
-* To examine the significant challenges in ancient Chinese translation (e.g. word order and syntax problems).
-* To built free corpora for machine translation and evaluation of ancient Chinese.
-* To afford novice researchers the chance to gain experience in the field of machine translation.
+*	To investigate the applicability of current MT techniques in ancient Chinese translation.
+*	To examine the significant challenges in ancient Chinese translation (e.g. word order and syntax problems).
+*	Provide a platform for the enthusiasts of machine translation in ancient Chinese
 * To further machine translation research for ancient Chinese and the exploration of  forefront machine translation technology.
+
 
 ## Task Requirements
 
-Parallel corpora of Ancient Chinese-Modern Chinese based on the Twenty-Four Histories and Ancient Chinese-English based on Pre-Qin texts are provided as training and testing data for Ancient Chinese-Modern Chinese and Ancient Chinese-English machine translation. Participants are also supplied with unified models. Specifically, Chinese-RoBERTa-wwm-ext[3] for Modern Chinese , Siku-RoBERTa[1] for ancient Chinese and RoBERTa[4] for English. The participants’ task is to improve the models in terms of machine translation performance.
+The difference between Ancient Chinese-Modern Chinese translation task and Ancient Chinese-English translation task is that the source corpus is different and the model specified in the closed mode is different. 
 
-You can choose either or both of them to participate in, with the same metrics for evaluation is employed. Each task, contains two tracks, i.e., closed track and open track. To ensure the fairness of the competition, only the given training data and model are allowed to use in the closed track. However, when building the translation system in open track other models, resources and self-built modes are permitted. In this case, if any additional data or model is employed, participants should make it clear to us so that we can evaluate the performance of the models on our provided dataset separately from their performance on external data.
-
-The results submitted by each team should include a brief introduction to the translation system (i.e. basic information, such as the models (if any), techniques, methods used, etc.). Besides, teams are required to submit a technical report detailing the improvements to the model and the methods used.
+You can choose either or both of them to participate in, with the same metrics for evaluation is employed. Although the Chinese data in the training corpus is all traditional, you can also choose to submit simplified translation results when submitting the Ancient Chinese-Modern Chinese translation results, and the test data in the evaluation includes both versions.
 
 Although the main goal of this evaluation is to identify the best performing machine translation project, we encourage creative projects to enter the competition even if their performance is not optimal. Participants can also use this evaluation to further improve their project.
-
 
 # Evaluation
 
