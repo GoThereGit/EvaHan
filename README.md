@@ -11,7 +11,7 @@
 
 # Important Dates
 
-* Registration for the shared task: 15 Feb, 2023 ~ 25 March, 2023
+* Registration for the shared task: 15 Feb, 2023 ~ 25 May, 2023
 * Training data release: April 1, 2023
 * Test data release: June 1, 2023
 * Data submission : June 7, 2023
