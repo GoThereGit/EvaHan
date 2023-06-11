@@ -70,7 +70,7 @@ Briefly, the training data employed in this task embodies many new features, suc
 
 The test data only provides Ancient Chinese texts(the source language),and one test data set is provided for Ancient Chinese to Modern Chinese machine translation  and Ancient Chinese to English machine translation , about 2000 sentences each.
 
-You can get test data via [this link](https://cowtransfer.com/s/16a710d99b0745).
+You can get test data via [this link](https://cowtransfer.com/s/6b2720298d6146).
 
 More details will be provided to the participants after the evaluation.
 
