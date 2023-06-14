@@ -151,9 +151,9 @@ Name the runs with the following filename format:
 
 taskID_teamName_systemID_modality.tsv
 
-For example: testa_unicatt_1_closed.tsv would be the first run of a team called unicatt using the closed modality for the task using testa.txt(TBD) document (the Ancient-Chinese-to-Modern-Chinese machine translation).
+For example: a2m_unicatt_1_closed.tsv would be the first run of a team called unicatt using the closed modality for the Ancient-Chinese-to-Modern-Chinese machine translation task.
 
-testb_unicatt_2_open.tsv would be the second run of a team called unicatt using the open modality for the task using testb.txt(TBD) document (the Ancient-Chinese-to-English machine translation).
+a2e_unicatt_2_open.tsv would be the second run of a team called unicatt using the open modality for the the Ancient-Chinese-to-English machine translation task.
 
 ### Submission format
 
