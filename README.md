@@ -205,7 +205,7 @@ Papers must be submitted to the [website](https://softconf.com/mtsummit2023/rese
 * **Chao Xu**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Lianzhen Zhao**, School of Foreign Languages, China Pharmaceutical University, China
 * **Wenlong Sun**, School of Foreign Languages, Nanjing Tech University, China
-* **Kai Meng**, 
+* **Kai Meng**, School of Marxism, Nanjing Agricultural University, China
 * **Bin Li**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Liu Liu**, College of Information Management, Nanjing Agricultural University, China
 * **Wenhao Ye**, College of Information Management, Nanjing Agricultural University, China
@@ -226,6 +226,7 @@ Papers must be submitted to the [website](https://softconf.com/mtsummit2023/rese
 * **Litao Lin**, College of Information Management, Nanjing Agricultural University, China
 * **Na Wu**, College of Information Management, Nanjing Agricultural University, China
 * **Mengcheng Wu**, College of Information Management, Nanjing Agricultural University, China
+* **Xue Zhao**, College of Information Management, Nanjing Agricultural University, China
 * **Yizhou Yin**, School of Economics & Management, Nanjing University of Science and Technology, China
 * **Yuan Liang**, College of Information Management, Nanjing Agricultural University, China
 * **Yue Qi**, College of Information Management, Nanjing Agricultural University, China
