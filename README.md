@@ -205,6 +205,7 @@ Papers must be submitted to the [website](https://softconf.com/mtsummit2023/rese
 * **Chao Xu**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Lianzhen Zhao**, School of Foreign Languages, China Pharmaceutical University, China
 * **Wenlong Sun**, School of Foreign Languages, Nanjing Tech University, China
+* **Kai Meng**, 
 * **Bin Li**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Liu Liu**, College of Information Management, Nanjing Agricultural University, China
 * **Wenhao Ye**, College of Information Management, Nanjing Agricultural University, China
