@@ -228,6 +228,7 @@ Papers must be submitted to the [website](https://softconf.com/mtsummit2023/rese
 * **Mengcheng Wu**, College of Information Management, Nanjing Agricultural University, China
 * **Xue Zhao**, College of Information Management, Nanjing Agricultural University, China
 * **Yizhou Yin**, School of Economics & Management, Nanjing University of Science and Technology, China
+* **Yutong Zhang**, School of Chinese Language and Literature, Nanjing Normal University, China
 * **Yuan Liang**, College of Information Management, Nanjing Agricultural University, China
 * **Yue Qi**, College of Information Management, Nanjing Agricultural University, China
 * **Zhixiao Zhao**, College of Information Management, Nanjing Agricultural University, China
