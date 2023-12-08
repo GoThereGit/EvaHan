@@ -4,7 +4,7 @@
 
 
 
-# EvaHan2024
+# EvaHan 2024
 
 -   EvaHan 2024 is the third International Evaluation of Ancient Chinese Information Processing, focusing this year on the intricate tasks of sentence segmentation and punctuation in ancient Chinese.
 -   EvaHan first edition has one task (i.e. a joint task of Sentence Segmentation and Punctuation.
