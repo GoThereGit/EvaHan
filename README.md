@@ -34,7 +34,7 @@ The corpus of Chinese ancient classic texts features diachronicity, spanning tho
 
 All evaluation data are txt files in Unicode (UTF-8) format. The raw texts only contain characters. After manual annotation, punctuation is added to the text, as shown in Table 1.
 
-<p style="text-align:center">Table 1. Example of the Ancient Chinese</p>
+<p align="center">Table 1. Example of the Ancient Chinese</p>
 
 |            **Type**             |     **Example**      |
 | :-----------------------------: | :------------------: |
