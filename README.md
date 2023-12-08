@@ -170,16 +170,13 @@ Reports will receive a light review: we will check for the correctness of the fo
 
 # Organizers
 
--   **Dongbo Wang**, College of Information Management, Nanjing Agricultural University, China
--   **Si Shen**, School of Economics and Management, Nanjing University of Science and Technology, China
+-   **Bin Li**, School of Chinese Language and Literature, Nanjing Normal University, China
 -   **Minxuan Feng**, School of Chinese Language and Literature, Nanjing Normal University, China
 -   **Chao Xu**, School of Chinese Language and Literature, Nanjing Normal University, China
--   **Lianzhen Zhao**, School of Foreign Languages, China Pharmaceutical University, China
--   **Wenlong Sun**, School of Foreign Languages, Nanjing Tech University, China
--   **Kai Meng**, School of Marxism, Nanjing Agricultural University, China
--   **Bin Li**, School of Chinese Language and Literature, Nanjing Normal University, China
 -   **Liu Liu**, College of Information Management, Nanjing Agricultural University, China
--   **Wenhao Ye**, College of Information Management, Nanjing Agricultural University, China
+-   **Si Shen**, School of Economics and Management, Nanjing University of Science and Technology, China
+-   **Dongbo Wang**, College of Information Management, Nanjing Agricultural University, China
+-   **Weiguang Qu**, School of Computer and Electronic Information /School of Artificial Intelligence, Nanjing Normal University, China
 
 
 
@@ -188,6 +185,7 @@ Reports will receive a light review: we will check for the correctness of the fo
 -   **Bolin Chang**, School of Chinese Language and Literature, Nanjing Normal University, China
 -   **Jingxuan Xi**, School of Chinese Language and Literature, Nanjing Normal University, China
 -   **Pengxiu Lu**, School of Chinese Language and Literature, Nanjing Normal University, China
+-   **Zhixingu Xu**, School of Chinese Language and Literature, Nanjing Normal University, China
 
 
 
