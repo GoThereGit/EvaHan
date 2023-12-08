@@ -37,7 +37,7 @@ All evaluation data are txt files in Unicode (UTF-8) format. The raw texts only 
 <p align="center">Table 1. Example of the Ancient Chinese</p>
 
 |            **Type**             |     **Example**      |
-| :-----------------------------: | :------------------: |
+|:---:|:---:|
 |  Raw Text without Punctuation   |   亟請於武公公弗許   |
 | Annotated Text with Punctuation | 亟請於武公，公弗許。 |
 
