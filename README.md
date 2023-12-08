@@ -59,7 +59,7 @@ This section offers a detailed description of the tasks encompassed in EvaHan 20
 
 Sentence segmentation involves converting Chinese text into a sequence of sentences, with each sentence separated by a single space. Additionally, sentence punctuation entails the placement of appropriate punctuation marks at the conclusion of each sentence, as exemplified in Table 2. In numerous Chinese language processing systems, these two processes, sentence segmentation and punctuation, are often addressed together. Consequently, for this shared task, participants are required to automate the transformation of raw text into punctuated text. The evaluation toolkit will assess the effectiveness of both sentence segmentation and punctuation.
 
-<p style="text-align:center">Table 2. Examples of Sentence Segmentation and Sentence Punctuation</p>
+<p align="center">Table 2. Examples of Sentence Segmentation and Sentence Punctuation</p>
 
 |        Raw Text without Punctuation        |   亟請於武公公弗許   |
 | :----------------------------------------: | :------------------: |
@@ -74,7 +74,7 @@ In the sentence punctuation task, systems are required to assign punctuation to 
 
 The punctuation set, is shown in Table 3.
 
-<p style="text-align:center">Table 3. Examples of Sentence Segmentation and Sentence Punctuation</p>
+<p align="center">Table 3. Examples of Sentence Segmentation and Sentence Punctuation</p>
 
 | **Punctuation** |     **Name**     |
 | :-------------: | :--------------: |
@@ -97,7 +97,7 @@ The punctuation set, is shown in Table 3.
 
 Each team will initially have access only to the training data. Later, the unlabeled test data will also be released. After the assessment, the labels for the test data will also be released. The scorer employed for EvaHan is a modified version of the one developed for the ref[4]. An illustration of the output of the scorer is given in Table 4. The evaluation will align the system-produced punctuation to the gold standard ones. Then, Sentence Segmentation (SS) and Sentence Punctuation (SP) are evaluated: precision, recall, and F1 score are calculated. The final ranking of teams will be based on the F1 scores. 
 
-<p style="text-align:center">Table 4. Example of scorers' output</p>
+<p align="center">Table 4. Example of scorers' output</p>
 
 |       **Task**        | **Precision** | **Recall** | **F1  Score** |
 | :-------------------: | :-----------: | :--------: | :-----------: |
@@ -112,7 +112,7 @@ Each participant can submit runs following two modalities. In the closed modalit
 
 In the open modality, there is no limit on the resources, data and models. Annotated external data, such as the components or Pinyin of the Chinese characters, word embeddings can be employed. But each team has to state all the resources, data and models they use in each system in the final report. 
 
-Table 5. Pre-trained models for closed modality
+<p align="center">Table 5. Pre-trained models for closed modality</p>
 
 | **Model name** |  **Language**   |                       **Description**                        |
 | :------------: | :-------------: | :----------------------------------------------------------: |
