@@ -63,7 +63,7 @@ Sentence segmentation involves converting Chinese text into a sequence of senten
 
 |        Raw Text without Punctuation        |   亟請於武公公弗許   |
 | :----------------------------------------: | :------------------: |
-| Annotated Text with Sentencen Segmentation |  亟請於武公  公弗許  |
+| Annotated Text with Sentencen Segmentation |  亟請於武公&nbsp&nbsp&nbsp公弗許  |
 |      Annotated Text with Punctuation       | 亟請於武公，公弗許。 |
 
 Please note that EvaHan 2024 does not accept running results with sentence segmentation only.
