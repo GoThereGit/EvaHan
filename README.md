@@ -25,9 +25,9 @@
 
 # Data
 
-The EvaHan 2025 dataset consists of 2,000 entities, encompassing seven types of named entities: person names, geographical locations, book titles, official titles, dynasties, time expressions and products. 
+The EvaHan 2025 dataset includes 200,000 characters of training data and 2,000 characters of testing data, comprising two types of corpora: historical texts and Traditional Chinese Medicine (TCM) materials. 
 
-These entities are meticulously selected from *Zuo Zhuan*(左传), *Shi Ji*(史记), and *the Twenty-Four Histories*(二十四史), which collectively encapsulate thousands of years of Chinese history, providing a rich resource for understanding historical figures, places, and societal structures.
+Historical texts are carefully selected from *Zuo Zhuan* (左传), *Shi Ji* (史记), and *the Twenty-Four Histories* (二十四史), which together capture thousands of years of Chinese history, encompassing seven types of named entities: person names, geographical locations, book titles, official titles, dynasties, time expressions, etc. 
 
 **The corpus is devoid of punctuation*. 
 
@@ -40,15 +40,15 @@ All evaluation data are txt files in Unicode (UTF-8) format. The raw texts consi
 |            **Type**             |     **Example**      |
 |:--------------------------------|:---------------------|
 |  Raw Text (without Punctuation)   |   四年春衞州吁弑桓公而立   |
-| Processed Text with Annotations |  四&emsp;bt<br>年&emsp;et<br>春&emsp;o<br>衞&emsp;bns<br>州&emsp;ens<br>吁&emsp;o<br>弑&emsp;o<br>桓&emsp;bnr<br>公&emsp;enr<br>而&emsp;o<br>立&emsp;o   |
+| Processed Text with Annotations |  四 \t B-T<br>年 \t E-T<br>春 \t O<br>衞 \t B-NS<br>州 \t E-NS<br>吁 \t O<br>弑 \t O<br>桓 \t B-NR<br>公 \t E-NR<br>而 \t O<br>立 \t O   |
 
 ## Training Data
 
-The training data comprises 10 million characters sourced from *Shi Ji* and *the Twenty-Four Histories*. The files are presented in UTF-8 plain text using traditional Chinese script.
+The training data comprises 200,000  characters sourced from *Shi Ji* and *the Twenty-Four Histories*. The files are presented in UTF-8 plain text using traditional Chinese script.
 
 ## Test Data
 
-The test data includes approximately 50,000 characters of Ancient Chinese texts. More details will be provided to the participants before the evaluation.
+The test data includes approximately 2,000 characters of Ancient Chinese texts. More details will be provided to the participants before the evaluation.
 
 
 
@@ -58,7 +58,7 @@ This section offers a detailed description of the tasks encompassed in EvaHan 20
 
 ## Named Entity Recognition (NER)
 
-In numerous Chinese language processing systems, Named entity recognition (NER) is a critical task often performed alongside other processing functions. NER involves identifying and classifying entities in Chinese text into predefined categories, such as people and locations. The meanings of each annotation label can be found in Table 2.
+In numerous Chinese language processing systems, Named entity recognition (NER) is a critical task often performed alongside other processing functions. NER involves identifying and classifying entities in Chinese text into predefined categories, such as people and locations. The meanings of each annotation label can be found in Table 2 and Table 3.
 
 The evaluation toolkit will assess the effectiveness of the NER process.
 
@@ -66,25 +66,52 @@ The evaluation toolkit will assess the effectiveness of the NER process.
 
 |   Annotation   |   Meaning  |
 | :---: | :---: | 
-| nr |  person name   |
-| ns |  geographical location  |
-| nb |  book title  |
-| no |  official title  |
-| ng |  dynasty  |
-| t |  time expression  |
+| NR |  person name   |
+| NS |  geographical location  |
+| NB |  book title  |
+| NO |  official title  |
+| NG |  dynasty  |
+| T |  time expression  |
 
 
+<p align="center">Table 3. Examples of NER Annotation using BIOES Tags</p>
 
-
+|   Annotation   |   Meaning  |
+| :---: | :---: | 
+| B-NR |  beginning of person name   |
+| I-NR |  inside of person name   |
+| E-NR |  end of person name   |
+| S-NR |  single person name   |
+| B-NS |  beginning of geographical location  |
+| I-NS |  inside of geographical location  |
+| E-NS |  end of geographical location  |
+| S-NS |  single geographical location  |
+| B-NB |  beginning of book title  |
+| I-NB |  inside of book title  |
+| E-NB |  end of book title  |
+| S-NB |  single book title  |
+| B-NO |  beginning of official title  |
+| I-NO |  inside of official title  |
+| E-NO |  end of official title  |
+| S-NO |  single official title  |
+| B-NG |  beginning of dynasty  |
+| I-NG |  inside of dynasty  |
+| E-NG |  end of dynasty  |
+| S-NG |  single dynasty  |
+| B-T |  beginning of time expression  |
+| I-T |  inside of time expression  |
+| E-T |  end of time expression  |
+| S-T |  single time expression  |
+| O |  outside of any named entity  |
 
 
 
 
 ## Entity Set
 
-In this task, there are seven categories of entities: person name, geographical location, book title, official title, dynasty and time expression as one track, plus product as a separate track. These entity types and examples are provided in Table 3. 
+In this task, there are seven categories of entities: person name, geographical location, book title, official title, dynasty and time expression as one track, plus [] as a separate track. These entity types and examples are provided in Table 4. 
 
-<p align="center">Table 3. Examples of Named Entities</p>
+<p align="center">Table 4. Examples of Named Entities</p>
 
 |      **Entity Type**      |   **Example**   |
 | :-----------------------: |   :---------:   |
@@ -94,7 +121,7 @@ In this task, there are seven categories of entities: person name, geographical 
 |      official title       |      中大夫      |
 |          dynasty          |        秦       | 
 |      time expression      |     三十四年     |
-|          product          |        茶       |
+
 
 
 
@@ -103,9 +130,9 @@ In this task, there are seven categories of entities: person name, geographical 
 
 ## Metrics
 
-Each team will initially have access only to the training data. Later, the unlabeled test data will also be released. After the assessment, the labels for the test data will also be released. The scorer employed for EvaHan is a modified version of the one developed for the ref[4]. An illustration of the output of the scorer is given in Table 4. The evaluation will align the system-produced punctuation to the gold standard ones. Then, Sentence Segmentation (SS) and Sentence Punctuation (SP) are evaluated: precision, recall, and F1 score are calculated. The final ranking of teams will be based on the F1 scores. 
+Each team will initially have access only to the training data. Later, the unlabeled test data will also be released. After the assessment, the labels for the test data will also be released. The scorer employed for EvaHan is a modified version of the one developed for the ref[4]. An illustration of the output of the scorer is given in Table 5. The evaluation will align the system-generated named entities with the gold standard. Then, Named Entity Recognition (NER) will be evaluated: precision, recall, and F1 score will be calculated. The final ranking of teams will be based on the F1 scores.
 
-<p align="center">Table 4. Example of scorers' output</p>
+<p align="center">Table 5. Example of scorers' output</p>
 
 |       **Task**        | **Precision** | **Recall** | **F1  Score** |
 | :-------------------: | :-----------: | :--------: | :-----------: |
@@ -136,7 +163,7 @@ As a baseline, we will provide the scores obtained on test set using SikuRoBERTa
 
 # How to Participate
 
-Participants will be required to submit their runs and to provide a technical report for the task they participated in.
+Registration time is mentioned above. Participants will be required to submit their runs and to provide a technical report for the task they participated in.
 
 ## Submitting Runs
 
@@ -153,13 +180,13 @@ Once the system has produced the results for the task over the test set, partici
 
 ## Writing the Technical Report
 
-Technical reports will be included in the proceedings of the Workshop on Language. Technologies for Historical and Ancient Languages 2024 (LT4HALA 2024) as short papers and published alongside the LREC-COLING proceedings. 
+Technical reports will be included in the proceedings of the Workshop on Ancient Language Processing (ALP) co-organized with the Association for Computational Linguistics (ACL 2025), with the location to be announced, as short papers and published alongside the ACL proceedings.
 
 All the reports must:
 
 •    be submitted through the START platform (URL available soon)
 
-•    use the [official LREC-COLING style templates](https://lrec-coling-2024.org/authors-kit/).
+•    use the [official ACL style templates]().
 
 •    not exceed four (4) pages of content (excluding references)
 
