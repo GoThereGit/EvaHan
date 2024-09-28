@@ -25,22 +25,26 @@
 
 # Data
 
-The EvaHan 2025 dataset consists of 2000 entities of individual names, locations, official positions, and resources. These entities are meticulously selected from *Zuo Zhuan*(左传), *Shi Ji*(史记), and *the Twenty-Four Histories*(二十四史) which encapsulate thousands of years of Chinese history, providing a rich resource for understanding the nuances of historical figures, places, and societal structures as recorded in these works. 
+The EvaHan 2025 dataset consists of 2,000 entities, encompassing seven types of named entities: person names, geographical locations, book titles, official titles, dynasties, time expressions and products. 
+
+These entities are meticulously selected from *Zuo Zhuan*(左传), *Shi Ji*(史记), and *the Twenty-Four Histories*(二十四史), which collectively encapsulate thousands of years of Chinese history, providing a rich resource for understanding historical figures, places, and societal structures.
+
+**The corpus is devoid of punctuation*. 
 
 ## Data Format
 
-All evaluation data are txt files in Unicode (UTF-8) format. The raw texts only contain characters. After manual annotation, punctuation is added to the text, as shown in Table 1.
+All evaluation data are txt files in Unicode (UTF-8) format. The raw texts consist solely of characters, and after manual annotation, the texts are presented in a processed format, as shown in Table 1.
 
 <p align="center">Table 1. Example of the Ancient Chinese</p>
 
 |            **Type**             |     **Example**      |
-|:---:|:---:|
-|  Raw Text without Punctuation   |   亟請於武公公弗許   |
-| Annotated Text with Punctuation | 亟請於武公，公弗許。 |
+|:--------------------------------|:---------------------|
+|  Raw Text (without Punctuation)   |   四年春衞州吁弑桓公而立   |
+| Processed Text with Annotations |  四&emsp;bt<br>年&emsp;et<br>春&emsp;o<br>衞&emsp;bns<br>州&emsp;ens<br>吁&emsp;o<br>弑&emsp;o<br>桓&emsp;bnr<br>公&emsp;enr<br>而&emsp;o<br>立&emsp;o   |
 
 ## Training Data
 
-The training data comprises 10 million characters sourced from the *Siku Quanshu*. The files are presented in UTF-8 plain text using traditional Chinese script.
+The training data comprises 10 million characters sourced from *Shi Ji* and *the Twenty-Four Histories*. The files are presented in UTF-8 plain text using traditional Chinese script.
 
 ## Test Data
 
@@ -50,41 +54,48 @@ The test data includes approximately 50,000 characters of Ancient Chinese texts.
 
 # Task
 
-This section offers a detailed description of the tasks encompassed in EvaHan 2024.
+This section offers a detailed description of the tasks encompassed in EvaHan 2025.
 
-## Sentence Segmentation and Sentence Punctuation
+## Named Entity Recognition (NER)
 
-Sentence segmentation involves converting Chinese text into a sequence of sentences, with each sentence separated by a single space. Additionally, sentence punctuation entails the placement of appropriate punctuation marks at the conclusion of each sentence, as exemplified in Table 2. In numerous Chinese language processing systems, these two processes, sentence segmentation and punctuation, are often addressed together. Consequently, for this shared task, participants are required to automate the transformation of raw text into punctuated text. The evaluation toolkit will assess the effectiveness of both sentence segmentation and punctuation.
+In numerous Chinese language processing systems, Named entity recognition (NER) is a critical task often performed alongside other processing functions. NER involves identifying and classifying entities in Chinese text into predefined categories, such as people and locations. The meanings of each annotation label can be found in Table 2.
 
-<p align="center">Table 2. Examples of Sentence Segmentation and Sentence Punctuation</p>
+The evaluation toolkit will assess the effectiveness of the NER process.
 
-|        Raw Text without Punctuation        |   亟請於武公公弗許   |
-| :----------------------------------------: | :------------------: |
-| Annotated Text with Sentencen Segmentation |  亟請於武公    公弗許  |
-|      Annotated Text with Punctuation       | 亟請於武公，公弗許。 |
+<p align="center">Table 2. Examples of Annotation</p>
 
-Please note that EvaHan 2024 does not accept running results with sentence segmentation only.
+|   Annotation   |   Meaning  |
+| :---: | :---: | 
+| nr |  person name   |
+| ns |  geographical location  |
+| nb |  book title  |
+| no |  official title  |
+| ng |  dynasty  |
+| t |  time expression  |
 
-## Punctuation Set
 
-In the sentence punctuation task, systems are required to assign punctuation to each sentence, as shown in Table 1.
 
-The punctuation set, is shown in Table 3.
 
-<p align="center">Table 3. Examples of Sentence Segmentation and Sentence Punctuation</p>
 
-| **Punctuation** |     **Name**     |
-| :-------------: | :--------------: |
-|       ，        |      Comma       |
-|       。        |      Period      |
-|       、        |   Slight-pause   |
-|       ：        |      Colon       |
-|       ；        |    Semicolon     |
-|       ？        |     Question     |
-|       ！        |   Exclamation    |
-|       “”        |  Double Quotes   |
-|       ‘’        | Single Quotation |
-|      《》       |    Book Title    |
+
+
+
+## Entity Set
+
+In this task, there are seven categories of entities: person name, geographical location, book title, official title, dynasty and time expression as one track, plus product as a separate track. These entity types and examples are provided in Table 3. 
+
+<p align="center">Table 3. Examples of Named Entities</p>
+
+|      **Entity Type**      |   **Example**   |
+| :-----------------------: |   :---------:   |
+|        person name        |       荆軻      |
+|   geographical location   |       長平      |
+|        book title         |        易       |
+|      official title       |      中大夫      |
+|          dynasty          |        秦       | 
+|      time expression      |     三十四年     |
+|          product          |        茶       |
+
 
 
 
@@ -98,8 +109,8 @@ Each team will initially have access only to the training data. Later, the unlab
 
 |       **Task**        | **Precision** | **Recall** | **F1  Score** |
 | :-------------------: | :-----------: | :--------: | :-----------: |
-| Sentence Segmentation |     95.00     |   92.00    |     93.48     |
-| Sentence Punctuation  |     90.00     |   91.00    |     90.50     |
+|         NER           |     95.00     |   92.00    |     93.48     |
+
 
 
 
