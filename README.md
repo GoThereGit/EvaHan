@@ -6,29 +6,26 @@
 
 # EvaHan 2025
 
--   EvaHan 2024 is the third International Evaluation of Ancient Chinese Information Processing, focusing this year on the intricate tasks of sentence segmentation and punctuation in ancient Chinese.
--   EvaHan first edition has one task (i.e. a joint task of Sentence Segmentation and Punctuation.
--   EvaHan 2024 is organized by Bin Li, Bolin Chang, Pengxiu Lu, Minxuan Feng, Chao Xu, Liu Liu, Dongbo Wang.
+-   EvaHan 2025 is the fourth International Evaluation of Ancient Chinese Information Processing, focusing on the named entity recognition (NER) tasks of large language models in ancient Chinese.
+-   EvaHan 2025 is organized by Dongbo Wang, Bin Li, Liu Liu, Shen Si, Chang Liu, Liu Ruilin, Xue Zhao, Bolin Chang, Pengxiu Lu, Minxuan Feng, Chao Xu.
 
 
 
 # Important Dates
 
--   22 December 2023: training data available
+-   22 December 2024: training data available
 -   Evaluation Window
-    -   14 February 2024: test data available
-    -   24 February 2024: system results due to organizers
--   24 March 2024: reports due to organizers
--   31 March 2024: short report review deadline
--   14 April 2024: camera ready version of reports due to organizers
+    -   14 February 2025: test data available
+    -   24 February 2025: system results due to organizers
+-   24 March 2025: reports due to organizers
+-   31 March 2025: short report review deadline
+-   14 April 2025: camera ready version of reports due to organizers
 
 
 
 # Data
 
-The EvaHan 2024 dataset is composed of texts from classical sources, notably *Siku Quanshu* (四库全书), along with other historical texts. The dataset's processing involved initial automatic punctuation and sentence segmentation. Subsequently, these automatic outputs were corrected and refined by experts in Ancient Chinese language to ensure the highest quality of training data and gold standard texts.
-
-The corpus of Chinese ancient classic texts features diachronicity, spanning thousands of years and covering the four traditional types of Chinese canonical texts, namely *Jing* (经), *Shi* (史), *Zi* (子), and *Ji* (集).
+The EvaHan 2025 dataset consists of 2000 entities of individual names, locations, official positions, and resources. These entities are meticulously selected from *Zuo Zhuan*(左传), *Shi Ji*(史记), and *the Twenty-Four Histories*(二十四史) which encapsulate thousands of years of Chinese history, providing a rich resource for understanding the nuances of historical figures, places, and societal structures as recorded in these works. 
 
 ## Data Format
 
