@@ -147,7 +147,7 @@ Each participant can submit runs following two modalities. In the closed modalit
 
 In the open modality, there is no limit on the resources, data and models. Annotated external data, such as the components or Pinyin of the Chinese characters, word embeddings can be employed. But each team has to state all the resources, data and models they use in each system in the final report. 
 
-<p align="center">Table 5. Pre-trained models for closed modality</p>
+<p align="center">Table 6. Pre-trained models for closed modality</p>
 
 | **Model name** |  **Language**   |                       **Description**                        |
 | :------------: | :-------------: | :----------------------------------------------------------: |
