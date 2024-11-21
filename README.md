@@ -111,7 +111,7 @@ The evaluation toolkit will assess the effectiveness of the NER process.
 
 In this task, there are seven categories of entities: person name, geographical location, book title, official title, dynasty and time expression as one track, plus [] as a separate track. These entity types and examples are provided in Table 4. 
 
-<p align="center">Table 4. Examples of Named Entities</p>
+<p align="center">Table 4. Examples of Named Entities(Test A: History, 6 categories)</p>
 
 |      **Entity Type**      |   **Example**   |
 | :-----------------------: |   :---------:   |
@@ -123,6 +123,11 @@ In this task, there are seven categories of entities: person name, geographical 
 |      time expression      |     三十四年     |
 
 
+<p align="center">Table 4. Examples of Named Entities(Test B: Books 3 categories)</p>
+
+
+
+<p align="center">Table 4. Examples of Named Entities(Test C: Traditional Medicine 7 categories)</p>
 
 
 
