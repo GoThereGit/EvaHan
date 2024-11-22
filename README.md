@@ -10,17 +10,14 @@
 -   EvaHan 2025 is organized by Dongbo Wang, Bin Li, Yan Zhu, Liu Liu, Shen Si, Chang Liu, Liu Ruilin, Xue Zhao, Bolin Chang, Pengxiu Lu, Minxuan Feng, Chao Xu.
 
 
+### Important Dates for EvaHan 2025
 
-# Important Dates
-
--   22 December 2024: training data available
--   Evaluation Window
-    -   14 February 2025: test data available
-    -   24 February 2025: system results due to organizers
--   24 March 2025: reports due to organizers
--   31 March 2025: short report review deadline
--   14 April 2025: camera ready version of reports due to organizers
-
+- **Registration for participation/Training data release**: December 1, 2024 - January 15, 2025  
+- **Test data release**: February 15, 2025  
+- **Running results submission**: February 21, 2025  
+- **Technical report submission deadline**: February 28, 2025  
+- **Notification of acceptance**: March 5, 2025  
+- **Camera-ready papers due**: March 15, 2025  
 
 
 # Data
@@ -227,7 +224,7 @@ Reports will undergo a light review process to ensure correctness of the format,
 
 # Appendix: Selection of Resources
 
--   For more information about the EvaHan shared task and the ALP2025 workshop, visit the [official ALP2025 webpage](https://www.ancientnlp.com/alp2025/call_for_papers/).
+-   For more information about the EvaHan shared task and the ALP2025 workshop, visit the [official ALP2025 webpage](https://www.ancientnlp.com/alp2025/).
 
 -   Ancient Chinese SikuRoBERTa: https://huggingface.co/SIKU-BERT/sikuroberta;https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing
 -   Modern Chinese RoBERTa: https://huggingface.co/hfl/chinese-roberta-wwm-ext;https://github.com/ymcui/Chinese-BERT-wwm
