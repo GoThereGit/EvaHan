@@ -74,35 +74,30 @@ The evaluation toolkit will assess the effectiveness of the NER process.
 | T |  time expression  |
 
 
-<p align="center">Table 3. Examples of NER Annotation using BIOES Tags</p>
+<p align="center">Table 3. Examples of NER Annotation using BMEO Tags</p>
 
-|   Annotation   |   Meaning  |
+|   Annotation   |   Label  |
 | :---: | :---: | 
-| B-NR |  beginning of person name   |
-| I-NR |  inside of person name   |
-| E-NR |  end of person name   |
-| S-NR |  single person name   |
-| B-NS |  beginning of geographical location  |
-| I-NS |  inside of geographical location  |
-| E-NS |  end of geographical location  |
-| S-NS |  single geographical location  |
-| B-NB |  beginning of book title  |
-| I-NB |  inside of book title  |
-| E-NB |  end of book title  |
-| S-NB |  single book title  |
-| B-NO |  beginning of official title  |
-| I-NO |  inside of official title  |
-| E-NO |  end of official title  |
-| S-NO |  single official title  |
-| B-NG |  beginning of dynasty  |
-| I-NG |  inside of dynasty  |
-| E-NG |  end of dynasty  |
-| S-NG |  single dynasty  |
-| B-T |  beginning of time expression  |
-| I-T |  inside of time expression  |
-| E-T |  end of time expression  |
-| S-T |  single time expression  |
 | O |  outside of any named entity  |
+| B-NR |  beginning of person name   |
+| M-NR |  middle of person name   |
+| E-NR |  end of person name   |
+| B-NS |  beginning of geographical location  |
+| M-NS |  middle of geographical location  |
+| E-NS |  end of geographical location  |
+| B-NB |  beginning of book title  |
+| M-NB |  middle of book title  |
+| E-NB |  end of book title  |
+| B-NO |  beginning of official title  |
+| M-NO |  middle of official title  |
+| E-NO |  end of official title  |
+| B-NG |  beginning of dynasty  |
+| M-NG |  middle of dynasty  |
+| E-NG |  end of dynasty  |
+| B-T |  beginning of time expression  |
+| M-T |  middle of time expression  |
+| E-T |  end of time expression  |
+
 
 
 
@@ -185,19 +180,20 @@ Once the system has produced the results for the task over the test set, partici
 
 ## Writing the Technical Report
 
-Technical reports will be included in the proceedings of the Workshop on Ancient Language Processing (ALP) co-organized with the Association for Computational Linguistics (ACL 2025), with the location to be announced, as short papers and published alongside the ACL proceedings.
+Technical reports will be included in the proceedings of the **Second Workshop on Ancient Language Processing (ALP2025)**, co-located with NAACL 2025, which will take place from April 29 to May 4, 2025, in Albuquerque, New Mexico. The reports will be published as short papers alongside the NAACL proceedings.
 
 All the reports must:
 
-•    be submitted through the START platform (URL available soon)
+•    be submitted through the START platform (URL will be announced on the [ALP2025 webpage](https://www.ancientnlp.com/alp2025/call_for_papers/))
 
-•    use the [official ACL style templates]().
+•    use the [official ACL style templates](https://acl-org.github.io/ACLPUB/formatting.html)
 
 •    not exceed four (4) pages of content (excluding references)
 
-•    contain (at least) the following sections: description of the system, results, discussion, and reference.
+•    include (at least) the following sections: description of the system, results, discussion, and references.
 
-Reports will receive a light review: we will check for the correctness of the format, the exactness of results and ranking, and overall exposition. If needed, we will contact the authors asking for corrections.
+Reports will undergo a light review process to ensure correctness of the format, accuracy of results and rankings, and clarity of exposition. If necessary, authors will be contacted for corrections prior to publication.
+
 
 
 
@@ -230,6 +226,8 @@ Reports will receive a light review: we will check for the correctness of the fo
 
 
 # Appendix: Selection of Resources
+
+-   For more information about the EvaHan shared task and the ALP2025 workshop, visit the [official ALP2025 webpage](https://www.ancientnlp.com/alp2025/call_for_papers/).
 
 -   Ancient Chinese SikuRoBERTa: https://huggingface.co/SIKU-BERT/sikuroberta;https://github.com/hsc748NLP/SikuBERT-for-digital-humanities-and-classical-Chinese-information-processing
 -   Modern Chinese RoBERTa: https://huggingface.co/hfl/chinese-roberta-wwm-ext;https://github.com/ymcui/Chinese-BERT-wwm
