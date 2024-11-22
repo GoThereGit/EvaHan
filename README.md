@@ -10,7 +10,7 @@
 -   EvaHan 2025 is organized by Dongbo Wang, Bin Li, Yan Zhu, Liu Liu, Shen Si, Chang Liu, Liu Ruilin, Xue Zhao, Bolin Chang, Pengxiu Lu, Minxuan Feng, Chao Xu.
 
 
-### Important Dates for EvaHan 2025
+## Important Dates for EvaHan 2025
 
 - **Registration for participation/Training data release**: December 1, 2024 - January 15, 2025  
 - **Test data release**: February 15, 2025  
