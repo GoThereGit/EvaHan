@@ -71,31 +71,35 @@ The evaluation toolkit will assess the effectiveness of the NER process.
 | T |  time expression  |
 
 
-<p align="center">Table 3. Examples of NER Annotation using BMEO Tags</p>
+<p align="center">Table 3. Examples of NER Annotation using BMEOS Tags</p>
 
-|   Annotation   |   Label  |
+|   Annotation   |  Label  |
 | :---: | :---: | 
 | O |  outside of any named entity  |
 | B-NR |  beginning of person name   |
 | M-NR |  middle of person name   |
 | E-NR |  end of person name   |
+| S-NR |  single person name   |
 | B-NS |  beginning of geographical location  |
 | M-NS |  middle of geographical location  |
 | E-NS |  end of geographical location  |
+| S-NS |  single geographical location  |
 | B-NB |  beginning of book title  |
 | M-NB |  middle of book title  |
 | E-NB |  end of book title  |
+| S-NB |  single book title  |
 | B-NO |  beginning of official title  |
 | M-NO |  middle of official title  |
 | E-NO |  end of official title  |
+| S-NO |  single official title  |
 | B-NG |  beginning of dynasty  |
 | M-NG |  middle of dynasty  |
 | E-NG |  end of dynasty  |
+| S-NG |  single dynasty  |
 | B-T |  beginning of time expression  |
 | M-T |  middle of time expression  |
 | E-T |  end of time expression  |
-
-
+| S-T |  single time expression  |
 
 
 
