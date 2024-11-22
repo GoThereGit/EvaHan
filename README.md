@@ -51,12 +51,41 @@ All evaluation data are txt files in Unicode (UTF-8) format. The raw texts consi
 
 |            **Type**             |     **Example**      |
 |:--------------------------------|:---------------------|
-|  Raw Text (without Punctuation)   |   四年春衞州吁弑桓公而立   |
+|  Raw Text  |   四年春衞州吁弑桓公而立   |
 | Processed Text with Annotations |  四 \t B-T<br>年 \t E-T<br>春 \t O<br>衞 \t B-NS<br>州 \t E-NS<br>吁 \t O<br>弑 \t O<br>桓 \t B-NR<br>公 \t E-NR<br>而 \t O<br>立 \t O   |
 
 ## Training Data
 
 The training data comprises 200,000  characters sourced from *Shi Ji* and *the Twenty-Four Histories*. The files are presented in UTF-8 plain text using traditional Chinese script.
+
+
+### Training Data Example
+
+The training data is provided in a character-level format. 
+
+- **Each line contains one Chinese character, followed by a tab (`\t`), and then the corresponding label.**
+- **Sentences are separated by a blank line.** 
+
+Below is an example of the training data format. 
+
+                 
+秦	S-NG<br>聞	O<br>公	B-NR<br>子	E-NR<br>死	O<br>，	O<br>使	O<br>蒙	B-NR<br>驁	E-NR<br>攻	O<br>魏	S-NG<br>，	O<br>拔	O<br>二	O<br>十	O<br>城	O<br>，	O<br>初	O<br>置	O<br>東	B-NS<br>郡	E-NS<br>。	O<br><br>其	O<br>後	O<br>秦	S-NG<br>稍	O<br>蠶	O<br>食	O<br>魏	S-NG<br>，	O<br>十	O<br>八	O<br>歲	O<br>而	O<br>虜	O<br>魏	O<br>王	O<br>，	O<br>屠	O<br>大	B-NS<br>梁	E-NS<br>。	O<br><br>高	B-NR<br>祖	E-NR<br>始	O<br>微	O<br>少	O<br>時	O<br>，	O<br>數	O<br>聞	O<br>公	B-NR<br>子	E-NR<br>賢	O<br>。	O<br>
+
+Below is a table illustrating the comparison between raw text and annotated training data. The left column shows the **raw text**, and the right column shows the corresponding **annotated training data**.
+
+In the raw text, sentences are segmented based on punctuation marks: **“。”**, **“？”**, and **“！”**. Additionally, in the specific context of *Shi Ji* (史记), quotation marks **“「”**, **“」”**, **“『”**, and **“』”** are also considered as sentence delimiters.
+
+<p align="center">Table . Raw Text vs. Annotated Training Data (原始语料与训练语料对比)</p>
+
+| **Raw Text** (原始语料)                          | **Annotated Training Data** (训练语料)                   |
+|--------------------------------------------------|---------------------------------------------------------|
+| 秦聞公子死，使蒙驁攻魏，拔二十城，初置東郡。  | 秦	S-NG<br>聞	O<br>公	B-NR<br>子	E-NR<br>死	O<br>，	O<br>使	O<br>蒙	B-NR<br>驁	E-NR<br>攻	O<br>魏	S-NG<br>，	O<br>拔	O<br>二	O<br>十	O<br>城	O<br>，	O<br>初	O<br>置	O<br>東	B-NS<br>郡	E-NS<br>。	O<br> |
+| 其後秦稍蠶食魏，十八歲而虜魏王，屠大梁。        | 其	O<br>後	O<br>秦	S-NG<br>稍	O<br>蠶	O<br>食	O<br>魏	S-NG<br>，	O<br>十	O<br>八	O<br>歲	O<br>而	O<br>虜	O<br>魏	O<br>王	O<br>，	O<br>屠	O<br>大	B-NS<br>梁	E-NS<br>。	O<br> |
+| 高祖始微少時，數聞公子賢。                    | 高	B-NR<br>祖	E-NR<br>始	O<br>微	O<br>少	O<br>時	O<br>，	O<br>數	O<br>聞	O<br>公	B-NR<br>子	E-NR<br>賢	O<br>。	O<br> |
+
+
+
+
 
 ## Test Data
 
