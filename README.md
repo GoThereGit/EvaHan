@@ -19,6 +19,21 @@
 - **Notification of acceptance**: March 5, 2025  
 - **Camera-ready papers due**: March 15, 2025  
 
+## Participation
+
+To participate in **EvaHan 2025**, you must complete the following steps:
+
+1. **Registration**:  
+   Submit a registration form to officially register your team for the task. Registration is open from **December 1, 2024, to January 15, 2025**. Only registered participants will gain access to the training dataset.  
+
+2. **Accessing the Training Data**:  
+   After completing the registration process, participants will receive instructions for downloading the training dataset, which includes 200,000 characters from Ancient Chinese texts annotated for Named Entity Recognition (NER).  
+
+3. **Submitting Results and Reports**:  
+   Participants must use the provided test data to generate results and submit their system outputs and a technical report as per the shared task schedule.
+
+For inquiries or to request the registration form, please contact us at **[evahan2025@gmail.com](mailto:evahan2025@gmail.com)**.
+
 
 # Data
 
