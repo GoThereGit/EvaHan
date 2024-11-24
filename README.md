@@ -37,15 +37,16 @@ For inquiries or to request the registration form, please contact us at **[evaha
 
 # Data
 
-The EvaHan 2025 dataset includes 200,000 characters of training data and 2,000 characters of testing data, comprising two types of corpora: historical texts and Traditional Chinese Medicine (TCM) materials. 
+The EvaHan 2025 dataset includes 300,000 characters of training data and 60,000 characters of testing data, comprising two types of corpora: historical texts and Traditional Chinese Medicine (TCM) materials. 
 
-Historical texts are carefully selected from *Zuo Zhuan* (左传), *Shi Ji* (史记), and *the Twenty-Four Histories* (二十四史), which together capture thousands of years of Chinese history, encompassing seven types of named entities: person names, geographical locations, book titles, official titles, dynasties, time expressions, etc. 
+Historical texts are carefully selected from *Shi Ji* (史记) and *the Twenty-Four Histories* (二十四史), which together capture thousands of years of Chinese history, encompassing seven types of named entities: person names, geographical locations, book titles, official titles, dynasties, time expressions, etc. 
 
-**The corpus is devoid of punctuation*. 
+Traditional Chinese Medicine (TCM) materials are
+
 
 ## Data Format
 
-All evaluation data are txt files in Unicode (UTF-8) format. The raw texts consist solely of characters, and after manual annotation, the texts are presented in a processed format, as shown in Table 1.
+All data are txt files in Unicode (UTF-8) format. After manual annotation, the texts are presented in a processed format, as shown in Table 1.
 
 <p align="center">Table 1. Example of the Ancient Chinese</p>
 
@@ -54,28 +55,30 @@ All evaluation data are txt files in Unicode (UTF-8) format. The raw texts consi
 |  Raw Text  |   四年春衞州吁弑桓公而立   |
 | Processed Text with Annotations |  四 \t B-T<br>年 \t E-T<br>春 \t O<br>衞 \t B-NS<br>州 \t E-NS<br>吁 \t O<br>弑 \t O<br>桓 \t B-NR<br>公 \t E-NR<br>而 \t O<br>立 \t O   |
 
-## Training Data
+### Training Data
 
-The training data comprises 200,000  characters sourced from *Shi Ji* and *the Twenty-Four Histories*. The files are presented in UTF-8 plain text using traditional Chinese script.
+#### *Shiji*
 
+Records of the Grand Historian (*Shiji*) is a biographical historical text compiled by Sima Qian. It chronicles history from the legendary Yellow Emperor to the reign of Emperor Wu. The work consists of 130 volumes, including 12 volumes of annals (benji), 30 volumes of hereditary houses (shijia), 70 volumes of ranked biographies (liezhuan), 10 volumes of tables (biao), and 8 volumes of treatises (shu).The Shiji corpus is divided into a training set and a test set.
 
-### Training Data Example
+The training set contains 162,680 Chinese characters in total, comprising 11,138 sentences. Files are presented in UTF-8 plain text using traditional Chinese script.
 
-The training data is provided in a character-level format. 
+##### Example
+
+The training data of *Shiji* is provided in a character-level format. 
 
 - **Each line contains one Chinese character, followed by a tab (`\t`), and then the corresponding label.**
 - **Sentences are separated by a blank line.** 
 
 Below is an example of the training data format. 
 
-                 
 秦	S-NG<br>聞	O<br>公	B-NR<br>子	E-NR<br>死	O<br>，	O<br>使	O<br>蒙	B-NR<br>驁	E-NR<br>攻	O<br>魏	S-NG<br>，	O<br>拔	O<br>二	O<br>十	O<br>城	O<br>，	O<br>初	O<br>置	O<br>東	B-NS<br>郡	E-NS<br>。	O<br><br>其	O<br>後	O<br>秦	S-NG<br>稍	O<br>蠶	O<br>食	O<br>魏	S-NG<br>，	O<br>十	O<br>八	O<br>歲	O<br>而	O<br>虜	O<br>魏	O<br>王	O<br>，	O<br>屠	O<br>大	B-NS<br>梁	E-NS<br>。	O<br><br>高	B-NR<br>祖	E-NR<br>始	O<br>微	O<br>少	O<br>時	O<br>，	O<br>數	O<br>聞	O<br>公	B-NR<br>子	E-NR<br>賢	O<br>。	O<br>
 
 Below is a table illustrating the comparison between raw text and annotated training data. The left column shows the **raw text**, and the right column shows the corresponding **annotated training data**.
 
 In the raw text, sentences are segmented based on punctuation marks: **“。”**, **“？”**, and **“！”**. Additionally, in the specific context of *Shi Ji* (史记), quotation marks **“「”**, **“」”**, **“『”**, and **“』”** are also considered as sentence delimiters.
 
-<p align="center">Table . Raw Text vs. Annotated Training Data (原始语料与训练语料对比)</p>
+<p align="center">Table . Raw Text vs. Annotated Training Data (Shiji)</p>
 
 | **Raw Text** (原始语料)                          | **Annotated Training Data** (训练语料)                   |
 |--------------------------------------------------|---------------------------------------------------------|
@@ -84,13 +87,40 @@ In the raw text, sentences are segmented based on punctuation marks: **“。”
 | 高祖始微少時，數聞公子賢。                    | 高	B-NR<br>祖	E-NR<br>始	O<br>微	O<br>少	O<br>時	O<br>，	O<br>數	O<br>聞	O<br>公	B-NR<br>子	E-NR<br>賢	O<br>。	O<br> |
 
 
+#### *The Twenty-Four Histories*
+
+The Twenty-Four Histories is the collective term for the official dynastic histories of China, written in a biographical style. These works provide a comprehensive overview of ancient Chinese society, including politics, economy, military affairs, culture, astronomy, and geography. The corpus consists of a training set and a test set. 
+
+The training set contains 209,798 Chinese characters in 7,783 sentences. Files are presented in UTF-8 plain text using traditional Chinese script.
+
+##### Example
+
+The training data of *The Twenty-Four Histories* is provided in a character-level format. Similar to the corpus of *Shiji*, the comparison between the raw text and the annotated data is as follows:
+
+<p align="center">Table . Raw Text vs. Annotated Training Data (The Twenty-Four Histories)</p>
+
+| **Raw Text** (原始语料)                          | **Annotated Training Data** (训练语料)                   |
+|--------------------------------------------------|---------------------------------------------------------|
+| 開禧三年，史彌遠自詹事入樞府，乃進兼賓客。     | 開	B-T<br>禧	E-T<br>三	B-T<br>年	E-T<br>，	O<br>史	B-NR<br>彌	M-NR<br>遠	E-NR<br>自	O<br>詹	O<br>事	O<br>入	O<br>樞	O<br>府	O<br>，	O<br>乃	O<br>進	O<br>兼	O<br>賓	O<br>客	O<br>。	O<br> |
+| 貫俱聽命，各視力所致，争以侈麗高廣相夸尚，而延福宫、景龍江之役起，浸淫及於艮嶽矣。 | 貫	S-NR<br>俱	O<br>聽	O<br>命	O<br>，	O<br>各	O<br>視	O<br>力	O<br>所	O<br>致	O<br>，	O<br>争	O<br>以	O<br>侈	O<br>麗	O<br>高	O<br>廣	O<br>相	O<br>夸	O<br>尚	O<br>，	O<br>而	O<br>延	B-NS<br>福	M-NS<br>宫	E-NS<br>、	O<br>景	B-NS<br>龍	M-NS<br>江	E-NS<br>之	O<br>役	O<br>起	O<br>，	O<br>浸	O<br>淫	O<br>及	O<br>於	O<br>艮	B-NS<br>嶽	E-NS<br>矣	O<br>。	O<br> |
+| 三年，有司奏減河北、河東并淮南礬額，計十六萬緡。 | 三	B-T<br>年	E-T<br>，	O<br>有	O<br>司	O<br>奏	O<br>減	O<br>河	B-NS<br>北	E-NS<br>、	O<br>河	B-NS<br>東	E-NS<br>并	O<br>淮	B-NS<br>南	E-NS<br>礬	O<br>額	O<br>，	O<br>計	O<br>十	O<br>六	O<br>萬	O<br>緡	O<br>。	O<br> |
+| 張洎，滁州全椒人。曾祖旼，澄城尉。祖蘊，泗上轉運巡官。父煦，滁州司法掾。 | 張	B-NR<br>洎	E-NR<br>，	O<br>滁	B-NS<br>州	E-NS<br>全	B-NS<br>椒	E-NS<br>人	O<br>。	O<br>曾	O<br>祖	O<br>旼	S-NR<br>，	O<br>澄	B-NS<br>城	E-NS<br>尉	O<br>。	O<br>祖	O<br>蘊	S-NR<br>，	O<br>泗	B-NS<br>上	E-NS<br>轉	O<br>運	O<br>巡	O<br>官	O<br>。	O<br>父	O<br>煦	S-NR<br>，	O<br>滁	B-NS<br>州	E-NS<br>司	O<br>法	O<br>掾	O<br>。	O<br> |
+
+
 
 
 
 ## Test Data
 
-The test data includes approximately 2,000 characters of Ancient Chinese texts. More details will be provided to the participants before the evaluation.
+The test data includes approximately 60,000 characters of Ancient Chinese texts. More details will be provided to the participants before the evaluation.
 
+#### *Shiji*
+
+The test set consists of 40,495 Chinese characters, comprising 3,192 sentences. 
+
+#### *The Twenty-Four Histories*
+
+The test set comprises 23,165 Chinese characters in 865 sentences.
 
 
 # Task
