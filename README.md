@@ -38,11 +38,11 @@ For inquiries or to request the registration form, please contact us at **[evaha
 # Data
 The Evahan 2025 data includes three datasets, encompassing historical and medical texts, with a total of 360 million characters. The data underwent an initial phase of automatic annotation, followed by meticulous corrections and refinements by experts in Ancient Chinese language and history, ensuring the highest quality of training material and gold-standard texts.
 
-- **Dataset A** is derived from *Shiji* (史记), an ancient Chinese historical masterpiece by Sima Qian, chronicling China's history from mythical times to the Han dynasty, blending biographical and annalistic styles.
+- **Dataset A** is derived from *Shiji* (史记), an ancient Chinese historical masterpiece by Sima Qian, chronicling China's history from mythical times to the Han dynasty, blending biographical and annalistic styles. This dataset contains **6** categories of entities.
 
-- **Dataset B** is derived from *the Twenty-Four Histories* (二十四史), a comprehensive compilation of official Chinese historical records spanning early dynasties through the Ming, documenting governance, culture, and societal evolution.
+- **Dataset B** is derived from *the Twenty-Four Histories* (二十四史), a comprehensive compilation of official Chinese historical records spanning early dynasties through the Ming, documenting governance, culture, and societal evolution. This dataset contains **3** categories of entities.
 
-- **Dataset C** consists of texts on Traditional Chinese Medicine (中药材料), covering herbal remedies, acupuncture, and other traditional medical practices.
+- **Dataset C** consists of texts on Traditional Chinese Medicine Classics (中医药典籍), covering herbal remedies, acupuncture, and other traditional medical practices. This dataset contains **6** categories of entities.
 
 
 ## Data Format
@@ -114,7 +114,7 @@ The evaluation toolkit will assess the effectiveness of the NER process.
 
 In this task, there are seven categories of entities: person name, geographical location, book title, official title, dynasty and time expression as one track, plus [] as a separate track. These entity types and examples are provided in Table 4. 
 
-<p align="center">Table 4. Examples of Named Entities(Test A: History, 6 categories)</p>
+<p align="center">Table 4. Examples of Named Entities(Dataset A: History, 6 categories)</p>
 
 |      **Entity Type**      |   **Example**   |
 | :-----------------------: |   :---------:   |
@@ -126,11 +126,11 @@ In this task, there are seven categories of entities: person name, geographical 
 |      time expression      |     三十四年     |
 
 
-<p align="center">Table 4. Examples of Named Entities(Test B: Books 3 categories)</p>
+<p align="center">Table 5. Examples of Named Entities(Dataset B: Books 3 categories)</p>
 
 
 
-<p align="center">Table 4. Examples of Named Entities(Test C: Traditional Medicine 7 categories)</p>
+<p align="center">Table 6. Examples of Named Entities(Dataset C: Traditional Medicine 6 categories)</p>
 
 
 
