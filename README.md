@@ -46,7 +46,7 @@ The Evahan 2025 data includes three datasets, encompassing historical and medica
 
 
 ## Data Format
-All evaluation data are txt files in Unicode (UTF-8) format. The raw texts only contain characters and punctuation marks. After manual annotation, the texts are presented in a processed format, as shown in the example files within the [evahan2025_dataset_example](https://github.com/GoThereGit/ANLP/tree/main/alp2025) folder.
+All evaluation data are txt files in Unicode (UTF-8) format. The raw texts only contain characters and punctuation marks. After manual annotation, the texts are presented in a processed format, as shown in the example files within the [evahan2025_dataset_example](https://github.com/GoThereGit/EvaHan/tree/main/evahan2025_dataset_example) folder.
 
 ## Training Data
 Training data comprises three parts, derived from the three datasets, totaling 300,000 characters. The files are presented in UTF-8 plain text using traditional Chinese script. Training data will be sent to your email after registration.
