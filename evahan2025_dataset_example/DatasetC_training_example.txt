@@ -1,0 +1,111 @@
+散 B-NP
+肿 M-NP
+溃 M-NP
+坚 M-NP
+汤 E-NP
+
+五 B-NP
+香 M-NP
+连 M-NP
+翘 E-NP
+
+漏 B-NP
+芦 M-NP
+汤 E-NP
+
+牡 B-NP
+蛎 M-NP
+大 M-NP
+黄 M-NP
+汤 E-NP
+
+十 B-NP
+香 M-NP
+膏 E-NP
+
+内 B-NP
+消 M-NP
+丸 E-NP
+
+黑 B-NP
+白 M-NP
+散 E-NP
+
+四 B-NP
+七 M-NP
+汤 E-NP
+
+苏 B-NP
+子 M-NP
+降 M-NP
+气 M-NP
+汤 E-NP
+
+小 B-NP
+柴 M-NP
+胡 M-NP
+汤 E-NP
+
+加 B-NP
+味 M-NP
+四 M-NP
+物 M-NP
+汤 E-NP
+
+加 B-NP
+味 M-NP
+逍 M-NP
+遥 M-NP
+散 E-NP
+
+六 B-NP
+味 M-NP
+地 M-NP
+黄 M-NP
+丸 E-NP
+
+香 B-NM
+附 M-NM
+子 E-NM
+
+黄 B-NM
+芪 E-NM
+
+白 B-NM
+蔹 E-NM
+
+香 B-NM
+附 E-NM
+
+乌 B-NM
+药 E-NM
+
+贝 B-NM
+母 E-NM
+
+远 B-NM
+志 E-NM
+
+柴 B-NM
+胡 E-NM
+
+地 B-NM
+骨 M-NM
+皮 E-NM
+
+夏 B-NM
+枯 M-NM
+草 E-NM
+
+香 B-NM
+附 E-NM
+
+贝 B-NM
+母 E-NM
+
+陈 B-NM
+皮 E-NM
+
+炒 B-NM
+芍 M-NM
+药 E-NM
