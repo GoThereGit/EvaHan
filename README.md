@@ -221,8 +221,8 @@ Reports will undergo a light review process to ensure correctness of the format,
 -   **Dongbo Wang**, College of Information Management, Nanjing Agricultural University, China
 -   **Liu Liu**, College of Information Management, Nanjing Agricultural University, China
 -   **Si Shen**, School of Economics and Management, Nanjing University of Science and Technology, China
--   **Yan Zhu**, Institute of Information on Traditional Chinese Medicine, China
--   **Lihong Liu**, Institute of Information on Traditional Chinese Medicine, China
+-   **Yan Zhu**, Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Science, China
+-   **Lihong Liu**, Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Science, China
 
 
 
