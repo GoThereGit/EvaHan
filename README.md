@@ -7,7 +7,7 @@
 # EvaHan 2025
 
 -   EvaHan 2025 is the fourth International Evaluation of Ancient Chinese Information Processing, focusing on the named entity recognition (NER) tasks of large language models in ancient Chinese.
--   EvaHan 2025 is organized by Dongbo Wang, Bin Li, Yan Zhu, Liu Liu, Shen Si, Chang Liu, Liu Ruilin, Xue Zhao, Bolin Chang, Pengxiu Lu, Minxuan Feng, Chao Xu.
+-   EvaHan 2025 is organized by Bin Li, Bolin Chang, Pengxiu Lu, Minuxan Feng, Chao Xu, Weiguang Qu, Dongbo Liu, Liu Liu, Si Shen, Yan Zhu, Lihong Liu
 
 
 ## Important Dates for EvaHan 2025
@@ -217,19 +217,19 @@ Reports will undergo a light review process to ensure correctness of the format,
 -   **Bin Li**, School of Chinese Language and Literature, Nanjing Normal University, China
 -   **Minxuan Feng**, School of Chinese Language and Literature, Nanjing Normal University, China
 -   **Chao Xu**, School of Chinese Language and Literature, Nanjing Normal University, China
+-   **Weiguang Qu**, School of Computer and Electronic Information /School of Artificial Intelligence, Nanjing Normal University, China
+-   **Dongbo Wang**, College of Information Management, Nanjing Agricultural University, China
 -   **Liu Liu**, College of Information Management, Nanjing Agricultural University, China
 -   **Si Shen**, School of Economics and Management, Nanjing University of Science and Technology, China
--   **Dongbo Wang**, College of Information Management, Nanjing Agricultural University, China
--   **Weiguang Qu**, School of Computer and Electronic Information /School of Artificial Intelligence, Nanjing Normal University, China
+-   **Yan Zhu**, Institute of Information on Traditional Chinese Medicine, China
 
 
 
 # Student Members
 
 -   **Bolin Chang**, School of Chinese Language and Literature, Nanjing Normal University, China
--   **Jingxuan Xi**, School of Chinese Language and Literature, Nanjing Normal University, China
--   **Pengxiu Lu**, School of Chinese Language and Literature, Nanjing Normal University, China
--   **Zhixingu Xu**, School of Chinese Language and Literature, Nanjing Normal University, China
+-   **Lihong Liu**, Institute of Information on Traditional Chinese Medicine, China
+-   **Xue Zhao**, College of Information Management, Nanjing Agricultural University, China
 
 
 
