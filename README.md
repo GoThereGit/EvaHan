@@ -222,13 +222,14 @@ Reports will undergo a light review process to ensure correctness of the format,
 -   **Liu Liu**, College of Information Management, Nanjing Agricultural University, China
 -   **Si Shen**, School of Economics and Management, Nanjing University of Science and Technology, China
 -   **Yan Zhu**, Institute of Information on Traditional Chinese Medicine, China
+-   **Lihong Liu**, Institute of Information on Traditional Chinese Medicine, China
 
 
 
 # Student Members
 
 -   **Bolin Chang**, School of Chinese Language and Literature, Nanjing Normal University, China
--   **Lihong Liu**, Institute of Information on Traditional Chinese Medicine, China
+-   **Ruilin Liu**, College of Information Management, Nanjing Agricultural University, China
 -   **Xue Zhao**, College of Information Management, Nanjing Agricultural University, China
 
 
