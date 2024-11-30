@@ -66,7 +66,6 @@ The evaluation toolkit will assess the effectiveness of the NER process.
 
 <p style="text-align: center">Table 1. Examples of Annotation</p>
 
-<div align="center">
 | Annotation |         Meaning          |
 |:----------:|:------------------------:| 
 |     NR     |       person name        |
@@ -81,7 +80,6 @@ The evaluation toolkit will assess the effectiveness of the NER process.
 | NP         | decoction pieces                     |
 | NS         | symptom                              |
 | NA         | acupoint                             |
-</div>
 
 <p style="text-align: center">Table 2. Examples of NER Annotation using BMEOS Tags</p>
 
