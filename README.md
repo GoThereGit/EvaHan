@@ -49,10 +49,10 @@ The Evahan 2025 data includes three datasets, encompassing historical and medica
 All evaluation data are txt files in Unicode (UTF-8) format. The raw texts only contain characters and punctuation marks. After manual annotation, the texts are presented in a processed format, as shown in the example files within the [evahan2025_dataset_example](https://github.com/GoThereGit/EvaHan/tree/main/evahan2025/dataset_example) folder.
 
 ## Training Data
-Training data comprises three parts, derived from the three datasets, totaling 300,000 characters. The files are presented in UTF-8 plain text using traditional Chinese script. Training data will be sent to your email after registration.
+Training data comprises three datasets, totaling 300,000 characters. The files are presented in UTF-8 plain text using traditional Chinese script. Training data will be sent to your email after registration.
 
 ## Test Data
-The test data includes approximately 60,000 characters of Ancient Chinese texts. More details will be provided to the participants before the evaluation. Download link will be released soon.
+Test data also comprises three datasets, totaling 60,000 characters. More details will be provided to the participants before the evaluation. Download link will be released soon.
 
 # Task
 
@@ -60,120 +60,57 @@ This section offers a detailed description of the tasks encompassed in EvaHan 20
 
 ## Named Entity Recognition
 
-In numerous Chinese language processing systems, Named entity recognition is a critical task often performed alongside other processing functions. NER involves identifying and classifying entities in Chinese text into predefined categories, such as people and locations. The meanings of each annotation label can be found in Table 1 and Table 2.
+In numerous Chinese language processing systems, Named entity recognition is a critical task often performed alongside other processing functions. NER involves identifying and classifying entities in Chinese text into predefined categories, such as people and locations. 
 
-The evaluation toolkit will assess the effectiveness of the NER process.
 
-<p style="text-align: center">Table 1. Examples of Annotation</p>
 
-| Annotation |         Meaning          |
-|:----------:|:------------------------:| 
-|     NR     |       person name        |
-|     NS     |  geographical location   |
-|     NB     |        book title        |
-|     NO     |      official title      |
-|     NG     |         dynasty          |
-|     T      |     time expression      |
-| ND         | Traditional Chinese Medicine disease |
-| NZ         | Syndrome                             |
-| NF         | Chinese medicinal formula            |
-| NP         | decoction pieces                     |
-| NS         | symptom                              |
-| NA         | acupoint                             |
-
-<p style="text-align: center">Table 2. Examples of NER Annotation using BMEOS Tags</p>
-
-|   Annotation   |  Label  |
-| :---: | :---: | 
-| O |  outside of any named entity  |
-| B-NR |  beginning of person name   |
-| M-NR |  middle of person name   |
-| E-NR |  end of person name   |
-| S-NR |  single person name   |
-| B-NS |  beginning of geographical location  |
-| M-NS |  middle of geographical location  |
-| E-NS |  end of geographical location  |
-| S-NS |  single geographical location  |
-| B-NB |  beginning of book title  |
-| M-NB |  middle of book title  |
-| E-NB |  end of book title  |
-| S-NB |  single book title  |
-| B-NO |  beginning of official title  |
-| M-NO |  middle of official title  |
-| E-NO |  end of official title  |
-| S-NO |  single official title  |
-| B-NG |  beginning of dynasty  |
-| M-NG |  middle of dynasty  |
-| E-NG |  end of dynasty  |
-| S-NG |  single dynasty  |
-| B-T |  beginning of time expression  |
-| M-T |  middle of time expression  |
-| E-T |  end of time expression  |
-| S-T |  single time expression  |
-| B-ND       | beginning of Traditional Chinese Medicine  disease |
-| M-ND       | middle of Traditional Chinese Medicine  disease    |
-| E-ND       | end of Traditional Chinese Medicine  disease       |
-| S-ND       | single Traditional Chinese Medicine  disease       |
-| B-NZ       | beginning of Syndrome                              |
-| M-NZ       | middle of Syndrome                                 |
-| E-NZ       | end of Syndrome                                    |
-| S-NZ       | single Syndrome                                    |
-| B-NF       | beginning of Chinese medicinal formula             |
-| M-NF       | middle of Chinese medicinal formula                |
-| E-NF       | end of Chinese medicinal formula                   |
-| S-NF       | single Chinese medicinal formula                   |
-| B-NP       | beginning of decoction pieces                      |
-| M-NP       | middle of decoction pieces                         |
-| E-NP       | end of decoction pieces                            |
-| S-NP       | single decoction pieces                            |
-| B-NS       | beginning of symptom                               |
-| M-NS       | middle of symptom                                  |
-| E-NS       | end of symptom                                     |
-| S-NS       | single symptom                                     |
-| B-NA       | beginning of acupoint                              |
-| M-NA       | middle of acupoint                                 |
-| E-NA       | end of acupoint                                    |
-| S-NA       | single acupoint                                    |
 
 ## Entity Set
 
-In this task, there are seven categories of entities: person name, geographical location, book title, official title, dynasty and time expression as one track, plus [] as a separate track. These entity types and examples are provided in Table 3, 4 and 5. 
+In this task, there are 12 categories of named entities. These entity categories, meanings and examples are provided in Table 1-1, 1-2 and 1-3. 
 
-<p style="text-align: center">Table 3. Examples of Named Entities(Dataset A: History, 6 categories)</p>
+Table 1-1 Tagset of Named Entities in Dataset A (*Shiji*)
 
-|      **Entity Type**      |   **Example**   |
-| :-----------------------: |   :---------:   |
-|        person name        |       荆軻      |
-|   geographical location   |       長平      |
-|        book title         |        易       |
-|      official title       |      中大夫      |
-|          dynasty          |        秦       | 
-|      time expression      |     三十四年     |
-
-
-<p style="text-align: center">Table 4. Examples of Named Entities(Dataset B: Books 3 categories)</p>
-
-<p style="text-align: center">Table 5. Examples of Named Entities(Dataset C: Traditional Medicine 6 categories)</p>
-
-|             Entity Type              | Example  |
-| :----------------------------------: | :------: |
-| Traditional Chinese Medicine disease |   金疮   |
-|               Syndrome               | 脾胃虚弱 |
-|      Chinese medicinal formula       |  当归散  |
-|           decoction pieces           |   当归   |
-|               symptom                |   烦满   |
-|               acupoint               |   承扶   |
+| Annotation |         Meaning          | Example |
+|:----------:|:------------------------:|---------|
+|     NR     |       person name        | 荆軻      |
+|     NS     |  geographical location   | 長平      |
+|     NB     |        book title        | 易       |
+|     NO     |      official title      | 中大夫     |
+|     NG     |         dynasty          | 秦       |
+|     T      |     time expression      | 三十四年    |
 
 
+
+Table 1-2 Tagset of Named Entities in Dataset B (*the Twenty-Four Histories*)
+
+| Annotation |         Meaning          | Example |
+|:----------:|:------------------------:|----|
+|     NR     |       person name        | 伏羲 |
+|     NS     |  geographical location   |  黄河 |
+|     T      |     time expression      | 丙戌 |
+
+
+
+Table 1-3 Tagset of Named Entities in Dataset C (Traditional Chinese Medicine Classics)
+
+| Annotation |         Meaning          | Example |
+|:----------:|:------------------------:|---------|
+| ND   | Traditional  Chinese Medicine disease | 金疮      |
+| NZ   | Syndrome                              | 脾胃虚弱    |
+| NF   | Chinese medicinal  formula            | 当归散     |
+| NP   | decoction pieces                      | 当归      |
+| NS   | symptom                               | 烦满      |
+| NA   | acupoint                              | 承扶      |
 
 
 # Evaluation
 
 ## Metrics
 
-Each team will initially have access only to the training data. Later, the unlabeled test data will also be released. After the assessment, the labels for the test data will also be released. An illustration of the output of the scorer is given in Table 6. The evaluation will align the system-generated named entities with the gold standard. Then, Named Entity Recognition will be evaluated: precision, recall, and F1 score will be calculated. The final ranking of teams will be based on the F1 scores.
+Each team will initially have access only to the training data. Later, the unlabeled test data will also be released. After the assessment, the labels for the test data will also be released. An illustration of the output of the scorer is given in Table 2. The evaluation will align the system-generated named entities with the gold standard. Then, Named Entity Recognition will be evaluated: precision, recall, and F1 score will be calculated. The final ranking of teams will be based on the F1 scores.
 
-<p style="text-align: center">Table 6. Example of scorers' output</p>
+Table 2. Example of scorers' output
 
 |       **Task**        | **Precision** | **Recall** | **F1  Score** |
 | :-------------------: | :-----------: | :--------: | :-----------: |
@@ -208,16 +145,15 @@ Registration time is mentioned above. Participants will be required to submit th
 
 ## Submitting Runs
 
-Each team can submit runs for two tasks. A run should be produced according to the ‘closed modality’. The second run will be produced according to the ‘open modality’. The closed run is compulsory, while the open run is optional. 
+Each team can submit runs for two tasks. A run should be produced according to the ‘closed modality’. The second run will be produced according to the ‘open modality’. The closed run is compulsory, while the open run is optional.
 
 Once the system has produced the results for the task over the test set, participants have to follow these instructions to complete their submission:
 
--   Name the runs with the following filename format: 
-    testID_teamName_systemID_modality.txt
-    For example: *testa_unicatt_1_closed.txt* would be the first run of a team called *unicatt* using the closed modality for the task using *testa.txt* document.
-    *testb_unicatt_2_open.txt* would be the second run of a team called *unicatt* using the open modality for the task using the blind testb.txt document.
--    Send the file to the following email address: libin.njnu[AT]gmail.com, using the subject “EvaHan Submission: task - teamName”, where the “task” is either *testa* or *testb*.
+-   Name the runs with the following filename format: `teamID_modality_dataset_submitid.txt` For example: `nnu1_closed_a_1.txt` would be the first run of a team called `nnu1` using the closed modality for the task using `test_a.txt` document. `nnu1_open_b_2.txt` would be the second run of a team called `nnu1` using the open modality for the task using the `test_b.txt` document.
+-   Send the file to the following email address: libin.njnu[AT]gmail.com, using the subject "EvaHan Submission: datset - teamName".
 -   Each team could submit up to 2 running files for each test file in each modality. Thus, each team could submit up to 8 running files in total.
+
+
 
 ## Writing the Technical Report
 
