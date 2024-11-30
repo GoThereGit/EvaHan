@@ -27,7 +27,7 @@ To participate in **EvaHan 2025**, you must complete the following steps:
    Submit a registration form to officially register your team for the task. Registration is open from **December 1, 2024, to January 15, 2025**. Only registered participants will gain access to the training dataset.  
 
 2. **Accessing the Training Data**:  
-   After completing the registration process, participants will receive instructions for downloading the training dataset, which includes 200,000 characters from Ancient Chinese texts annotated for Named Entity Recognition (NER).  
+   After completing the registration process, participants will receive instructions for downloading the training dataset, which includes 200,000 characters from Ancient Chinese texts annotated for Named Entity Recognition.  
 
 3. **Submitting Results and Reports**:  
    Participants must use the provided test data to generate results and submit their system outputs and a technical report as per the shared task schedule.
@@ -58,9 +58,9 @@ The test data includes approximately 60,000 characters of Ancient Chinese texts.
 
 This section offers a detailed description of the tasks encompassed in EvaHan 2025.
 
-## Named Entity Recognition (NER)
+## Named Entity Recognition
 
-In numerous Chinese language processing systems, Named entity recognition (NER) is a critical task often performed alongside other processing functions. NER involves identifying and classifying entities in Chinese text into predefined categories, such as people and locations. The meanings of each annotation label can be found in Table 1 and Table 2.
+In numerous Chinese language processing systems, Named entity recognition is a critical task often performed alongside other processing functions. NER involves identifying and classifying entities in Chinese text into predefined categories, such as people and locations. The meanings of each annotation label can be found in Table 1 and Table 2.
 
 The evaluation toolkit will assess the effectiveness of the NER process.
 
@@ -171,7 +171,7 @@ In this task, there are seven categories of entities: person name, geographical 
 
 ## Metrics
 
-Each team will initially have access only to the training data. Later, the unlabeled test data will also be released. After the assessment, the labels for the test data will also be released. The scorer employed for EvaHan is a modified version of the one developed for the ref[4]. An illustration of the output of the scorer is given in Table 6. The evaluation will align the system-generated named entities with the gold standard. Then, Named Entity Recognition (NER) will be evaluated: precision, recall, and F1 score will be calculated. The final ranking of teams will be based on the F1 scores.
+Each team will initially have access only to the training data. Later, the unlabeled test data will also be released. After the assessment, the labels for the test data will also be released. An illustration of the output of the scorer is given in Table 6. The evaluation will align the system-generated named entities with the gold standard. Then, Named Entity Recognition will be evaluated: precision, recall, and F1 score will be calculated. The final ranking of teams will be based on the F1 scores.
 
 <p style="text-align: center">Table 6. Example of scorers' output</p>
 
