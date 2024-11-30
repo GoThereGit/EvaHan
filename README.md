@@ -60,12 +60,13 @@ This section offers a detailed description of the tasks encompassed in EvaHan 20
 
 ## Named Entity Recognition (NER)
 
-In numerous Chinese language processing systems, Named entity recognition (NER) is a critical task often performed alongside other processing functions. NER involves identifying and classifying entities in Chinese text into predefined categories, such as people and locations. The meanings of each annotation label can be found in Table 2 and Table 3.
+In numerous Chinese language processing systems, Named entity recognition (NER) is a critical task often performed alongside other processing functions. NER involves identifying and classifying entities in Chinese text into predefined categories, such as people and locations. The meanings of each annotation label can be found in Table 1 and Table 2.
 
 The evaluation toolkit will assess the effectiveness of the NER process.
 
-<p align="center">Table 2. Examples of Annotation</p>
+<p style="text-align: center">Table 1. Examples of Annotation</p>
 
+<div align="center">
 | Annotation |         Meaning          |
 |:----------:|:------------------------:| 
 |     NR     |       person name        |
@@ -73,12 +74,16 @@ The evaluation toolkit will assess the effectiveness of the NER process.
 |     NB     |        book title        |
 |     NO     |      official title      |
 |     NG     |         dynasty          |
-|     NP     |        prescription      |
-|     NM     |         medicine         |
 |     T      |     time expression      |
+| ND         | Traditional Chinese Medicine disease |
+| NZ         | Syndrome                             |
+| NF         | Chinese medicinal formula            |
+| NP         | decoction pieces                     |
+| NS         | symptom                              |
+| NA         | acupoint                             |
+</div>
 
-
-<p align="center">Table 3. Examples of NER Annotation using BMEOS Tags</p>
+<p style="text-align: center">Table 2. Examples of NER Annotation using BMEOS Tags</p>
 
 |   Annotation   |  Label  |
 | :---: | :---: | 
@@ -107,14 +112,36 @@ The evaluation toolkit will assess the effectiveness of the NER process.
 | M-T |  middle of time expression  |
 | E-T |  end of time expression  |
 | S-T |  single time expression  |
-
-
+| B-ND       | beginning of Traditional Chinese Medicine  disease |
+| M-ND       | middle of Traditional Chinese Medicine  disease    |
+| E-ND       | end of Traditional Chinese Medicine  disease       |
+| S-ND       | single Traditional Chinese Medicine  disease       |
+| B-NZ       | beginning of Syndrome                              |
+| M-NZ       | middle of Syndrome                                 |
+| E-NZ       | end of Syndrome                                    |
+| S-NZ       | single Syndrome                                    |
+| B-NF       | beginning of Chinese medicinal formula             |
+| M-NF       | middle of Chinese medicinal formula                |
+| E-NF       | end of Chinese medicinal formula                   |
+| S-NF       | single Chinese medicinal formula                   |
+| B-NP       | beginning of decoction pieces                      |
+| M-NP       | middle of decoction pieces                         |
+| E-NP       | end of decoction pieces                            |
+| S-NP       | single decoction pieces                            |
+| B-NS       | beginning of symptom                               |
+| M-NS       | middle of symptom                                  |
+| E-NS       | end of symptom                                     |
+| S-NS       | single symptom                                     |
+| B-NA       | beginning of acupoint                              |
+| M-NA       | middle of acupoint                                 |
+| E-NA       | end of acupoint                                    |
+| S-NA       | single acupoint                                    |
 
 ## Entity Set
 
-In this task, there are seven categories of entities: person name, geographical location, book title, official title, dynasty and time expression as one track, plus [] as a separate track. These entity types and examples are provided in Table 4. 
+In this task, there are seven categories of entities: person name, geographical location, book title, official title, dynasty and time expression as one track, plus [] as a separate track. These entity types and examples are provided in Table 3, 4 and 5. 
 
-<p align="center">Table 4. Examples of Named Entities(Dataset A: History, 6 categories)</p>
+<p style="text-align: center">Table 3. Examples of Named Entities(Dataset A: History, 6 categories)</p>
 
 |      **Entity Type**      |   **Example**   |
 | :-----------------------: |   :---------:   |
@@ -126,11 +153,19 @@ In this task, there are seven categories of entities: person name, geographical 
 |      time expression      |     三十四年     |
 
 
-<p align="center">Table 5. Examples of Named Entities(Dataset B: Books 3 categories)</p>
+<p style="text-align: center">Table 4. Examples of Named Entities(Dataset B: Books 3 categories)</p>
 
+<p style="text-align: center">Table 5. Examples of Named Entities(Dataset C: Traditional Medicine 6 categories)</p>
 
+|             Entity Type              | Example  |
+| :----------------------------------: | :------: |
+| Traditional Chinese Medicine disease |   金疮   |
+|               Syndrome               | 脾胃虚弱 |
+|      Chinese medicinal formula       |  当归散  |
+|           decoction pieces           |   当归   |
+|               symptom                |   烦满   |
+|               acupoint               |   承扶   |
 
-<p align="center">Table 6. Examples of Named Entities(Dataset C: Traditional Medicine 6 categories)</p>
 
 
 
@@ -138,9 +173,9 @@ In this task, there are seven categories of entities: person name, geographical 
 
 ## Metrics
 
-Each team will initially have access only to the training data. Later, the unlabeled test data will also be released. After the assessment, the labels for the test data will also be released. The scorer employed for EvaHan is a modified version of the one developed for the ref[4]. An illustration of the output of the scorer is given in Table 5. The evaluation will align the system-generated named entities with the gold standard. Then, Named Entity Recognition (NER) will be evaluated: precision, recall, and F1 score will be calculated. The final ranking of teams will be based on the F1 scores.
+Each team will initially have access only to the training data. Later, the unlabeled test data will also be released. After the assessment, the labels for the test data will also be released. The scorer employed for EvaHan is a modified version of the one developed for the ref[4]. An illustration of the output of the scorer is given in Table 6. The evaluation will align the system-generated named entities with the gold standard. Then, Named Entity Recognition (NER) will be evaluated: precision, recall, and F1 score will be calculated. The final ranking of teams will be based on the F1 scores.
 
-<p align="center">Table 5. Example of scorers' output</p>
+<p style="text-align: center">Table 6. Example of scorers' output</p>
 
 |       **Task**        | **Precision** | **Recall** | **F1  Score** |
 | :-------------------: | :-----------: | :--------: | :-----------: |
@@ -155,7 +190,7 @@ Each participant can submit runs following two modalities. In the closed modalit
 
 In the open modality, there is no limit on the resources, data and models. Annotated external data, such as the components or Pinyin of the Chinese characters, word embeddings can be employed. But each team has to state all the resources, data and models they use in each system in the final report. 
 
-<p align="center">Table 6. Pre-trained models for closed modality</p>
+<p style="text-align: center">Table 7. Pre-trained models for closed modality</p>
 
 | **Model name** |  **Language**   |                       **Description**                        |
 | :------------: | :-------------: | :----------------------------------------------------------: |
