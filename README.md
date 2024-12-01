@@ -200,6 +200,8 @@ Reports will undergo a light review process to ensure correctness of the format,
 -   **Bolin Chang**, School of Chinese Language and Literature, Nanjing Normal University, China
 -   **Ruilin Liu**, College of Information Management, Nanjing Agricultural University, China
 -   **Xue Zhao**, College of Information Management, Nanjing Agricultural University, China
+-   **Zhixiao Zhao**, College of Information Management, Nanjing Agricultural University, China
+-   **Chang Liu**, College of Information Management, Nanjing Agricultural University, China
 -   **Yinhao Li**, Liaoning Technology University, China
 -   **Bin Li**, Liaoning Technology University, China
 -   **Ting Cheng**, Institute of Information on Traditional Chinese Medicine, China Academy of Chinese Medical Sciences, China
