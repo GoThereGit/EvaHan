@@ -7,7 +7,7 @@
 # EvaHan 2025
 
 -   EvaHan 2025 is the fourth International Evaluation of Ancient Chinese Information Processing, focusing on the named entity recognition (NER) tasks of large language models in ancient Chinese.
--   EvaHan 2025 is organized by Bin Li, Bolin Chang, Pengxiu Lu, Minuxan Feng, Chao Xu, Weiguang Qu, Dongbo Liu, Liu Liu, Si Shen, Yan Zhu, Lihong Liu
+-   EvaHan 2025 is organized by Bin Li, Bolin Chang, Pengxiu Lu, Minuxan Feng, Chao Xu, Weiguang Qu, Dongbo Wang, Liu Liu, Si Shen, Yan Zhu, Lihong Liu
 
 
 ## Important Dates for EvaHan 2025
