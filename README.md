@@ -96,12 +96,12 @@ Table 1-3 Tagset of Named Entities in Dataset C (Traditional Chinese Medicine Cl
 
 | Annotation |         Meaning          | Example |
 |:----------:|:------------------------:|---------|
-| ND   | Traditional  Chinese Medicine disease | 金疮      |
-| NZ   | Syndrome                              | 脾胃虚弱    |
-| NF   | Chinese medicinal  formula            | 当归散     |
-| NP   | decoction pieces                      | 当归      |
-| NS   | symptom                               | 烦满      |
-| NA   | acupoint                              | 承扶      |
+| ZD  | Traditional  Chinese Medicine disease | 金疮      |
+| ZZ  | Syndrome                              | 脾胃虚弱    |
+| ZF  | Chinese medicinal  formula            | 当归散     |
+| ZP  | decoction pieces                      | 当归      |
+| ZS  | symptom                               | 烦满      |
+| ZA  | acupoint                              | 承扶      |
 
 
 # Evaluation
@@ -121,7 +121,7 @@ Table 2. Example of scorers' output
 
 ## Two Modalities
 
-Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the Training data Text_Train, and the pretrained model [XunziALLM](https://github.com/Xunzi-LLM-of-Chinese-classics/XunziALLM). It is word embeddings pretrained on a very large corpus of traditional Chinese collection. Other resources are not allowed in the closed modality.
+Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the training data, and the pretrained model [XunziALLM](https://github.com/Xunzi-LLM-of-Chinese-classics/XunziALLM). It is word embeddings pretrained on a very large corpus of traditional Chinese collection. Other resources are not allowed in the closed modality.
 
 In the open modality, there is no limit on the resources, data and models. Annotated external data, such as the components or Pinyin of the Chinese characters, word embeddings can be employed. But each team has to state all the resources, data and models they use in each system in the final report. 
 
@@ -135,7 +135,7 @@ In the open modality, there is no limit on the resources, data and models. Annot
 
 ## Baselines
 
-As a baseline, we will provide the scores obtained on test set using SikuRoBERTa-BiLSTM-CRF (Conditional Random Fields) training on train set without additional resources.
+As a baseline, we will provide the scores obtained on test set using SikuRoBERTa-BiLSTM-CRF training on train set without additional resources.
 
 
 
