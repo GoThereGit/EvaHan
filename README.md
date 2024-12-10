@@ -218,6 +218,7 @@ Reports will undergo a light review process to ensure correctness of the format,
 -   Ancient Chinese GPT-2: https://huggingface.co/uer/gpt2-chinese-ancient;https://github.com/Morizeyao/GPT2-Chinese
 -   Ancient Chinese SikuGPT: https://huggingface.co/JeffreyLau/SikuGPT2;https://github.com/SIKU-BERT/sikuGPT
 -   GuwenBERT: https://huggingface.co/ethanyt/guwenbert-base;https://github.com/Ethan-yt/guwenbert
+-   GujiBERT and GujiGPT: https://github.com/hsc748NLP/GujiBERT-and-GujiGPT
 -   Ancient Chinese syntactic corpus: http://kanji.zinbun.kyoto-u.ac.jp/~yasuoka/kyodokenkyu/2019-03-08/ 
 -   XunziALLM: https://github.com/Xunzi-LLM-of-Chinese-classics/XunziALLM 
 -   Ancient Chinese Sentence Segmentation: https://seg.shenshen.wiki/;https://wyd.kvlab.org 
