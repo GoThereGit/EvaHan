@@ -27,7 +27,7 @@ To participate in **EvaHan 2025**, you must complete the following steps:
    Submit a registration form to officially register your team for the task. Registration is open from **December 1, 2024, to January 15, 2025**. Only registered participants will gain access to the training dataset.  
 
 2. **Accessing the Training Data**:  
-   After completing the registration process, participants will receive instructions for downloading the training dataset, which includes 300,000 characters from Ancient Chinese texts annotated for Named Entity Recognition.  
+   After completing the registration process, participants will receive instructions for downloading the training dataset, which includes 400,000 characters from Ancient Chinese texts annotated for Named Entity Recognition.  
 
 3. **Submitting Results and Reports**:  
    Participants must use the provided test data to generate results and submit their system outputs and a technical report as per the shared task schedule.
@@ -36,7 +36,7 @@ For inquiries or to request the registration form, please contact us at **[evaha
 
 
 # Data
-The Evahan 2025 data includes three datasets, encompassing historical and medical texts, with a total of 360,000 characters. The data underwent an initial phase of automatic annotation, followed by meticulous corrections and refinements by experts in Ancient Chinese language and history, ensuring the highest quality of training material and gold-standard texts.
+The Evahan 2025 data includes three datasets, encompassing historical and medical texts, with a total of 500,000 characters. The data underwent an initial phase of automatic annotation, followed by meticulous corrections and refinements by experts in Ancient Chinese language and history, ensuring the highest quality of training material and gold-standard texts.
 
 - **Dataset A** is derived from *Shiji* (史记), an ancient Chinese historical masterpiece by Sima Qian, chronicling China's history from mythical times to the Han dynasty, blending biographical and annalistic styles. This dataset contains **6** categories of entities.
 
@@ -49,10 +49,10 @@ The Evahan 2025 data includes three datasets, encompassing historical and medica
 All evaluation data are txt files in Unicode (UTF-8) format. The raw texts only contain characters and punctuation marks. After manual annotation, the texts are presented in a processed format, as shown in the example files within the [evahan2025_dataset_example](https://github.com/GoThereGit/EvaHan/tree/main/evahan2025/dataset_example) folder.
 
 ## Training Data
-Training data comprises three datasets, totaling 300,000 characters. The files are presented in UTF-8 plain text using traditional Chinese script. Training data will be sent to your email after registration.
+Training data comprises three datasets, totaling 400,000 characters. The files are presented in UTF-8 plain text using traditional Chinese script. Training data will be sent to your email after registration.
 
 ## Test Data
-Test data also comprises three datasets, totaling 60,000 characters. More details will be provided to the participants before the evaluation. Download link will be released soon.
+Test data also comprises three datasets, totaling 100,000 characters. More details will be provided to the participants before the evaluation. Download link will be released soon.
 
 # Task
 
