@@ -121,7 +121,7 @@ Table 2. Example of scorers' output
 
 ## Two Modalities
 
-Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the training data, and the pretrained model [XunziALLM](https://github.com/Xunzi-LLM-of-Chinese-classics/XunziALLM). It is word embeddings pretrained on a very large corpus of traditional Chinese collection. Other resources are not allowed in the closed modality.
+Each participant can submit runs following two modalities. In the closed modality, the resources each team could use are limited. Each team can only use the training data, and the pretrained model [GujiRoBERTa_jian_fan](https://huggingface.co/hsc748NLP/GujiRoBERTa_jian_fan). It is word embeddings pretrained on a very large corpus of traditional Chinese collection. Other resources are not allowed in the closed modality.
 
 In the open modality, there is no limit on the resources, data and models. Annotated external data, such as the components or Pinyin of the Chinese characters, word embeddings can be employed. But each team has to state all the resources, data and models they use in each system in the final report. 
 
@@ -129,7 +129,7 @@ In the open modality, there is no limit on the resources, data and models. Annot
 
 | **Model name** |  **Language**   |                       **Description**                        |
 | :------------: | :-------------: | :----------------------------------------------------------: |
-|   XunziALLM    | Ancient Chinese | Ancient  Chinese RoBERTa pre-trained on  high-quality full-text corpus. |
+|   GujiRoBERTa_jian_fan    | Ancient Chinese | Ancient  Chinese RoBERTa pre-trained on  high-quality full-text corpus. |
 
 
 
