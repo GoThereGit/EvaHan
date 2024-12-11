@@ -71,14 +71,14 @@ In this task, there are 12 categories of named entities. These entity categories
 
 Table 1-1 Tagset of Named Entities in Dataset A (*Shiji*)
 
-| Annotation |         Meaning          | Example |
-|:----------:|:------------------------:|---------|
-|     NR     |       person name        | 荆軻      |
-|     NS     |  geographical location   | 長平      |
-|     NB     |        book title        | 易       |
-|     NO     |      official title      | 中大夫     |
-|     NG     |         dynasty          | 秦       |
-|     T      |     time expression      | 三十四年    |
+| Annotation |        Meaning        | Example |
+|:----------:|:---------------------:|---------|
+|     NR     |      person name      | 荆軻      |
+|     NS     | geographical location | 長平      |
+|     NB     |      book title       | 易       |
+|     NO     |    official title     | 中大夫     |
+|     NG     |          国名           | 秦       |
+|     T      |    time expression    | 三十四年    |
 
 
 
