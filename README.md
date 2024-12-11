@@ -77,7 +77,7 @@ Table 1-1 Tagset of Named Entities in Dataset A (*Shiji*)
 |     NS     | geographical location | 長平      |
 |     NB     |      book title       | 易       |
 |     NO     |    official title     | 中大夫     |
-|     NG     |          国名           | 秦       |
+|     NG     |     country name      | 秦       |
 |     T      |    time expression    | 三十四年    |
 
 
