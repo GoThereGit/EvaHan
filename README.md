@@ -36,7 +36,7 @@ For inquiries or to request the registration form, please contact us at **[evaha
 
 
 # Data
-The Evahan 2025 data includes three datasets, encompassing historical and medical texts, with a total of 360 million characters. The data underwent an initial phase of automatic annotation, followed by meticulous corrections and refinements by experts in Ancient Chinese language and history, ensuring the highest quality of training material and gold-standard texts.
+The Evahan 2025 data includes three datasets, encompassing historical and medical texts, with a total of 360,000 characters. The data underwent an initial phase of automatic annotation, followed by meticulous corrections and refinements by experts in Ancient Chinese language and history, ensuring the highest quality of training material and gold-standard texts.
 
 - **Dataset A** is derived from *Shiji* (史记), an ancient Chinese historical masterpiece by Sima Qian, chronicling China's history from mythical times to the Han dynasty, blending biographical and annalistic styles. This dataset contains **6** categories of entities.
 
