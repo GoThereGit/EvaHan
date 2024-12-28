@@ -7,7 +7,7 @@
 # EvaHan 2025
 
 -   EvaHan 2025 is the fourth International Evaluation of Ancient Chinese Information Processing, focusing on the named entity recognition (NER) tasks of large language models in ancient Chinese.
--   EvaHan2025 will be held at ALP2025 (The Second Workshop on Ancient Languages Processing), co-located with [NAACL2025]((https://2025.naacl.org/)) (The 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics).
+-   EvaHan2025 will be held at ALP2025 (The Second Workshop on Ancient Languages Processing), co-located with [NAACL2025](https://2025.naacl.org/) (The 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics).
 -   EvaHan 2025 is organized by Bin Li, Bolin Chang, Pengxiu Lu, Minuxan Feng, Chao Xu, Weiguang Qu, Dongbo Wang, Liu Liu, Si Shen, Yan Zhu, Lihong Liu
 
 
