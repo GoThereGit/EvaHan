@@ -22,7 +22,8 @@
 
 ## Important Dates for EvaHan 2025
 
-- **Registration for participation/Training data release**: December 1, 2024 - January 15, 2025  
+- **Registration deadline**: January 30, 2025  
+- **Training data release**: January 15, 2025  
 - **Test data release**: February 15, 2025  
 - **Running results submission**: February 21, 2025  
 - **Technical report submission deadline**: February 28, 2025  
