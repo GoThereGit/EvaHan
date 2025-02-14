@@ -158,14 +158,13 @@ Registration time is mentioned above. Participants will be required to submit th
 
 ## Submitting Runs
 
-Each team can submit runs for two tasks. A run should be produced according to the ‘closed modality’. The second run will be produced according to the ‘open modality’. The closed run is compulsory, while the open run is optional.
+Each team can submit runs for two tasks. A run should be produced according to the `closed modality`. The second run will be produced according to the `open modality`. The closed run is compulsory, while the open run is optional.
 
 Once the system has produced the results for the task over the test set, participants have to follow these instructions to complete their submission:
-
--   Name the runs with the following filename format: `teamID_modality_dataset_submitid.txt` For example: `nnu1_closed_a_1.txt` would be the first run of a team called `nnu1` using the closed modality for the task using `test_a.txt` document. `nnu1_open_b_2.txt` would be the second run of a team called `nnu1` using the open modality for the task using the `test_b.txt` document.
--   Send the file to the following email address: libin.njnu[AT]gmail.com, using the subject "EvaHan Submission: datset - teamName".
--   Each team could submit up to 2 running files for each test file in each modality. Thus, each team could submit up to 8 running files in total.
-
+-    The annotated results should be submitted as three plain text files encoded in UTF-8 (four-byte encoding).
+-    Please submit the annotated test set results via http://evahan.ancientalp.com/submit/ before February 21, 2025, 23:59 (UTC-8).
+-    When submitting, fill the email address specified in the agreement document for validation. Ensure that the three test set files are submitted separately, corresponding to their respective categories.
+-    Multiple submissions are allowed before the deadline. However, only the final submission will be used to calculate your final score.
 
 
 ## Writing the Technical Report
