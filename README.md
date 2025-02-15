@@ -4,6 +4,7 @@
 
 # Important Notice
 -   For teams that successfully registered before **January 15, 2025**, we have sent the training data to the **contact email address** provided in your **agreement document**. Please check your inbox.
+-   We have sent the test data to the **contact email address** provided in your **agreement document** on Feb 15, 2025. Please check your inbox.
 -   If any team has not received the training data or has not received a response regarding registration, please contact the EvaHan2025 again at **[evahan2025@gmail.com](mailto:evahan2025@gmail.com)**.
 
 # EvaHan 2025
