@@ -7,20 +7,20 @@
 
 # EvaHan 2026
 
--   EvaHan 2026 is the fifth International Evaluation of Ancient Chinese Information Processing, focusing on OCR tasks for multimodal large language models in ancient Chinese.
+-   EvaHan 2026 is the Fifth International Evaluation of Ancient Chinese Information Processing, focusing on OCR tasks for multimodal large language models in ancient Chinese.
 -   Co-organized with LREC 2026, which will be held from May 11 to 16, 2026, in Mallorca, Spain.
--   EvaHan 2026 is organized by Bin Li, Bolin Chang, Pengxiu Lu, Minuxan Feng, Chao Xu, Weiguang Qu, Dongbo Wang, Liu Liu, Si Shen, Yan Zhu, Lihong Liu
+-   EvaHan 2026 is organized by Dongbo Wang, Bin Li, Minuxan Feng, Chao Xu, Weiguang Qu, Liu Liu, Si Shen.
 
 
 ## Previous Tasks
 - EvaHan2022
-  - The first bakeoff of ancient Chinese automatic processing, was successfully held in Marseille, France, in 2022, with a focus on **automatic word segmentation and part-of-speech tagging of ancient Chinese**.
+  - The First bakeoff of ancient Chinese automatic processing, was successfully held in Marseille, France, in 2022, with a focus on **automatic word segmentation and part-of-speech tagging of ancient Chinese**.
 - EvaHan2023
-  - The second bakeoff of ancient Chinese automatic processing, was successfully held in Macau, China, in 2023, with a focus on **machine translation of ancient Chinese**.
+  - The Second bakeoff of ancient Chinese automatic processing, was successfully held in Macau, China, in 2023, with a focus on **machine translation of ancient Chinese**.
 - EvaHan2024
-  - The third bakeoff of ancient Chinese automatic processing, was held in Turin, Italy, in 2024, with a focus on **automatic sentence segmentation and punctuation of ancient Chinese**.
+  - The Third bakeoff of ancient Chinese automatic processing, was held in Turin, Italy, in 2024, with a focus on **automatic sentence segmentation and punctuation of ancient Chinese**.
 - EvaHan2025
-  - The fourth bakeoff of ancient Chinese automatic processing, was held  in New Mexico, USA, in 2025, with a focus on named entity recognition in ancient Chinese.
+  - The Fourth bakeoff of ancient Chinese automatic processing, was held  in New Mexico, USA, in 2025, with a focus on named entity recognition in ancient Chinese.
 
 
 
