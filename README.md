@@ -1,8 +1,8 @@
-# <img src="media/image1.png" alt="logo-EvaHan" width="553">
+<div align='center'>
+<img src = 'https://user-images.githubusercontent.com/54113513/201254029-e63dd695-22aa-4419-ac01-7fc34326625a.png'>
+</div>
 
 ## EvaHan2026
-
-## 
 
 -   EvaHan 2026 is the Fifth International Evaluation of Ancient Chinese
     Information Processing, focusing on OCR tasks for multimodal large
@@ -107,9 +107,9 @@ All evaluation data are in the form of image-text pairs, and the text is a txt f
 
 | picture | text |
 |---------|------|
-| <img src="media/image2.png" alt="1761273613524" width="192">  Printed Texts | 欽定四庫全書     史部十一\\n 三呉水考       地理類四{{河渠之屬/}}\\n  提要\\n    {{臣/}}等謹案三呉水考十六卷明張内藴周大\\n    韶仝撰内藴稱呉江生員大韶稱華亭監生\\n    其始末則均未詳也初萬厯四年言官論蘇\\n    松常鎮諸府水利久湮宜及時修濬乞遣御\\n    史一員督其事乃命御史懷安林應訓往應 |
-| <img src="media/image3.png" alt="descript" width="233"> Mixed Layouts | 四夫治洫\\n              廣八尺深八尺曰洫\\n              廣二尋深二仞曰澮\\n              同間有澮\\n              註云方百里為同同中容\\n              四都六十四成方八十里\\n              出田稅縁邊十里治澮\\n              井田之制備於一同 |
-| <img src="media/image4.png" alt="" width="293"> Handwritten Texts | 言卽眼識界若有爲若無爲增語是\\n 菩薩摩訶薩卽耳鼻舌身意識界若\\n 有爲若無爲增語是菩薩摩訶薩善\\n 現汝復觀何義言卽眼識界若有漏\\n 若無漏增語非菩薩摩訶薩卽耳鼻\\n 舌身意識界若有漏若無漏增語非\\n 菩薩摩訶薩耶世尊若眼識界有漏\\n 無漏若耳鼻舌身意識界有漏無漏\\n 尚畢竟不可得性非有故況有眼識\\n 界有漏無漏增語及耳鼻舌身意識\\n 界有漏無漏增語此增語旣非有如\\n 何可言卽眼識界若有漏若無漏增\\n 語是菩薩摩訶薩卽耳鼻舌身意識\\n 界若有漏若無漏增語是菩薩摩訶\\n 鼻...... |
+| <img src="img/image2.png" alt="1761273613524" width="192">  Printed Texts | 欽定四庫全書     史部十一\\n 三呉水考       地理類四{{河渠之屬/}}\\n  提要\\n    {{臣/}}等謹案三呉水考十六卷明張内藴周大\\n    韶仝撰内藴稱呉江生員大韶稱華亭監生\\n    其始末則均未詳也初萬厯四年言官論蘇\\n    松常鎮諸府水利久湮宜及時修濬乞遣御\\n    史一員督其事乃命御史懷安林應訓往應 |
+| <img src="img/image3.png" alt="descript" width="233"> Mixed Layouts | 四夫治洫\\n              廣八尺深八尺曰洫\\n              廣二尋深二仞曰澮\\n              同間有澮\\n              註云方百里為同同中容\\n              四都六十四成方八十里\\n              出田稅縁邊十里治澮\\n              井田之制備於一同 |
+| <img src="img/image4.png" alt="" width="293"> Handwritten Texts | 言卽眼識界若有爲若無爲增語是\\n 菩薩摩訶薩卽耳鼻舌身意識界若\\n 有爲若無爲增語是菩薩摩訶薩善\\n 現汝復觀何義言卽眼識界若有漏\\n 若無漏增語非菩薩摩訶薩卽耳鼻\\n 舌身意識界若有漏若無漏增語非\\n 菩薩摩訶薩耶世尊若眼識界有漏\\n 無漏若耳鼻舌身意識界有漏無漏\\n 尚畢竟不可得性非有故況有眼識\\n 界有漏無漏增語及耳鼻舌身意識\\n 界有漏無漏增語此增語旣非有如\\n 何可言卽眼識界若有漏若無漏增\\n 語是菩薩摩訶薩卽耳鼻舌身意識\\n 界若有漏若無漏增語是菩薩摩訶\\n 鼻...... |
 
 **Training Data**
 The training set consists of designated portions of subsets A, B, and C. All training samples are provided in image-text pair format, with text in Traditional Chinese (UTF-8), approximately 5000-10000 image-text pairs per subset. Registered participants will receive the training data via email.
