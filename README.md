@@ -2,9 +2,13 @@
 <img src = 'https://user-images.githubusercontent.com/54113513/201254029-e63dd695-22aa-4419-ac01-7fc34326625a.png'>
 </div>
 
-## EvaHan2026
+[![Zh](https://img.shields.io/badge/README-中文-blue.svg "中文")](./README_zh.md)
 
--   EvaHan 2026 is the Fifth International Evaluation of Ancient Chinese
+**中文版:** <a href="https://github.com/GoThereGit/EvaHan/blob/main/README_zh.md">点击</a> 
+
+## EvaHan 2026
+
+-   <a href="https://github.com/GoThereGit/EvaHan"><b>EvaHan 2026</b></a> is the Fifth International Evaluation of Ancient Chinese
     Information Processing, focusing on OCR tasks for multimodal large
     language models in ancient Chinese.
 
@@ -16,29 +20,29 @@
 
 ## Previous Tasks
 
--   EvaHan2022
+-   EvaHan 2022
 
-The first bakeoff of ancient Chinese automatic processing, was
+The First Bake-off of ancient Chinese automatic processing was
 successfully held in Marseille, France, in 2022, with a focus
 on automatic word segmentation and part-of-speech tagging of ancient
 Chinese.
 
--   EvaHan2023
+-   EvaHan 2023
 
-The second bakeoff of ancient Chinese automatic processing, was
+The Second Bake-off of ancient Chinese automatic processing was
 successfully held in Macau, China, in 2023, with a focus on machine
 translation of ancient Chinese.
 
--   EvaHan2024
+-   EvaHan 2024
 
-The third bakeoff of ancient Chinese automatic processing, was held in
+The Third Bake-off of ancient Chinese automatic processing was held in
 Turin, Italy, in 2024, with a focus on automatic sentence segmentation
 and punctuation of ancient Chinese.
 
--   EvaHan2025
+-   EvaHan 2025
 
-The fourth bakeoff of ancient Chinese automatic processing， was held in
-New Mexico, USA,in 2025, with a focus on named entity recognition in
+The Fourth Bake-off of ancient Chinese automatic processing was held in
+New Mexico, USA, in 2025, with a focus on named entity recognition in
 ancient Chinese.
 
 ## Important Dates for EvaHan 2026
@@ -267,6 +271,9 @@ At the time of submission, authors are offered the opportunity to share related 
 
 -   **Junjie Li**, School of Chinese Language and Literature, Nanjing Normal
     University, China
+    
+-   **Yue Zhu**, School of Chinese Language and Literature, Nanjing
+    Normal University, China
 
 -   **Zhixing Xu**, School of Chinese Language and Literature, Nanjing
     Normal University, China
