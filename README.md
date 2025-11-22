@@ -15,6 +15,8 @@
 -   Co-organized with LREC 2026, which will be held from May 11 to 16,
     2026, in Mallorca, Spain.
 
+-   Co-organized with LT4HALA 2026, which will be held in Mallorca, Spain.
+
 -   EvaHan 2026 is organized by Dongbo Wang, Bin Li, Minuxan Feng, Chao
     Xu, Weiguang Qu, Liu Liu, Si Shen.
 
