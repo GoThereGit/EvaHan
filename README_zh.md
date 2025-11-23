@@ -109,6 +109,16 @@ EvaHan 2026数据集包括三类图像文本对：纯文本图像、混合图文
 - 邮箱：[evahan2026@gmail.com](mailto:evahan2026@gmail.com)
 - GitHub：https://github.com/GoThereGit/EvaHan
 
+## 08 协办单位
+
+- 指导单位
+中国古籍保护协会古籍智能开发与利用专委会
+- 协办单位（排名不分先后）
+中国人工智能学会语言智能专委会
+中文信息学会青年工作委员会
+中国民族语言学会语言资源与计算人文专委会
+江苏省人工智能学会自然语言处理专委会
+     
 
 ## 附录
 
@@ -125,4 +135,5 @@ OCR Models：
 - iic/cv_convnextTiny_ocr-recognition-document_damo: https://www.modelscope.cn/models/iic/cv_convnextTiny_ocr-recognition-document_damo
 
 ---
+
 古籍智能，不止于文本，2026，我们一起让千年典籍“开口说话”！更多信息请持续关注“比特人文”公众号，我们将在12月1日正式开启注册通道！
