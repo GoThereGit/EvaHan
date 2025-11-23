@@ -2,9 +2,13 @@
 <img src = 'https://user-images.githubusercontent.com/54113513/201254029-e63dd695-22aa-4419-ac01-7fc34326625a.png'>
 </div>
 
+
 [![Zh](https://img.shields.io/badge/README-中文-blue.svg "中文")](./README_zh.md)
 
-**中文版:** <a href="https://github.com/GoThereGit/EvaHan/blob/main/README_zh.md">点击</a> 
+**中文版:** <a href="https://github.com/GoThereGit/EvaHan/blob/main/README_zh.md">点此跳转</a> 
+
+## IMPORTANT NEWS
+**Registration Entry:** <a href="https://jsj.top/f/nWLK2R">CLICK ME</a>
 
 ## EvaHan 2026
 
@@ -24,63 +28,63 @@
 
 -   EvaHan 2022
 
-The First Bake-off of ancient Chinese automatic processing was
+The First Bake-off of Ancient Chinese Automatic Processing was
 successfully held in Marseille, France, in 2022, with a focus
 on automatic word segmentation and part-of-speech tagging of ancient
 Chinese.
 
 -   EvaHan 2023
 
-The Second Bake-off of ancient Chinese automatic processing was
+The Second Bake-off of Ancient Chinese Automatic Processing was
 successfully held in Macau, China, in 2023, with a focus on machine
 translation of ancient Chinese.
 
 -   EvaHan 2024
 
-The Third Bake-off of ancient Chinese automatic processing was held in
+The Third Bake-off of Ancient Chinese Automatic Processing was held in
 Turin, Italy, in 2024, with a focus on automatic sentence segmentation
 and punctuation of ancient Chinese.
 
 -   EvaHan 2025
 
-The Fourth Bake-off of ancient Chinese automatic processing was held in
+The Fourth Bake-off of Ancient Chinese Automatic Processing was held in
 New Mexico, USA, in 2025, with a focus on named entity recognition in
 ancient Chinese.
 
 ## Important Dates for EvaHan 2026
 
--   Registration deadline: January 30, 2026
+-   Registration deadline: **January 30, 2026**
 
--   Training data release: January 1, 2026
+-   Training data release: **January 1, 2026**
 
--   Test data release: February 1, 2026
+-   Test data release: **February 1, 2026**
 
--   Running results submission: February 6, 2026
+-   Running results submission: **February 6, 2026**
 
--   Technical report submission deadline: February 28, 2026
+-   Technical report submission deadline: **February 28, 2026**
 
--   Notification of acceptance: March 1, 2026
+-   Notification of acceptance: **March 1, 2026**
 
--   Camera-ready papers due: March 10, 2026
+-   Camera-ready papers due: **March 10, 2026**
 
 ## Participation
 
 To participate in EvaHan 2026, you must complete the following steps:
 
-1.**Registration:**\
-Submit a registration form to officially register your team for the
-task. Registration is open from December 1, 2025, to January 30, 2026.
-Only registered participants will gain access to the training dataset.
+1. <a href="https://jsj.top/f/nWLK2R">**Registration:**</a>\
+   Submit a registration form to officially register your team for the
+   task. Registration is open from December 1, 2025, to January 30, 2026.
+   Only registered participants will gain access to the training dataset.
 
-2.**Accessing the Training Data:**\
-After completing the registration process, participants will receive
-instructions for downloading the training dataset, which includes
-image--text pairs from ancient Chinese texts for OCR.
+2. **Accessing the Training Data:**\
+   After completing the registration process, participants will receive
+   instructions for downloading the training dataset, which includes
+   image--text pairs from ancient Chinese texts for OCR.
 
-3.**Submitting Results and Reports:**\
-Participants must use the provided test data to generate results and
-submit their system outputs and a technical report as per the shared
-task schedule.
+3. **Submitting Results and Reports:**\
+   Participants must use the provided test data to generate results and
+   submit their system outputs and a technical report as per the shared
+   task schedule.
 
 For inquiries or to request the registration form, please contact us
 at [evahan2026@gmail.com](mailto:evahan2025@gmail.com).
@@ -107,7 +111,7 @@ dataset.
 
 **Data Format**
 
-All evaluation data are in the form of image-text pairs, and the text is a txt file in Unicode (UTF-8) format. The specific format is shown in Table 1。
+All evaluation data are in the form of image-text pairs, and the text is a txt file in Unicode (UTF-8) format. The specific format is shown in Table 1.
 
 ##  Table 1. Ancient Chinese OCR Corpus Example
 
@@ -119,7 +123,7 @@ All evaluation data are in the form of image-text pairs, and the text is a txt f
 
 **Training Data**
 The training set consists of designated portions of subsets A, B, and C. All training samples are provided in image-text pair format, with text in Traditional Chinese (UTF-8), approximately 5000-10000 image-text pairs per subset. Registered participants will receive the training data via email.
-s
+
 **Test Data**
 The test set includes the remaining unseen portions of subsets A, B, and C to ensure comprehensive evaluation of all three challenge types. The data is also provided in image-text pair format, approximately 200-500 image-text pairs per subset. Detailed information and a download link for the test data will be provided to participants before the start of the formal evaluation period.
 
@@ -207,7 +211,7 @@ submission:
 
 -   Please submit the annotated test set results via
     [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February
-    6, 2026, 23:59 (UTC-8).
+    6, 2026, 23:59 (UTC+8).
 
 -   Two submissions are allowed before the deadline. However, the final
     score will be based solely on the last submission.
@@ -219,7 +223,7 @@ submission:
 
 All the reports must:
 
-Technical reports will be included in the proceedings of the **Fifteenth biennial Language Resources and Evaluation Conference(LREC 2026)**, which will take place from May 11 to 16，2026, inMallorca, Spain. 
+Technical reports will be included in the proceedings of the **Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026)**, which will take place from May 11 to 16，2026, in Mallorca, Spain. 
 
 Submission is electronic, using the Softconf START conference management system via the link: 
 https://softconf.com/lrec2026/main
@@ -271,14 +275,18 @@ At the time of submission, authors are offered the opportunity to share related 
 -   **Junyi Yang**，College of Information Management, Nanjing Agricultural
     University, China
 
+-   **Zhixing Xu**, School of Chinese Language and Literature, Nanjing
+    Normal University, China
+
 -   **Junjie Li**, School of Chinese Language and Literature, Nanjing Normal
     University, China
     
 -   **Yue Zhu**, School of Chinese Language and Literature, Nanjing
     Normal University, China
-
--   **Zhixing Xu**, School of Chinese Language and Literature, Nanjing
+    
+-   **Mengting Xu**, School of Chinese Language and Literature, Nanjing
     Normal University, China
+
 
 # Appendix: Selection of Resources
 
