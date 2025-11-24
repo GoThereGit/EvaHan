@@ -287,6 +287,20 @@ At the time of submission, authors are offered the opportunity to share related 
 -   **Mengting Xu**, School of Chinese Language and Literature, Nanjing
     Normal University, China
 
+# Guiding Units
+
+-- Ancient Books Intelligent Development and Utilization Committee, China Ancient Books Preservation Association
+
+Co-organizing Units (in no particular order):
+
+-- Language Intelligence Committee, Chinese Association for Artificial Intelligence
+
+-- Youth Working Committee, Chinese Information Processing Society of China
+
+-- Language Resources and Computational Humanities Committee, Chinese Society for Ethnic Languages
+
+-- Natural Language Processing Committee, Jiangsu Provincial Artificial Intelligence Society
+-- GULIAN (BEIJING) MEDIA TECH CO.,LTD
 
 # Appendix: Selection of Resources
 
