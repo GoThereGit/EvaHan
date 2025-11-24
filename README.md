@@ -300,6 +300,7 @@ Co-organizing Units (in no particular order):
 -- Language Resources and Computational Humanities Committee, Chinese Society for Ethnic Languages
 
 -- Natural Language Processing Committee, Jiangsu Provincial Artificial Intelligence Society
+
 -- GULIAN (BEIJING) MEDIA TECH CO.,LTD
 
 # Appendix: Selection of Resources
