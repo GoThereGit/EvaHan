@@ -162,7 +162,7 @@ Table 2.  Performance Evaluation of the OCR Module on Ancient Texts Using Genera
 
 Table 3. Character-Level Recognition Performance of the OCR Module
 
-| Task | Accuracy | Recall | F1_Score |
+| Task | Precision| Recall | F1_Score |
 |------|----------|--------|----------|
 | OCR  |  52.75   | 73.98  |  63.89   |
 
