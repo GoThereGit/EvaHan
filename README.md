@@ -148,7 +148,7 @@ test data will also be released. After the evaluation is complete, the
 labels for the test data will also be released. Tables 2,3 and 4 provide
 examples of the scorer output. The evaluation will align the
 system-generated text with the gold standard. Next, OCR will
-be evaluated: accuracy, recall, and F1 score will be calculated. BLEU
+be evaluated: precision, recall, and F1 score will be calculated. BLEU
 ROUGE-1, ROUGE-2, and ROUGE-L will also be evaluated, bringing the
 competition\'s evaluation to multiple metrics. This evaluation adds layout analysis metrics: mAP and IoU. T
 he team's final ranking will be based on the overall score. The final ranking of
