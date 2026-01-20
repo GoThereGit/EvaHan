@@ -154,23 +154,18 @@ competition\'s evaluation to multiple metrics. This evaluation adds layout analy
 he team's final ranking will be based on the overall score. The final ranking of
 teams will be based on the combined scores.
 
-Table 2.  Performance Evaluation of the OCR Module on Ancient Texts Using Generation Metrics
 
-| Task | BLEU | ROUGE-1 | ROUGE-2 | ROUGE-L |
-|------|------|---------|---------|---------|
-| OCR  | 52.75 | 73.98  | 63.89   | 72.17   |
+Table 2. Character-Level Recognition Performance of the OCR Module
 
-Table 3. Character-Level Recognition Performance of the OCR Module
+| Task | Precision| Recall | F1_Score | CER  |  NED |
+|------|----------|--------|----------|------|------|
+| OCR  |  0.75    | 0.98   |  0.34    | 0.41 | 0.32 |
 
-| Task | Precision| Recall | F1_Score |
-|------|----------|--------|----------|
-| OCR  |  52.75   | 73.98  |  63.89   |
+Table 3. Efficacy of the Layout Analysis Module for Page Segmentation
 
-Table 4. Efficacy of the Layout Analysis Module for Page Segmentation
-
-|         Task         |   mAP    | IoU    | 
-|----------------------|--------- |--------|
-| Page Layout Analysis |  88.20   | 89.00  | 
+|         Task         |   mAP    | IoU    |Micro-average F1 |Macro-average F1| 
+|----------------------|--------- |--------|-----------------|----------------|
+| Page Layout Analysis |  0.88    | 0.79   |     0.56        |     0.71       |
 
 
 # Two Modalities
@@ -186,7 +181,7 @@ In the open mode, there are no restrictions on resources, data, or models. Annot
 # Baselines
 
 As a baseline, we will provide the scores obtained on test set using
-[Xunzi_Qwen2_VL_7B_Instruct (https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct)](https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct) training on train set without additional
+[Qwen/Qwen2.5-VL-7B-Instruct(https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct)](https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct) training on train set without additional
 resources.
 
 # How to Participate
