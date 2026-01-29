@@ -203,6 +203,11 @@ submission:
 
 -   The annotated results should be submitted as three plain text files
     encoded in UTF-8 (four-byte encoding). The specific submission format will be released along with the pre-trained dataset.
+-   Final submission format:
+    For test sets A, B, and C, corresponding to training sets A, B, and C respectively, submit three corresponding JSON files named "TestA.json", "TestB.json", 
+    and "TestC.json" according to the format specified earlier;
+    In addition, you need to submit a descriptive document briefly explaining the training method, the model used, and data information.
+    Finally, package these four files into a folder, named in the format: ID + Team Leader's Name + Competition Mode.
 
 -   Please submit the annotated test set results via
     [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February
