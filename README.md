@@ -216,7 +216,7 @@ Submissions should be 4 to 5 pages in length (excluding references and potential
 At the time of submission, authors are offered the opportunity to share related language resources with the community. All repository entries are linked to the LRE Map, which provides metadata for the resource.  
 
 
-# Participant
+# Participants
 
 -   Researchers interested in ancient book OCR based on machine learning
     and multimodal large models.
@@ -267,14 +267,13 @@ At the time of submission, authors are offered the opportunity to share related 
 -   **Yue Zhu**, School of Chinese Language and Literature, Nanjing
     Normal University, China
     
--   **Mengting Xu**, School of Chinese Language and Literature, Nanjing
-    Normal University, China
+-   **Mengting Xu**, School of Chinese Language and Literature, Nanjing normal University, China
 
-# Guiding Units
+# Guiding organizations
 
--- Ancient Books Intelligent Development and Utilization Committee, China Ancient Books Preservation Association
+-- Ancient Books Intelligent Development and Utilization Committee, China Ancient Books Preservation Association 
 
-Co-organizing Units (in no particular order):
+Co-organising organizations:
 
 -- Language Intelligence Committee, Chinese Association for Artificial Intelligence
 
