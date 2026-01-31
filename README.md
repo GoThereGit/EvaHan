@@ -162,6 +162,7 @@ For the three datasets, the evaluation comprises two primary tasks: Task 1 focus
 
 Table 4. OCR Task Metrics Explanation
 
+<img src="img/image5.png" alt="森林景观">
 (https://github.com/GoThereGit/EvaHan/blob/main/img/image5.png)
 
 
