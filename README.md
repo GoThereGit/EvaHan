@@ -171,11 +171,11 @@ Table 5. Page Recognition Task Metrics Specification
 
 # Two Modalities
 
-Each participant can submit results for both modes. 
+Each participant can submit results for both Modalities. 
 
-In the closed mode, each team may only use the official training data, two baseline models(Qwen2.5-VL-7B-Instruct or Xunzi_Qwen2_VL_7B_Instruct), or other traditional machine learning models. However, they may not utilize other corpora as pre-training data or employ large models (considering that large models are often trained on massive datasets and are unsuitable for closed-domain models).
+In the closed Modality, each team may only use the official training data, two specified models(Qwen2.5-VL-7B-Instruct or Xunzi_Qwen2_VL_7B_Instruct), or other traditional machine learning models. However, the team should not utilize other corpora as pre-training data or employ other large language models (considering that LLMs are often trained on massive datasets and are unsuitable for closed-domain models).
 
-In the open mode, there are no restrictions on resources, data, or models. Annotated external data, such as processed images or text, may be used. However, each team must disclose all resources, data, and models used in each system in the final report.
+In the open Modality, there are no restrictions on resources, data, or models. Annotated external data, such as processed images or text, may be used. However, each team must disclose all resources, data, and models used in each system in the final report.
 
 # Baselines
 
