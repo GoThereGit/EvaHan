@@ -194,7 +194,9 @@ Each team can submit runs for two tasks. A run should be produced according to t
 Once the system has produced the results for the task over the test set, participants have to follow these instructions to complete their submission:
 
 -   Final submission format:
-    Dataset A, B, and C correspond to training sets A, B, and C, respectively. Each participating team must submit three corresponding JSON files in the specified format. Additionally, each submission must include a documentation file detailing the training methodology, models and data used, competition modality employed, and other relevant information. All materials should be packaged into a single ZIP file named: ID_systemID_modality.zip. For example: 01_1_closed-and-open.zip indicates Team 1 submitting their first submission using two modalities.
+    Dataset A, B, and C correspond to training sets A, B, and C, respectively. Each participating team must submit three corresponding JSON files in the specified format.
+    teamID_testID_runID_modality.json, such as team11_testA_1_open.json, means that team 11 submit their first run of testA with open modality.
+     All materials should be packaged into a single ZIP file named: teamID_runID.zip. For example: 11_3.zip indicates Team 11 submitting their third submission.
 
 -   Please submit the annotated test set results via
     [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February 9, 2026, 23:59 (UTC+8).
