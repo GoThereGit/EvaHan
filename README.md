@@ -162,9 +162,7 @@ For the three datasets, the evaluation comprises two primary tasks: Task 1 focus
 
 Table 4. OCR Task Metrics Explanation
 
-| Metric | Calculation Formula | Meaning and Value Range  | Core Characteristics  |
-|--------|----------|--------|----------|
-|  CER   |  0.75    | 0.98   |  0.34    |
+<img src="img/image5.png" alt="1761273613524" width="192">
 
 
 
