@@ -21,7 +21,7 @@
 
 -   Co-organized with LT4HALA 2026, which will be held in Mallorca, Spain.
 
--   EvaHan 2026 is organized by Dongbo Wang, Bin Li, Minuxan Feng, Chao
+-   EvaHan 2026 is organized by Dongbo Wang, Bin Li, Minxuan Feng, Chao
     Xu, Weiguang Qu, Liu Liu, Si Shen.
 
 ## Previous Tasks
@@ -194,10 +194,7 @@ Each team can submit runs for two tasks. A run should be produced according to t
 Once the system has produced the results for the task over the test set, participants have to follow these instructions to complete their submission:
 
 -   Final submission format:
-    For test sets A, B, and C, corresponding to training sets A, B, and C respectively, submit three corresponding JSON files named "TestA.json", "TestB.json", 
-    and "TestC.json" according to the format specified earlier;
-    In addition, you need to submit a descriptive document briefly explaining the training method, the model used, and data information.
-    Finally, package these four files into a folder, named in the format: ID + Team Leader's Name + Competition Mode.
+    Dataset A, B, and C correspond to training sets A, B, and C, respectively. Each participating team must submit three corresponding JSON files in the specified format. Additionally, each submission must include a documentation file detailing the training methodology, models and data used, competition modality employed, and other relevant information. All materials should be packaged into a single ZIP file named: ID_systemID_modality.zip. For example: 01_1_closed-and-open.zip indicates Team 1 submitting their first submission using two modalities.
 
 -   Please submit the annotated test set results via
     [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February 9, 2026, 23:59 (UTC+8).
