@@ -57,7 +57,7 @@ ancient Chinese.
 
 -   Training data release: **January 1, 2026**
 
--   Test data release: **February 3, 2026**
+-   Test data release: **February 3, 2026**  ~~**February 1, 2026**~~
 
 -   Running results submission: **February 9, 2026**
 
