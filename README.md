@@ -57,9 +57,9 @@ ancient Chinese.
 
 -   Training data release: **January 1, 2026**
 
--   Test data release: **February 3, 2026 23:50 pm**     ~~**February 1, 2026**~~
+-   Test data release: **February 3, 2026, 23:50 pm**     ~~**February 1, 2026**~~
 
--   Running results submission: **February 9, 2026 23:50 pm**
+-   Running results submission: **February 9, 2026, 23:50 pm**
 
 -   Technical report submission deadline: **February 28, 2026**
 
@@ -187,28 +187,26 @@ resources.
 
 Registration time is mentioned above. Participants will be required to submit their runs and to provide a technical report for the task they participated in.
 
-## Submitting Runs
+## Submitting Running results
 
-Each team can submit runs for two tasks. A run should be produced according to the closed modality. The second run will be produced according to the open modality. The closed run is compulsory, while the open run is optional.
+Each team can submit up to three runs for two tasks. The closed modality is compulsory, while the open modality is optional.
 
 Once the system has produced the results for the task over the test set, participants have to follow these instructions to complete their submission:
 
 -   Final submission format:
-    Dataset A, B, and C correspond to training sets A, B, and C respectively. Each participating team must submit three formatted JSON files matching the provided training data format. The naming convention is TeamID_TestID_runID_modality.json, such as 14_TestA_1_open.json, means that team 11 submit their first run of testA with open modality.
+    Dataset A, B, and C correspond to training sets A, B, and C respectively. Each participating team must submit three formatted JSON files matching the provided training data format. The naming convention is TeamID_TestID_runID_modality.json, such as 14_TestA_1_open.json, meanning that team 11 submit their first run of testA with open modality.
     Additionally, after organizing all JSON files, the team must bundle them into a single ZIP file for final submission, using the naming format: TeamID_runID.zip. For example: 11_3.zip indicates Team 11 submitting their third submission.
 
 -   Please submit the annotated test set results via
-    [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February 9, 2026, 23:59 (UTC+8).
+    [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February 9, 2026, 23:50 (UTC+8).
 
 -   Each team is permitted to submit only three times before the deadline. The final score will be based on the most recent submission.
 
--   Submit your trained code via email so the organizers can reproduce the results.
+-   Submit your models and codes for validation.(optional)
 
 # Writing the Technical Report 
 
-All the reports must:
-
-Technical reports will be included in the proceedings of the **Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026)**, which will take place from May 11 to 16，2026, in Mallorca, Spain. 
+Technical reports will be peer reviewed. The accepted papers will be included in the proceedings of the **Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026)**, which will take place from May 11 to 16，2026, in Mallorca, Spain. 
 
 Submission is electronic, using the Softconf START conference management system via the link: 
 https://softconf.com/lrec2026/main
