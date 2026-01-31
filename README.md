@@ -273,7 +273,7 @@ At the time of submission, authors are offered the opportunity to share related 
 
 -- Ancient Books Intelligent Development and Utilization Committee, China Ancient Books Preservation Association 
 
-Co-organising organizations:
+# Co-organising organizations
 
 -- Language Intelligence Committee, Chinese Association for Artificial Intelligence
 
