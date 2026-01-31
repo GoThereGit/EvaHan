@@ -113,7 +113,7 @@ dataset.
 
 All data is presented in image-text pairs and stored in JSON files with multiple encoding formats. The specific format is shown in Table 1.
 
-##  Table 1. Ancient Chinese OCR Corpus Example
+##  Table 1. Examples of Ancient Chinese OCR Corpus
 
 | picture | text |
 |---------|------|
@@ -211,7 +211,7 @@ Technical reports will be peer reviewed. The accepted papers will be included in
 Submission is electronic, using the Softconf START conference management system via the link: 
 https://softconf.com/lrec2026/main
 
-Submissions should be 4 to 5 pages in length (excluding references and potential Ethics Statements). Submissions should follow the LREC stylesheet, available on the conference website on the Author’s kit page. All templates are also available from this page. 
+Submissions should be 4 to 5 pages in length (excluding references and Ethics Statements). Submissions should follow the LREC stylesheet, available on the conference website on the Author’s kit page. All templates are also available from this page. 
 
 At the time of submission, authors are offered the opportunity to share related language resources with the community. All repository entries are linked to the LRE Map, which provides metadata for the resource.  
 
