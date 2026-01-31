@@ -148,13 +148,13 @@ Prior to the official competition commencement, each participating team may only
 Table 2. Character-Level Recognition Performance of the OCR Module
 
 | Task | Precision| Recall | F1_Score | CER  |  NED |
-|------|----------|--------|----------|------|------|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 | OCR  |  0.75    | 0.98   |  0.34    | 0.41 | 0.32 |
 
 Table 3. Efficacy of the Layout Analysis Module for Page Segmentation
 
 |         Task         |  mAP@[.5:.95]  |   IoU  |Micro-average F1 |Macro-average F1| 
-|----------------------|----------------|--------|-----------------|----------------|
+|         :---:        |:---:|:---:|:---:|:---:|
 | Page Layout Analysis |      0.88      | 0.79   |     0.56        |     0.71       |
 
 
