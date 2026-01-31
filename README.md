@@ -57,9 +57,9 @@ ancient Chinese.
 
 -   Training data release: **January 1, 2026**
 
--   Test data release: **February 3, 2026, 23:50 pm**     ~~**February 1, 2026**~~
+-   Test data release: **February 3, 2026, 23:50**     ~~**February 1, 2026**~~
 
--   Running results submission: **February 9, 2026, 23:50 pm**
+-   Running results submission: **February 9, 2026, 23:50**
 
 -   Technical report submission deadline: **February 28, 2026**
 
@@ -79,7 +79,7 @@ To participate in EvaHan 2026, you must complete the following steps:
 2. **Accessing the Training Data:**\
    After completing the registration process, participants will receive
    instructions for downloading the training dataset, which includes
-   image--text pairs from ancient Chinese texts for OCR.
+   image-text pairs from ancient Chinese texts for OCR.
 
 3. **Submitting Results and Reports:**\
    Participants must use the provided test data to generate results and
@@ -198,7 +198,7 @@ Once the system has produced the results for the task over the test set, partici
     Additionally, after organizing all JSON files, the team must bundle them into a single ZIP file for final submission, using the naming format: TeamID_runID.zip. For example: 11_3.zip indicates Team 11 submitting their third submission.
 
 -   Please submit the annotated test set results via
-    [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February 9, 2026, 23:50 (UTC+8).
+    [evahan2026@gmail.com](mailto:evahan2025@gmail.com) before February 9, 2026, 23:50 (UTC+8).
 
 -   Each team is permitted to submit only three times before the deadline. The final score will be based on the most recent submission.
 
