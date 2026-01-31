@@ -162,7 +162,7 @@ For the three datasets, the evaluation comprises two primary tasks: Task 1 focus
 
 Table 4. OCR Task Metrics Explanation
 
-https://github.com/GoThereGit/EvaHan/blob/main/img/image5.png
+(https://github.com/GoThereGit/EvaHan/blob/main/img/image5.png)
 
 
 
