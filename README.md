@@ -171,11 +171,9 @@ Table 5. Page Recognition Task Metrics Specification
 
 # Two Modalities
 
-Each participant can submit results for both modes. In the closed mode,
-each team has limited resources. Each team can only use training data
-and a pre-trained model. This model is a word embedding pre-trained on a
-large Traditional Chinese corpus. No other resources are allowed in the
-closed mode.
+Each participant can submit results for both modes. 
+
+In the closed mode, each team may only use the official training data, two baseline models(Qwen2.5-VL-7B-Instruct or Xunzi_Qwen2_VL_7B_Instruct), or other traditional machine learning models. However, they may not utilize other corpora as pre-training data or employ large models (considering that large models are often trained on massive datasets and are unsuitable for closed-domain models).
 
 In the open mode, there are no restrictions on resources, data, or models. Annotated external data, such as processed images or text, may be used. However, each team must disclose all resources, data, and models used in each system in the final report.
 
@@ -187,23 +185,14 @@ resources.
 
 # How to Participate
 
-Registration time is mentioned above. Participants will be required to
-submit their runs and to provide a technical report for the task they
-participated in.
+Registration time is mentioned above. Participants will be required to submit their runs and to provide a technical report for the task they participated in.
 
 ## Submitting Runs
 
-Each team can submit runs for two tasks. A run should be produced
-according to the closed modality. The second run will be produced
-according to the open modality. The closed run is compulsory, while the
-open run is optional.
+Each team can submit runs for two tasks. A run should be produced according to the closed modality. The second run will be produced according to the open modality. The closed run is compulsory, while the open run is optional.
 
-Once the system has produced the results for the task over the test set,
-participants have to follow these instructions to complete their
-submission:
+Once the system has produced the results for the task over the test set, participants have to follow these instructions to complete their submission:
 
--   The annotated results should be submitted as three plain text files
-    encoded in UTF-8 (four-byte encoding). The specific submission format will be released along with the pre-trained dataset.
 -   Final submission format:
     For test sets A, B, and C, corresponding to training sets A, B, and C respectively, submit three corresponding JSON files named "TestA.json", "TestB.json", 
     and "TestC.json" according to the format specified earlier;
@@ -211,14 +200,11 @@ submission:
     Finally, package these four files into a folder, named in the format: ID + Team Leader's Name + Competition Mode.
 
 -   Please submit the annotated test set results via
-    [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February
-    6, 2026, 23:59 (UTC+8).
+    [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February 9, 2026, 23:59 (UTC+8).
 
--   Two submissions are allowed before the deadline. However, the final
-    score will be based solely on the last submission.
+-   Each team is permitted to submit only three times before the deadline. The final score will be based on the most recent submission.
 
--   Submit your trained code via email so the organizers can reproduce
-    the results.
+-   Submit your trained code via email so the organizers can reproduce the results.
 
 # Writing the Technical Report 
 
