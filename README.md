@@ -51,15 +51,15 @@ The Fourth Bake-off of Ancient Chinese Automatic Processing was held in
 New Mexico, USA, in 2025, with a focus on named entity recognition in
 ancient Chinese.
 
-## Important Dates for EvaHan 2026
+## Important Dates for EvaHan 2026(UTC+8 Beijing time)
 
 -   Registration deadline: **January 30, 2026**
 
 -   Training data release: **January 1, 2026**
 
--   Test data release: **February 3, 2026**     ~~**February 1, 2026**~~
+-   Test data release: **February 3, 2026 23:50 pm**     ~~**February 1, 2026**~~
 
--   Running results submission: **February 9, 2026**
+-   Running results submission: **February 9, 2026 23:50 pm**
 
 -   Technical report submission deadline: **February 28, 2026**
 
@@ -194,9 +194,8 @@ Each team can submit runs for two tasks. A run should be produced according to t
 Once the system has produced the results for the task over the test set, participants have to follow these instructions to complete their submission:
 
 -   Final submission format:
-    Dataset A, B, and C correspond to training sets A, B, and C, respectively. Each participating team must submit three corresponding JSON files in the specified format.
-    teamID_testID_runID_modality.json, such as team11_testA_1_open.json, means that team 11 submit their first run of testA with open modality.
-     All materials should be packaged into a single ZIP file named: teamID_runID.zip. For example: 11_3.zip indicates Team 11 submitting their third submission.
+    Dataset A, B, and C correspond to training sets A, B, and C respectively. Each participating team must submit three formatted JSON files matching the provided training data format. The naming convention is TeamID_TestID_runID_modality.json, such as 14_TestA_1_open.json, means that team 11 submit their first run of testA with open modality.
+    Additionally, after organizing all JSON files, the team must bundle them into a single ZIP file for final submission, using the naming format: TeamID_runID.zip. For example: 11_3.zip indicates Team 11 submitting their third submission.
 
 -   Please submit the annotated test set results via
     [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February 9, 2026, 23:59 (UTC+8).
@@ -214,7 +213,7 @@ Technical reports will be included in the proceedings of the **Fifteenth bienni
 Submission is electronic, using the Softconf START conference management system via the link: 
 https://softconf.com/lrec2026/main
 
-Submissions should be 4 to 8 pages in length (excluding references and potential Ethics Statements). Submissions should follow the LREC stylesheet, available on the conference website on the Author’s kit page. All templates are also available from this page. 
+Submissions should be 4 to 5 pages in length (excluding references and potential Ethics Statements). Submissions should follow the LREC stylesheet, available on the conference website on the Author’s kit page. All templates are also available from this page. 
 
 At the time of submission, authors are offered the opportunity to share related language resources with the community. All repository entries are linked to the LRE Map, which provides metadata for the resource.  
 
