@@ -57,9 +57,9 @@ ancient Chinese.
 
 -   Training data release: **January 1, 2026**
 
--   Test data release: **February 1, 2026**
+-   Test data release: **February 3, 2026**
 
--   Running results submission: **February 6, 2026**
+-   Running results submission: **February 9, 2026**
 
 -   Technical report submission deadline: **February 28, 2026**
 
@@ -111,7 +111,7 @@ dataset.
 
 **Data Format**
 
-All evaluation data are in the form of image-text pairs, and the text is a txt file in Unicode (UTF-8) format. The specific format is shown in Table 1.
+All data is presented in image-text pairs and stored in JSON files with multiple encoding formats. The specific format is shown in Table 1.
 
 ##  Table 1. Ancient Chinese OCR Corpus Example
 
@@ -122,7 +122,7 @@ All evaluation data are in the form of image-text pairs, and the text is a txt f
 | <img src="img/image4.png" alt="" width="293"> Handwritten Texts | 言卽眼識界若有爲若無爲增語是\\n 菩薩摩訶薩卽耳鼻舌身意識界若\\n 有爲若無爲增語是菩薩摩訶薩善\\n 現汝復觀何義言卽眼識界若有漏\\n 若無漏增語非菩薩摩訶薩卽耳鼻\\n 舌身意識界若有漏若無漏增語非\\n 菩薩摩訶薩耶世尊若眼識界有漏\\n 無漏若耳鼻舌身意識界有漏無漏\\n 尚畢竟不可得性非有故況有眼識\\n 界有漏無漏增語及耳鼻舌身意識\\n 界有漏無漏增語此增語旣非有如\\n 何可言卽眼識界若有漏若無漏增\\n 語是菩薩摩訶薩卽耳鼻舌身意識\\n 界若有漏若無漏增語是菩薩摩訶\\n 鼻...... |
 
 **Training Data**
-The training set consists of designated portions of subsets A, B, and C. All training samples are provided in image-text pair format, with text in Traditional Chinese (UTF-8), approximately 5000-10000 image-text pairs per subset. Registered participants will receive the training data via email.
+The training set consists of designated portions of subsets A, B, and C. All training samples are provided in image-text pair format, with text in Traditional Chinese, approximately 5000 image-text pairs per subset. Registered participants will receive the training data via email.
 
 **Test Data**
 The test set includes the remaining unseen portions of subsets A, B, and C to ensure comprehensive evaluation of all three challenge types. The data is also provided in image-text pair format, approximately 200-500 image-text pairs per subset. Detailed information and a download link for the test data will be provided to participants before the start of the formal evaluation period.
@@ -143,17 +143,7 @@ extraction, and intelligent retrieval.
 
 # Metrics
 
-Each team will only have access to the training data. Later, unlabeled
-test data will also be released. After the evaluation is complete, the
-labels for the test data will also be released. Tables 2,3 and 4 provide
-examples of the scorer output. The evaluation will align the
-system-generated text with the gold standard. Next, OCR will
-be evaluated: precision, recall, and F1 score will be calculated. BLEU
-ROUGE-1, ROUGE-2, and ROUGE-L will also be evaluated, bringing the
-competition\'s evaluation to multiple metrics. This evaluation adds layout analysis metrics: mAP and IoU. T
-he team's final ranking will be based on the overall score. The final ranking of
-teams will be based on the combined scores.
-
+Prior to the official competition commencement, each participating team may only access the training data. Subsequently, the unlabeled test data will be released on February 3, 2026. Following the completion of evaluations, the labels for the test data will also be published. Tables 2 and 3 provide examples of the scorers' outputs. 
 
 Table 2. Character-Level Recognition Performance of the OCR Module
 
@@ -163,9 +153,19 @@ Table 2. Character-Level Recognition Performance of the OCR Module
 
 Table 3. Efficacy of the Layout Analysis Module for Page Segmentation
 
-|         Task         |   mAP    | IoU    |Micro-average F1 |Macro-average F1| 
-|----------------------|--------- |--------|-----------------|----------------|
-| Page Layout Analysis |  0.88    | 0.79   |     0.56        |     0.71       |
+|         Task         |  mAP@[.5:.95]  |   IoU  |Micro-average F1 |Macro-average F1| 
+|----------------------|----------------|--------|-----------------|----------------|
+| Page Layout Analysis |      0.88      | 0.79   |     0.56        |     0.71       |
+
+
+For the three datasets, the evaluation comprises two primary tasks: Task 1 focuses on pure text recognition via OCR, assessing metrics such as CER and precision; Task 2 centers on identifying layout elements in ancient texts, evaluating metrics including mAP and Micro-average F1. Detailed evaluation metrics are presented in Tables 4 and 5.
+
+Table 4. OCR Task Metrics Explanation
+
+| Metric | Calculation Formula | Meaning and Value Range  | Core Characteristics  |
+|--------|----------|--------|----------|
+|  CER   |  0.75    | 0.98   |  0.34    |
+
 
 
 # Two Modalities
