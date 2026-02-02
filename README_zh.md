@@ -72,7 +72,7 @@ EvaHan 2026数据集包括三类图像文本对：版刻图像、混合图文图
 1、任务A和C的评测：<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">评测代码</a>
 - 该脚本要求参考文件和预测文件都必须为JSON数组格式，每个元素包含`image_path`（作为唯一匹配标识符）和`text`字段：
 
-  <img src="img/image7.png" alt="ocr example" width="75%" height="75%">
+  <img src="img/image9.png" alt="ocr example" width="75%" height="75%">
 - **快速使用**
   - 修改路径：在评测脚本的 `if __name__ == "__main__":` 部分，修改以下变量：`REF_JSON_PATH`（参考数据 JSON 路径）；`PRED_JSON_PATH`（预测数据 JSON 路径）；`OUTPUT_JSON_PATH`（评估报告存储路径）。
   - 运行脚本：`python task_a_c_eva.py`
@@ -80,7 +80,7 @@ EvaHan 2026数据集包括三类图像文本对：版刻图像、混合图文图
 2、任务B的评测：评测代码
 - 脚本要求参考文件和预测文件均采用JSON数组格式，每个元素包含`image_path`（作为唯一匹配标识符）和`regions`字段。在`regions`字段内，还必须包含两个必填字段：`points`和`label`。
 
-  <img src="img/image7.png" alt="ocr example" width="75%" height="75%">
+  <img src="img/image8.png" alt="ocr example" width="75%" height="75%">
 - **快速使用**
   - 修改路径：在评测脚本的 `if __name__ == "__main__":` 部分，修改以下变量：`PRED_JSON_PATH`（预测数据 JSON 路径）；`GT_JSON_PATH`（参考数据 JSON 路径）。
   - 运行脚本：`python task_b_eva.py`
@@ -176,6 +176,7 @@ OCR Models：
 ---
 
 古籍智能，不止于文本，2026，我们一起让千年典籍“开口说话”！更多信息请持续关注“比特人文”公众号，我们将在12月1日正式开启注册通道！
+
 
 
 
