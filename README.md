@@ -144,8 +144,6 @@ extraction, and intelligent retrieval.
 # Metrics
 
 Prior to the official competition commencement, each participating team may only access the training data. Subsequently, the unlabeled test data will be released on February 3, 2026. Following the completion of evaluations, the labels for the test data will also be published. Tables 2 and 3 provide examples of the scorers' outputs. 
-Scorer for task A and task C.
-Scorer for tesk B.
 
 Table 2. Character-Level Recognition Performance of the OCR Module
 
@@ -160,7 +158,7 @@ Table 3. Efficacy of the Layout Analysis Module for Page Segmentation
 | Page Layout Analysis |      0.88      | 0.79   |     0.56        |     0.71       |
 
 
-For the three datasets, the evaluation comprises two primary tasks: Task 1 focuses on pure text recognition via OCR, assessing metrics such as CER and precision; Task 2 centers on identifying layout elements in ancient texts, evaluating metrics including mAP and Micro-average F1. Detailed evaluation metrics are presented in Tables 4 and 5.
+For the three datasets, the evaluation comprises two primary tasks: Task A and C focuse on pure text recognition via OCR, assessing metrics such as CER and precision; Task B centers on identifying layout elements in ancient texts, evaluating metrics including mAP and Micro-average F1. Detailed evaluation metrics are presented in Tables 4 and 5.
 
 Table 4. OCR Task Metrics Explanation
 
@@ -170,6 +168,15 @@ Table 5. Page Recognition Task Metrics Specification
 
 <img src="img/image6.png" alt="Page Recognition">
 
+<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">Scorer</a> for task A and task C.
+- The script requires both the reference file and prediction file to be in JSON array format, with each element containing the image_path (as the unique matching identifier) and text fields:
+  <img src="img/image6.png" alt="Page Recognition">
+
+- **Quick Start**
+- - Modify the path: In the `if __name__ == “__main__”:` section of task_a_c_eva.py, modify the following variable: REF_JSON_PATH (Reference Data JSON Path); PRED_JSON_PATH (Prediction Data JSON Path); OUTPUT_JSON_PATH (Evaluation Report Storage Path)
+  - Run script: python task_a_c_eva.py
+
+Scorer for tesk B.
 
 # Two Modalities
 
