@@ -170,7 +170,7 @@ Table 5. Page Recognition Task Metrics Specification
 
 <a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">Scorer</a> for task A and task C.
 - The script requires both the reference file and prediction file to be in JSON array format, with each element containing the image_path (as the unique matching identifier) and text fields:
-  <img src="img/image6.png" alt="Page Recognition">
+  <img src="img/image7.png" alt="ocr example">
 
 - **Quick Start**
 - - Modify the path: In the `if __name__ == “__main__”:` section of task_a_c_eva.py, modify the following variable: REF_JSON_PATH (Reference Data JSON Path); PRED_JSON_PATH (Prediction Data JSON Path); OUTPUT_JSON_PATH (Evaluation Report Storage Path)
