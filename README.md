@@ -165,9 +165,10 @@ Table 5. Page Recognition Task Metrics Specification
 ## Evaluation
 
 Before beginning the evaluation, please carefully read the data documentation below!
-<a href="https://github.com/GoThereGit/EvaHan/blob/main/EvaHan2026_Dataset_Description.pdf">**Dataset Description**</a>
 
-1、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">Scorer</a> for task A and task C.
+<a href="https://github.com/GoThereGit/EvaHan/blob/main/EvaHan2026_Dataset_Description.pdf">**Dataset Description!**</a>
+
+1、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">scorers</a> for task A and task C.
 - The script requires both the reference file and prediction file to be in JSON array format, with each element containing the image_path (as the unique matching identifier) and text fields:
 
   <img src="img/image9.png" alt="ocr example" width="75%" height="75%">
@@ -176,7 +177,7 @@ Before beginning the evaluation, please carefully read the data documentation be
   - Modify the path: In the `if __name__ == “__main__”:` section of task_a_c_eva.py, modify the following variable: `REF_JSON_PATH` (Reference Data JSON Path); `PRED_JSON_PATH` (Prediction Data JSON Path); `OUTPUT_JSON_PATH` (Evaluation Report Storage Path).
   - Run script: `python task_a_c_eva.py`
 
-2、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_b_eva.py">Scorer</a> for tesk B.
+2、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_b_eva.py">scorers</a> for tesk B.
 - The script requires both reference files and prediction files to be in JSON array format, with each element containing an `image_path` (as the unique matching identifier) and a `regions` field. Within the `regions` field, two mandatory fields—`points` and `label`—must also be included.
 
   <img src="img/image8.png" alt="example" width="75%" height="75%">
