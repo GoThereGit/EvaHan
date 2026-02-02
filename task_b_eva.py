@@ -15,7 +15,7 @@ Data Format:
         "image_path": "path/to/image.png",
         "regions": [
             {
-                "label": "text|table|figure|title|...",
+                "label": "text|image|book_edge|seal",
                 "text": "OCR content (optional, not used for evaluation)",
                 "points": [[x1, y1], [x2, y2], [x3, y3], [x4, y4]]
             }
@@ -24,9 +24,6 @@ Data Format:
 
 Note: This evaluator only considers bounding box positions and label types.
       OCR text content is not evaluated.
-
-Author: Evaluation Script
-License: MIT
 =============================================================================
 """
 
