@@ -164,6 +164,9 @@ Table 5. Page Recognition Task Metrics Specification
 
 ## Evaluation
 
+Before beginning the evaluation, please carefully read the data documentation below!
+<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">**Dataset Description**</a>
+
 1、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">Scorer</a> for task A and task C.
 - The script requires both the reference file and prediction file to be in JSON array format, with each element containing the image_path (as the unique matching identifier) and text fields:
 
