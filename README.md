@@ -39,13 +39,13 @@ The Second Bake-off of Ancient Chinese Automatic Processing was
 successfully held in Macau, China, in 2023, with a focus on machine
 translation of ancient Chinese.
 
--   EvaHan 2024
+-   <a href="https://aclanthology.org/2024.lt4hala-1.27.pdf">EvaHan 2024</a>
 
 The Third Bake-off of Ancient Chinese Automatic Processing was held in
 Turin, Italy, in 2024, with a focus on automatic sentence segmentation
 and punctuation of ancient Chinese.
 
--   EvaHan 2025
+-   <a href="https://aclanthology.org/2025.alp-1.19.pdf">EvaHan 2025</a>
 
 The Fourth Bake-off of Ancient Chinese Automatic Processing was held in
 New Mexico, USA, in 2025, with a focus on named entity recognition in
@@ -89,31 +89,35 @@ To participate in EvaHan 2026, you must complete the following steps:
 For inquiries or to request the registration form, please contact us
 at [evahan2026@gmail.com](mailto:evahan2025@gmail.com).
 
-**Data**
+## Task
+This section offers a detailed description of the tasks encompassed in EvaHan 2026.
 
-The Evahan 2026 dataset comprises three datasets, covering image-text
-pairs: plain text images, mixed image-text images, and handwritten
-images-text. The data underwent initial automatic annotation, followed
-by meticulous correction and refinement by experts in classical Chinese
-language and history to ensure the highest quality of the training
-materials and gold-standard texts.
+In many Chinese language processing systems,OCR is a critical task, often performed in parallel with other processing functions. The accuracy and speed of OCR directly determine the overall system\'s performance and user experience in downstream applications such as document digitization, information extraction, and intelligent retrieval.
 
-● Dataset A （ Printed Texts） consists of data selected from the *Siku Quanshu* (Complete
-Library of the Four Treasuries), including classics, history,
-philosophy, and literature, as well as various other ancient books.
+**Task A: Text Recognition for Ancient Printed Editions**
+Block-printed images face noise interference such as diverse character forms and deformation. This evaluation focuses on optical character recognition (OCR) under extreme conditions. Models must accurately restore ancient text content while resisting noise and recognizing variant characters, laying a solid foundation for ancient text digitization research.
 
-● Dataset B （Mixed Layouts） contains mixed image-text data selected from the *Siku
-Quanshu* and other ancient books.
+**Task B: Layout Element Analysis**
+Task B focuses on element parsing within complex mixed layouts. The model must accurately isolate and delineate heterogeneous elements such as margins, main text, and illustrations amidst visual distractions from coexisting printed text, handwriting, illustrations, and vermilion seals. Unlike OCR tasks that prioritize individual characters, this task emphasizes contextual understanding. By deeply comprehending layout structures, it aims to establish a logical bridge for ancient text digitization—spanning from the image layer to the semantic layer.
 
-● Dataset C （Handwritten Texts） includes handwritten ancient books, primarily the Chinese
-Buddhist canon, including the Chinese Buddhist canon (TKH) dataset, and the Chinese Buddhist canon (MTH)
-dataset.
+**Task C: Handwritten Character Recognition**
+Task C shifts focus from the orderly arrangement of engraved characters in Task A to the dynamic transformations between human brushstrokes. Unlike the relative uniformity of engraved characters, handwritten images present the extreme challenge of “a thousand faces for a thousand people”: the continuous strokes of cursive script cause significant deformation and overlap of characters, while non-standard writing habits break the constraints of physical line spacing. Where Task A combats “age-related deterioration,” this task focuses on decoding “subjective deformation.” It requires the model to capture the essence within highly personalized brushwork and accurately reconstruct the textual logic of handwritten documents.
+
+## Data
+
+The Evahan 2026 dataset comprises three datasets, covering image-text pairs: plain text images, mixed image-text images, and handwritten images-text. The data underwent initial automatic annotation, followed by meticulous correction and refinement by experts in classical Chinese language and history to ensure the highest quality of the training materials and gold-standard texts.
+
+● Dataset A （ Printed Texts） consists of data selected from the *Siku Quanshu* (Complete Library of the Four Treasuries), including classics, history, philosophy, and literature, as well as various other ancient books.
+
+● Dataset B （Mixed Layouts） contains mixed image-text data selected from the *Siku Quanshu* and other ancient books.
+
+● Dataset C （Handwritten Texts） includes handwritten ancient books, primarily the Chinese Buddhist canon, including the Chinese Buddhist canon (TKH) dataset, and the Chinese Buddhist canon (MTH) dataset.
 
 **Data Format**
 
 All data is presented in image-text pairs and stored in JSON files with multiple encoding formats. The specific format is shown in Table 1.
 
-##  Table 1. Examples of Ancient Chinese OCR Corpus
+Table 1. Examples of Ancient Chinese OCR Corpus
 
 | picture | text |
 |---------|------|
@@ -127,21 +131,8 @@ The training set consists of designated portions of subsets A, B, and C. All tra
 **Test Data**
 The test set includes the remaining unseen portions of subsets A, B, and C to ensure comprehensive evaluation of all three challenge types. The data is also provided in image-text pair format, approximately 200-500 image-text pairs per subset. Detailed information and a download link for the test data will be provided to participants before the start of the formal evaluation period.
 
-# Task
-This section offers a detailed description of the tasks encompassed in
-EvaHan 2026.
 
-**OCR**
-
-In many Chinese language processing systems,OCR is a critical task, often performed in parallel with
-other processing functions. The accuracy and speed of OCR directly
-determine the overall system\'s performance and user experience in
-downstream applications such as document digitization, information
-extraction, and intelligent retrieval.
-
-# Evaluation
-
-# Metrics
+## Metrics
 
 Prior to the official competition commencement, each participating team may only access the training data. Subsequently, the unlabeled test data will be released on February 3, 2026. Following the completion of evaluations, the labels for the test data will also be published. Tables 2 and 3 provide examples of the scorers' outputs. 
 
@@ -168,22 +159,24 @@ Table 5. Page Recognition Task Metrics Specification
 
 <img src="img/image6.png" alt="Page Recognition">
 
-<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">Scorer</a> for task A and task C.
+## Evaluation
+
+1、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">Scorer</a> for task A and task C.
 - The script requires both the reference file and prediction file to be in JSON array format, with each element containing the image_path (as the unique matching identifier) and text fields:
-  <img src="img/image9.png" alt="ocr example">
+  <img src="img/image9.png" alt="ocr example" width="50%" height="50%">
 
 - **Quick Start**
   - Modify the path: In the `if __name__ == “__main__”:` section of task_a_c_eva.py, modify the following variable: `REF_JSON_PATH` (Reference Data JSON Path); `PRED_JSON_PATH` (Prediction Data JSON Path); `OUTPUT_JSON_PATH` (Evaluation Report Storage Path).
   - Run script: `python task_a_c_eva.py`
 
-Scorer for tesk B.
+2、Scorer for tesk B.
 - The script requires both reference files and prediction files to be in JSON array format, with each element containing an `image_path` (as the unique matching identifier) and a `regions` field. Within the `regions` field, two mandatory fields—`points` and `label`—must also be included.
-  <img src="img/image8.png" alt="example">
+  <img src="img/image8.png" alt="example" width="50%" height="50%">
 - **Quick Start**
   - Modify the path: In the `if __name__ == “__main__”:` section of task_b_eva.py, modify the following variable: `PRED_JSON_PATH`(Prediction Data JSON Path); `GT_JSON_PATH`(Reference Data JSON Path).
   - Run script: `python task_b_eva.py`
 
-# Two Modalities
+## Two Modalities
 
 Each participant can submit results for both Modalities. 
 
@@ -191,15 +184,12 @@ In the closed Modality, each team may only use the official training data, two s
 
 In the open Modality, there are no restrictions on resources, data, or models. Annotated external data, such as processed images or text, may be used. However, each team must disclose all resources, data, and models used in each system in the final report.
 
-# Baselines
+## Baselines
 
 As a baseline, we will provide the scores obtained on test set using
 [Qwen/Qwen2.5-VL-7B-Instruct(https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct)](https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct) or [Xunzi_Qwen2_VL_7B_Instruct (https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct)](https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct)  training on train set without additional
 resources.
 
-# How to Participate
-
-Registration time is mentioned above. Participants will be required to submit their runs and to provide a technical report for the task they participated in.
 
 ## Submitting Running results
 
@@ -219,24 +209,23 @@ Once the system has produced the results for the task over the test set, partici
 
 - Submit your models and codes for validation.(optional)
 
-# Writing the Technical Report 
+## Writing the Technical Report 
 
 Technical reports will be peer reviewed. The accepted papers will be included in the proceedings of the **Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026)**, which will take place from May 11 to 16，2026, in Mallorca, Spain. 
 
 Submission is electronic, using the Softconf START conference management system via the link: 
 https://softconf.com/lrec2026/main
 
-Submissions should be 4 to 5 pages in length (excluding references and Ethics Statements). Submissions should follow the LREC stylesheet, available on the conference website on the Author’s kit page. All templates are also available from this page. 
+Submissions should be 4 to 5 pages in length (excluding references and Ethics Statements). Submissions should follow the <a href="https://aclanthology.org/2024.lt4hala-1.28.pdf">LREC stylesheet</a>, available on the conference website on the Author’s kit page. All templates are also available from this page. 
 
 At the time of submission, authors are offered the opportunity to share related language resources with the community. All repository entries are linked to the LRE Map, which provides metadata for the resource.  
 
 
-# Participants
+## Participants
 
--   Researchers interested in ancient book OCR based on machine learning
-    and multimodal large models.
+Researchers interested in ancient book OCR based on machine learning and multimodal large models.
 
-# Organizers
+## Organizers
 
 -   **Dongbo Wang**, College of Information Management, Nanjing
     Agricultural University, China
@@ -259,7 +248,7 @@ At the time of submission, authors are offered the opportunity to share related 
 -   **Si Shen**, School of Economics and Management, Nanjing University
     of Science and Technology, China
 
-# Student Members
+## Student Members
 
 -   **Dongmei Zhu**, College of Information Management, Nanjing
     Agricultural University, China
@@ -284,11 +273,11 @@ At the time of submission, authors are offered the opportunity to share related 
     
 -   **Mengting Xu**, School of Chinese Language and Literature, Nanjing normal University, China
 
-# Guiding organizations
+## Guiding organizations
 
 -- Ancient Books Intelligent Development and Utilization Committee, China Ancient Books Preservation Association 
 
-# Co-organising organizations
+## Co-organising organizations
 
 -- Language Intelligence Committee, Chinese Association for Artificial Intelligence
 
@@ -300,11 +289,9 @@ At the time of submission, authors are offered the opportunity to share related 
 
 -- GULIAN (BEIJING) MEDIA TECH CO.,LTD
 
-# Appendix: Selection of Resources
+## Appendix: Selection of Resources
 
-For more information about the EvaHan shared task and the LREC2026
-workshop, visit the [official LREC2026
-webpage](https://lrec2026.info/).
+For more information about the EvaHan shared task and the LREC2026 workshop, visit the [official LREC2026 webpage](https://lrec2026.info/).
 
 OCR Model
 
