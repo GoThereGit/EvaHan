@@ -92,7 +92,7 @@ at [evahan2026@gmail.com](mailto:evahan2025@gmail.com).
 ## Task
 This section offers a detailed description of the tasks encompassed in EvaHan 2026.
 
-**Task A: Text Recognition for Ancient Printed Editions**
+**Task A: Printed Text Recognition**
 
 **Task B: Layout Element Analysis**
 
