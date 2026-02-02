@@ -173,10 +173,15 @@ Table 5. Page Recognition Task Metrics Specification
   <img src="img/image9.png" alt="ocr example">
 
 - **Quick Start**
-  - Modify the path: In the `if __name__ == “__main__”:` section of task_a_c_eva.py, modify the following variable: REF_JSON_PATH (Reference Data JSON Path); PRED_JSON_PATH (Prediction Data JSON Path); OUTPUT_JSON_PATH (Evaluation Report Storage Path)
-  - Run script: python task_a_c_eva.py
+  - Modify the path: In the `if __name__ == “__main__”:` section of task_a_c_eva.py, modify the following variable: `REF_JSON_PATH` (Reference Data JSON Path); `PRED_JSON_PATH` (Prediction Data JSON Path); `OUTPUT_JSON_PATH` (Evaluation Report Storage Path).
+  - Run script: `python task_a_c_eva.py`
 
 Scorer for tesk B.
+- The script requires both reference files and prediction files to be in JSON array format, with each element containing an `image_path` (as the unique matching identifier) and a `regions` field. Within the `regions` field, two mandatory fields—`points` and `label`—must also be included.
+  <img src="img/image8.png" alt="example">
+- **Quick Start**
+  - Modify the path: In the `if __name__ == “__main__”:` section of task_b_eva.py, modify the following variable: `PRED_JSON_PATH`(Prediction Data JSON Path); `GT_JSON_PATH`(Reference Data JSON Path).
+  - Run script: `python task_b_eva.py`
 
 # Two Modalities
 
