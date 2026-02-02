@@ -144,6 +144,8 @@ extraction, and intelligent retrieval.
 # Metrics
 
 Prior to the official competition commencement, each participating team may only access the training data. Subsequently, the unlabeled test data will be released on February 3, 2026. Following the completion of evaluations, the labels for the test data will also be published. Tables 2 and 3 provide examples of the scorers' outputs. 
+Scorer for task A and task C.
+Scorer for tesk B.
 
 Table 2. Character-Level Recognition Performance of the OCR Module
 
