@@ -202,17 +202,17 @@ Each team can submit up to three runs for two tasks. The closed modality is comp
 
 Once the system has produced the results for the task over the test set, participants have to follow these instructions to complete their submission:
 
--  **Final submission format:**
+- **Final submission format:**
   - Dataset A, B, and C correspond to training sets A, B, and C respectively. Each participating team must submit three formatted JSON files matching the provided training data format.
   - The naming convention is **TeamID_TestID_runID_modality.json**, such as 14_TestA_1_open.json, meanning that team 11 submit their first run of testA with open modality.
   - Additionally, after organizing all JSON files, the team must bundle them into a single ZIP file for final submission, using the naming format: **TeamID_runID.zip**. For example: 11_3.zip indicates Team 11 submitting their third submission.
 
--   Please submit the annotated test set results via
+- Please submit the annotated test set results via
     [evahan2026@gmail.com](mailto:evahan2025@gmail.com) before February 9, 2026, 23:50 (UTC+8).
 
--   Each team is permitted to submit only three times before the deadline. The final score will be based on the most recent submission.
+- Each team is permitted to submit only three times before the deadline. The final score will be based on the most recent submission.
 
--   Submit your models and codes for validation.(optional)
+- Submit your models and codes for validation.(optional)
 
 # Writing the Technical Report 
 
