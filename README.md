@@ -95,12 +95,15 @@ This section offers a detailed description of the tasks encompassed in EvaHan 20
 In many Chinese language processing systems,OCR is a critical task, often performed in parallel with other processing functions. The accuracy and speed of OCR directly determine the overall system\'s performance and user experience in downstream applications such as document digitization, information extraction, and intelligent retrieval.
 
 **Task A: Text Recognition for Ancient Printed Editions**
+
 Block-printed images face noise interference such as diverse character forms and deformation. This evaluation focuses on optical character recognition (OCR) under extreme conditions. Models must accurately restore ancient text content while resisting noise and recognizing variant characters, laying a solid foundation for ancient text digitization research.
 
 **Task B: Layout Element Analysis**
+
 Task B focuses on element parsing within complex mixed layouts. The model must accurately isolate and delineate heterogeneous elements such as margins, main text, and illustrations amidst visual distractions from coexisting printed text, handwriting, illustrations, and vermilion seals. Unlike OCR tasks that prioritize individual characters, this task emphasizes contextual understanding. By deeply comprehending layout structures, it aims to establish a logical bridge for ancient text digitization—spanning from the image layer to the semantic layer.
 
 **Task C: Handwritten Character Recognition**
+
 Task C shifts focus from the orderly arrangement of engraved characters in Task A to the dynamic transformations between human brushstrokes. Unlike the relative uniformity of engraved characters, handwritten images present the extreme challenge of “a thousand faces for a thousand people”: the continuous strokes of cursive script cause significant deformation and overlap of characters, while non-standard writing habits break the constraints of physical line spacing. Where Task A combats “age-related deterioration,” this task focuses on decoding “subjective deformation.” It requires the model to capture the essence within highly personalized brushwork and accurately reconstruct the textual logic of handwritten documents.
 
 ## Data
@@ -163,7 +166,8 @@ Table 5. Page Recognition Task Metrics Specification
 
 1、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">Scorer</a> for task A and task C.
 - The script requires both the reference file and prediction file to be in JSON array format, with each element containing the image_path (as the unique matching identifier) and text fields:
-  <img src="img/image9.png" alt="ocr example" width="50%" height="50%">
+
+  <img src="img/image9.png" alt="ocr example" width="75%" height="75%">
 
 - **Quick Start**
   - Modify the path: In the `if __name__ == “__main__”:` section of task_a_c_eva.py, modify the following variable: `REF_JSON_PATH` (Reference Data JSON Path); `PRED_JSON_PATH` (Prediction Data JSON Path); `OUTPUT_JSON_PATH` (Evaluation Report Storage Path).
@@ -171,7 +175,9 @@ Table 5. Page Recognition Task Metrics Specification
 
 2、Scorer for tesk B.
 - The script requires both reference files and prediction files to be in JSON array format, with each element containing an `image_path` (as the unique matching identifier) and a `regions` field. Within the `regions` field, two mandatory fields—`points` and `label`—must also be included.
-  <img src="img/image8.png" alt="example" width="50%" height="50%">
+
+  <img src="img/image8.png" alt="example" width="75%" height="75%">
+  
 - **Quick Start**
   - Modify the path: In the `if __name__ == “__main__”:` section of task_b_eva.py, modify the following variable: `PRED_JSON_PATH`(Prediction Data JSON Path); `GT_JSON_PATH`(Reference Data JSON Path).
   - Run script: `python task_b_eva.py`
