@@ -213,7 +213,7 @@ Once the system has produced the results for the task over the test set, partici
 
 ## Writing the Technical Report 
 
-Technical reports will be peer reviewed. The accepted papers will be included in the proceedings of the **Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026)**, which will take place from May 11 to 16，2026, in Mallorca, Spain. 
+Technical reports will be peer reviewed. The accepted papers will be included in the proceedings of the **The Fourth Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA 2026)** at **Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026)**, which will take place on May 11，2026, in Mallorca, Spain. 
 
 Submission is electronic, using the Softconf START conference management system via the link: 
 https://softconf.com/lrec2026/main
