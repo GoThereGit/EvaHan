@@ -91,12 +91,18 @@ at [evahan2026@gmail.com](mailto:evahan2025@gmail.com).
 
 ## Task
 This section offers a detailed description of the tasks encompassed in EvaHan 2026.
+Ancient literature, a precious heritage of Chinese civilization, exists primarily in handwritten forms or archaic printed fonts. While diverse in preservation formats, these materials are extremely fragile. Optical Character Recognition (OCR) technology enables the transformation of these paper-based or imaged ancient books into editable digital text, facilitating efficient retrieval, analysis, and dissemination. The application of OCR in this field will significantly enhance the efficiency of literature utilization and promote the digital preservation of cultural heritage. Furthermore, it provides scholars with convenient research tools, fosters the popularization and innovation of knowledge contained in ancient books, and advances the development of the humanities and social sciences.
+
 
 **Task A: Printed Text Recognition**
+Ancient printed fonts present typical challenges such as variant characters, complex layouts, missing characters, and stains, making recognition significantly more difficult than modern printed text. Task A employs Character Error Rate (CER, main metric), F1-score (character/word level), and Normalized Edit Distance (NED) as the evaluation metrics. These metrics comprehensively measure model performance regarding character accuracy, sequence integrity, and edit cost. The task aims to accelerate the digitization of ancient books and improve the practical precision and robustness of automated transcription for printed ancient literature.
 
 **Task B: Layout Element Analysis**
+Task B focuses on Layout Element Recognition. The core objective is the precise identification of four key elements within the pages of ancient books: text, image, book_edge, and seal. This task selects mAP (mean Average Precision, main metric), IoU (Intersection over Union), and F1-score as evaluation metrics. These metrics scientifically quantify the model’s recognition effectiveness across multiple dimensions, including detection accuracy, regional matching degree, and comprehensive recognition performance.
 
 **Task C: Handwritten Character Recognition**
+The styles of handwritten ancient books are highly personalized and present multiple challenges, including challenges such as cursive connections, variant character forms, stroke omissions, and traces of corrections. Task C adopts Character Error Rate (CER, main metric), F1-score, and Normalized Edit Distance (NED) as evaluation metrics to comprehensively assess model performance in terms of character accuracy, sequence consistency, and edit distance. This task aims to break through technical bottlenecks in the automated transcription of handwritten ancient texts, providing critical support for the digital preservation and in-depth utilization of precious ancient manuscripts.
+
 
 ## Data
 
@@ -144,7 +150,7 @@ Table 3. Efficacy of the Layout Analysis Module for Page Segmentation
 | Page Layout Analysis |      0.88      | 0.79   |     0.56        |     0.71       |
 
 
-For the three datasets, the evaluation comprises two primary tasks: Task A and C focuse on pure text recognition via OCR, assessing metrics such as CER and precision; Task B centers on identifying layout elements in ancient texts, evaluating metrics including mAP and Micro-average F1. Detailed evaluation metrics are presented in Tables 4 and 5.
+For the three datasets, the evaluation comprises two primary tasks: Task A and C focus on pure text recognition via OCR, assessing metrics such as CER and precision; Task B centers on identifying layout elements in ancient texts, evaluating metrics including mAP and Micro-average F1. Detailed evaluation metrics are presented in Tables 4 and 5.
 
 Table 4. OCR Task Metrics Explanation
 
@@ -160,7 +166,7 @@ Before beginning the evaluation, please carefully read the data documentation be
 
 <a href="https://github.com/GoThereGit/EvaHan/blob/main/EvaHan2026_Dataset_Description.pdf">**Dataset Description!**</a>
 
-1、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">scorer</a> for task A and task C.
+1. <a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">Evaluation Script</a> for task A and task C.
 - The script requires both the reference file and prediction file to be in JSON array format, with each element containing the image_path (as the unique matching identifier) and text fields:
 
   <img src="img/image9.png" alt="ocr example" width="75%" height="75%">
@@ -169,7 +175,7 @@ Before beginning the evaluation, please carefully read the data documentation be
   - Modify the path: In the `if __name__ == “__main__”:` section of task_a_c_eva.py, modify the following variable: `REF_JSON_PATH` (Reference Data JSON Path); `PRED_JSON_PATH` (Prediction Data JSON Path); `OUTPUT_JSON_PATH` (Evaluation Report Storage Path).
   - Run script: `python task_a_c_eva.py`
 
-2、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_b_eva.py">scorer</a> for task B.
+2. <a href="https://github.com/GoThereGit/EvaHan/blob/main/task_b_eva.py">Evaluation Script</a> for task B.
 - The script requires both reference files and prediction files to be in JSON array format, with each element containing an `image_path` (as the unique matching identifier) and a `regions` field. Within the `regions` field, two mandatory fields—`points` and `label`—must also be included.
 
   <img src="img/image8.png" alt="example" width="75%" height="75%">
