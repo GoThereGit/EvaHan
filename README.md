@@ -91,6 +91,8 @@ at [evahan2026@gmail.com](mailto:evahan2025@gmail.com).
 
 ## Task
 This section offers a detailed description of the tasks encompassed in EvaHan 2026.
+
+
 Ancient literature, a precious heritage of Chinese civilization, exists primarily in handwritten forms or archaic printed fonts. While diverse in preservation formats, these materials are extremely fragile. Optical Character Recognition (OCR) technology enables the transformation of these paper-based or imaged ancient books into editable digital text, facilitating efficient retrieval, analysis, and dissemination. The application of OCR in this field will significantly enhance the efficiency of literature utilization and promote the digital preservation of cultural heritage. Furthermore, it provides scholars with convenient research tools, fosters the popularization and innovation of knowledge contained in ancient books, and advances the development of the humanities and social sciences.
 
 
@@ -291,7 +293,7 @@ Researchers interested in ancient book OCR based on machine learning and multimo
 
 -- Youth Working Committee, Chinese Information Processing Society of China
 
--- Language Resources and Computational Humanities Committee, Chinese Society for Ethnic Languages
+-- Language Resources and Computational Humanities Committee, The Society of Chinese Minority Languages
 
 -- Natural Language Processing Committee, Jiangsu Provincial Artificial Intelligence Society
 
