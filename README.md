@@ -120,7 +120,7 @@ All data is presented in image-text pairs and stored in JSON files with multiple
 
 Table 1. Examples of Ancient Chinese OCR Corpus
 
-| picture | text |
+| Picture | Text |
 |---------|------|
 | <img src="img/image2.png" alt="1761273613524" width="192">  Printed Texts | 欽定四庫全書     史部十一\\n 三呉水考       地理類四{{河渠之屬/}}\\n  提要\\n    {{臣/}}等謹案三呉水考十六卷明張内藴周大\\n    韶仝撰内藴稱呉江生員大韶稱華亭監生\\n    其始末則均未詳也初萬厯四年言官論蘇\\n    松常鎮諸府水利久湮宜及時修濬乞遣御\\n    史一員督其事乃命御史懷安林應訓往應 |
 | <img src="img/image3.png" alt="descript" width="233"> Mixed Layouts | 四夫治洫\\n              廣八尺深八尺曰洫\\n              廣二尋深二仞曰澮\\n              同間有澮\\n              註云方百里為同同中容\\n              四都六十四成方八十里\\n              出田稅縁邊十里治澮\\n              井田之制備於一同 |
@@ -207,7 +207,7 @@ Once the system has produced the results for the task over the test set, partici
 
 - **Final submission format:**
   - Dataset A, B, and C correspond to training sets A, B, and C respectively. Each participating team must submit three formatted JSON files matching the provided training data format.
-  - The naming convention is **TeamID_TestID_runID_modality.json**, such as 14_TestA_1_open.json, meanning that team 11 submits their first run of testA with open modality.
+  - The naming convention is **TeamID_TestID_runID_modality.json**, such as 14_TestA_1_open.json, meaning that team 11 submits their first run of testA with open modality.
   - Additionally, after organizing all JSON files, the team must bundle them into a single ZIP file for final submission, using the naming format: **TeamID_runID.zip**. For example: 11_3.zip indicates Team 11 submitting their third submission.
 
 - Please submit the annotated test set results via
