@@ -160,7 +160,7 @@ Before beginning the evaluation, please carefully read the data documentation be
 
 <a href="https://github.com/GoThereGit/EvaHan/blob/main/EvaHan2026_Dataset_Description.pdf">**Dataset Description!**</a>
 
-1、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">scorers</a> for task A and task C.
+1、<a href="https://github.com/GoThereGit/EvaHan/blob/main/task_a_c_eva.py">scorer</a> for task A and task C.
 - The script requires both the reference file and prediction file to be in JSON array format, with each element containing the image_path (as the unique matching identifier) and text fields:
 
   <img src="img/image9.png" alt="ocr example" width="75%" height="75%">
