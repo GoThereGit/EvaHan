@@ -269,6 +269,9 @@ Researchers interested in ancient book OCR based on machine learning and multimo
 -  **Ruifeng Wu**,College of Information Management, Nanjing Agricultural
     University, China
 
+-  **Chang Liu**,College of Information Management, Nanjing Agricultural
+    University, China
+
 -   **Junyi Yang**，College of Information Management, Nanjing Agricultural
     University, China
 
@@ -282,6 +285,10 @@ Researchers interested in ancient book OCR based on machine learning and multimo
     Normal University, China
     
 -   **Mengting Xu**, School of Chinese Language and Literature, Nanjing normal University, China
+
+
+-   **Jinghang Dai**, School of Chinese Language and Literature, Nanjing normal University, China
+
 
 ## Guiding organizations
 
