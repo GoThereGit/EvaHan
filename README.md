@@ -108,11 +108,11 @@ The styles of handwritten ancient books are highly personalized and present mult
 
 The Evahan 2026 dataset comprises three datasets, covering image-text pairs: plain text images, mixed image-text images, and handwritten images-text. The data underwent initial automatic annotation, followed by meticulous correction and refinement by experts in classical Chinese language and history to ensure the highest quality of the training materials and gold-standard texts.
 
-● Dataset A （ Printed Texts） consists of data selected from the *Siku Quanshu* (Complete Library of the Four Treasuries), including classics, history, philosophy, and literature, as well as various other ancient books.
+● Dataset A (Printed Texts) consists of data selected from the *Siku Quanshu* (Complete Library of the Four Treasuries), including classics, history, philosophy, and literature, as well as various other ancient books.
 
-● Dataset B （Mixed Layouts） contains mixed image-text data selected from the *Siku Quanshu* and other ancient books.
+● Dataset B (Mixed Layouts) contains mixed image-text data selected from the *Siku Quanshu* and other ancient books.
 
-● Dataset C （Handwritten Texts） includes handwritten ancient books, primarily the Chinese Buddhist canon, including the Chinese Buddhist canon (TKH) dataset, and the Chinese Buddhist canon (MTH) dataset.
+● Dataset C (Handwritten Texts) includes handwritten ancient books, primarily the Chinese Buddhist canon, including the Chinese Buddhist canon (TKH) dataset, and the Chinese Buddhist canon (MTH) dataset.
 
 **Data Format**
 
@@ -207,7 +207,7 @@ Once the system has produced the results for the task over the test set, partici
 
 - **Final submission format:**
   - Dataset A, B, and C correspond to training sets A, B, and C respectively. Each participating team must submit three formatted JSON files matching the provided training data format.
-  - The naming convention is **TeamID_TestID_runID_modality.json**, such as 14_TestA_1_open.json, meanning that team 11 submit their first run of testA with open modality.
+  - The naming convention is **TeamID_TestID_runID_modality.json**, such as 14_TestA_1_open.json, meanning that team 11 submits their first run of testA with open modality.
   - Additionally, after organizing all JSON files, the team must bundle them into a single ZIP file for final submission, using the naming format: **TeamID_runID.zip**. For example: 11_3.zip indicates Team 11 submitting their third submission.
 
 - Please submit the annotated test set results via
