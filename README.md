@@ -266,6 +266,9 @@ Researchers interested in ancient book OCR based on machine learning and multimo
 -   **Jieqiong Li**, College of Information Management, Nanjing
     Agricultural University, China
 
+-   **Chang Liu**, College of Information Management, Nanjing
+    Agricultural University, China
+
 -  **Ruifeng Wu**,College of Information Management, Nanjing Agricultural
     University, China
 
