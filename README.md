@@ -209,7 +209,7 @@ Once the system has produced the results for the task over the test set, partici
 
 - **Final submission format:**
   - Dataset A, B, and C correspond to training sets A, B, and C respectively. Each participating team must submit three formatted JSON files matching the provided training data format.
-  - The naming convention is **TeamID_TestID_runID_modality.json**, such as 14_TestA_1_open.json, meaning that team 11 submits their first run of testA with open modality.
+  - The naming convention is **TeamID_TestID_runID_modality.json**, such as 14_TestA_1_open.json, meaning that team 14 submits their first run of testA with open modality.
   - Additionally, after organizing all JSON files, the team must bundle them into a single ZIP file for final submission, using the naming format: **TeamID_runID.zip**. For example: 11_3.zip indicates Team 11 submitting their third submission.
 
 - Please submit the annotated test set results via
