@@ -221,11 +221,11 @@ Once the system has produced the results for the task over the test set, partici
 
 ## Writing the Technical Report 
 
-Technical reports will be peer reviewed. The accepted papers will be included in the proceedings of the **The Fourth Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA 2026)** at **Fifteenth biennial Language Resources and Evaluation Conference (LREC 2026)**, which will take place on May 11，2026, in Mallorca, Spain. 
+Technical reports will be peer reviewed. The accepted papers will be included in the proceedings of the **The Fourth Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA 2026)** at **Fifteenth biennial Language Resources and Evaluation Conference <a href="https://lrec2026.info/">(LREC 2026)</a>**, which will take place on May 11，2026, in Mallorca, Spain. 
 
 Submission is electronic, using the Softconf START conference management system via the link: https://softconf.com/lrec2026/LT4HALA2026/
 
-Submissions should be 4 to 5 pages in length (excluding references and Ethics Statements). Submissions should follow the LREC stylesheet(Use the <a href="https://lrec2026.info/wp-content/uploads/2025/09/lrec2026-latex.zip">LaTeX</a> or <a href="https://lrec2026.info/wp-content/uploads/2025/09/lrec-2026-word-template.docx">Word</a> version), available on the conference website on the Author’s kit page. All templates are also available from this page. 
+Submissions should be 4 to 5 pages in length (excluding references and Ethics Statements). Submissions should <a href="https://lrec2026.info/authors-kit/">follow the LREC stylesheet</a> (Use the <a href="https://lrec2026.info/wp-content/uploads/2025/09/lrec2026-latex.zip">LaTeX</a> or <a href="https://lrec2026.info/wp-content/uploads/2025/09/lrec-2026-word-template.docx">Word</a> version), available on the conference website on the Author’s kit page. All templates are also available from this page. 
 
 We also provide a <a href="https://aclanthology.org/2024.lt4hala-1.28.pdf">technical report</a> for reference here.
 
