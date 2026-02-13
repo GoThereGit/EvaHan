@@ -204,7 +204,7 @@ Leveraging the Swift LLM fine-tuning framework, Qwen2.5-VL-7B-Instruct and Xunzi
 
 Table 6. Experimental Parameters
 
-<img src="img/image14.png" alt="example" width="75%" height="75%">
+<img src="img/image14.png" alt="example" width="55%" height="55%">
 
 Table 7. The baseline of Task_A
 
