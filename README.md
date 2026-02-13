@@ -200,15 +200,20 @@ As a baseline, we will provide the scores obtained on test set using
 [Qwen/Qwen2.5-VL-7B-Instruct(https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct)](https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct) or [Xunzi_Qwen2_VL_7B_Instruct (https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct)](https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct)  training on train set without additional
 resources.
 
-Table 6. The baseline of Task_A
+Leveraging the Swift LLM fine-tuning framework, Qwen2.5-VL-7B-Instruct and Xunzi_Qwen2_VL_7B_Instruct were selected as the experimental baseline models. Under a strictly unified set of instruction fine-tuning and inference hyperparameters, the models underwent LoRA-based instruction fine-tuning across the respective training sets of Dataset A, B, and C. Subsequently, both the fine-tuned and the original (base) models were deployed for inference utilizing the vLLM toolkit. The final performance metrics were ultimately derived through standardized evaluation scripts.The experimental parameters and baseline data are as follows:
+
+Table 6. Experimental Parameters
+
+
+Table 7. The baseline of Task_A
 
 <img src="img/image11.png" alt="example" width="75%" height="75%">
 
-Table 6. The baseline of Task_B
+Table 8. The baseline of Task_B
 
 <img src="img/image12.png" alt="example" width="75%" height="75%">
 
-Table 6. The baseline of Task_C
+Table 9. The baseline of Task_C
 
 <img src="img/image13.png" alt="example" width="75%" height="75%">
 
