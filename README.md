@@ -63,7 +63,7 @@ ancient Chinese.
 
 -   Technical report submission deadline: **February 28, 2026**
 
--   Notification of acceptance: **March 1, 2026**
+-   Notification of acceptance: **March 2, 2026**    ~~**March 1, 2026**~~
 
 -   Camera-ready papers due: **March 10, 2026**
 
