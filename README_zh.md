@@ -139,6 +139,39 @@ EvaHan 2026数据集包括三类图像文本对：版刻图像、混合图文图
 
 - 技术报告：4–5页，<a href="https://aclanthology.org/2024.lt4hala-1.28.pdf">LREC 2026官方模板</a>，通过Softconf START系统提交（https://softconf.com/lrec2026/main）录用论文将正刊收录于LREC 2026会议论文集。
 
+## 基线 Baselines
+
+我们使用指定的两个模型作为基线模型，不使用额外的训练资源：[Qwen/Qwen2.5-VL-7B-Instruct(https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct)](https://www.modelscope.cn/models/Qwen/Qwen2.5-VL-7B-Instruct)或[Xunzi_Qwen2_VL_7B_Instruct (https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct)](https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct)
+
+利用Swift的LLM微调框架，Qwen2.5-VL-7B-Instruct和Xunzi_Qwen2_VL_7B_Instruct被选为实验基线模型。在严格统一的指令微调和推理超参数集下，模型在数据集A、B和C的训练集上进行了基于LoRA的指令微调。随后，微调和原始（基础）模型都被部署用于利用 vLLM 工具包进行推理。最终的绩效指标是通过标准化的评估脚本得出的。实验参数和基线数据如下：
+
+表3. 实验参数
+
+<img src="img/image14.png" alt="example" width="55%" height="55%">
+
+表4. 任务A的基线数据
+
+<img src="img/image11.png" alt="example" width="75%" height="75%">
+
+表5. 任务B的基线数据
+
+<img src="img/image12.png" alt="example" width="75%" height="75%">
+
+表6. 任务C的基线数据
+
+<img src="img/image13.png" alt="example" width="75%" height="75%">
+
+
+## 技术报告撰写与提交
+
+技术报告将经过同行评审，被录用的论文将收录于第十五届国际语言资源与评估会议<a href="https://lrec2026.info/">（LREC 2026）</a>和第四届历史与古代语言技术研讨会（2026 LT4HALA）的论文集，该会议将于2026年5月11日在西班牙马略卡岛举行。
+
+提交方式为电子方式，使用Softconf START会议管理系统，链接为：https://softconf.com/lrec2026/LT4HALA2026/
+
+投稿应为4至5页（不包括参考文献和伦理声明）。提交应遵循LREC样式表 (使用 <a href="https://lrec2026.info/wp-content/uploads/2025/09/lrec2026-latex.zip">LaTeX</a> 或 <a href="https://lrec2026.info/wp-content/uploads/2025/09/lrec-2026-word-template.docx">Word</a> 版本),该样式表可在 <a href="https://lrec2026.info/authors-kit/">会议网站</a>获取。
+
+此外，我们还提供了一份<a href="https://aclanthology.org/2024.lt4hala-1.28.pdf">技术报告</a>以供参考。
+
 ## 主办团队
 
 南京农业大学信息管理学院
@@ -201,6 +234,7 @@ OCR Models：
 ---
 
 古籍智能，不止于文本，2026，我们一起让千年典籍“开口说话”！更多信息请持续关注“比特人文”公众号，我们将在12月1日正式开启注册通道！
+
 
 
 
