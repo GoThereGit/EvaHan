@@ -311,6 +311,15 @@ Researchers interested in ancient book OCR based on machine learning and multimo
 -   **Jinghang Dai**, School of Chinese Language and Literature, Nanjing normal University, China
 
 
+## Data Annotation Contributors
+
+College of Information Management, Nanjing Agricultural University, China：
+- Jieqiong Li, Dongmei Zhu, Jiuyi Yang, Zimo Zhao, Fan Yang, Liu Chang, Ruifeng Wu, Qi Lu, Huahua Yang, Mengfei Pan, Zhixiao Zhao, Jiacheng He, Yuhan Liu, Ning Wang, Xueying Tan, Shiyu Wang, Yinglei Song, Xue Zhao, Qiankun Xu, Yue Qi, Tiansheng Zheng, Xin Gao, Ruilin Liu
+
+School of Chinese Language and Literature, Nanjing Normal University, China:
+- Jiayan Chen, Jinghang Dai, Xinyi Ji, Xinmin Cai, Yue Zhu, Feiyang Wei, Yuyicheng Dai
+
+
 ## Guiding organizations
 
 -- Ancient Books Intelligent Development and Utilization Committee, China Ancient Books Preservation Association 
